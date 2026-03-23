@@ -1,0 +1,458 @@
+[
+  {
+    "slug": "salon-2-gandhidham",
+    "name": "Salon 2 The Family Salon & Tattoo Studio",
+    "town": "Gandhidham",
+    "category": "salons",
+    "area": "Sector 8, Gandhidham",
+    "url": "./sites/salon-2-gandhidham.html"
+  },
+  {
+    "slug": "de-mayra-collections",
+    "name": "De Mayra Collections",
+    "town": "Gandhidham",
+    "category": "salons",
+    "area": "Sector 10, Gandhidham",
+    "url": "./sites/de-mayra-collections.html"
+  },
+  {
+    "slug": "skywings-gandhidham",
+    "name": "Skywings Job Placement & Accounts Service",
+    "town": "Gandhidham",
+    "category": "it-tech",
+    "area": "Sector 7, Gandhidham",
+    "url": "./sites/skywings-gandhidham.html"
+  },
+  {
+    "slug": "dishaa-consultancy",
+    "name": "Dishaa Consultancy",
+    "town": "Gandhidham",
+    "category": "it-tech",
+    "area": "Kutch Kala Road, Gandhidham",
+    "url": "./sites/dishaa-consultancy.html"
+  },
+  {
+    "slug": "nr-infotech-gandhidham",
+    "name": "N R Infotech",
+    "town": "Gandhidham",
+    "category": "it-tech",
+    "area": "Gandhidham Sector 1",
+    "url": "./sites/nr-infotech-gandhidham.html"
+  },
+  {
+    "slug": "great-peripherals-gandhidham",
+    "name": "Great Peripherals",
+    "town": "Gandhidham",
+    "category": "it-tech",
+    "area": "Gandhidham Sector 1",
+    "url": "./sites/great-peripherals-gandhidham.html"
+  },
+  {
+    "slug": "nilesh-buch-associates",
+    "name": "Nilesh Buch & Associates",
+    "town": "Gandhidham",
+    "category": "cas",
+    "area": "Oslo Road, Gandhidham",
+    "url": "./sites/nilesh-buch-associates.html"
+  },
+  {
+    "slug": "rj-mehta-co",
+    "name": "R J Mehta & Co",
+    "town": "Gandhidham",
+    "category": "cas",
+    "area": "Kutch Kala Road, Gandhidham",
+    "url": "./sites/rj-mehta-co.html"
+  },
+  {
+    "slug": "shree-ganesh-photos",
+    "name": "Shree Ganesh Photos",
+    "town": "Gandhidham",
+    "category": "events",
+    "area": "Bharat Nagar, Gandhidham",
+    "url": "./sites/shree-ganesh-photos.html"
+  },
+  {
+    "slug": "drashya-glamour-studio",
+    "name": "Drashya Glamour Studio & Four Seasons Events",
+    "town": "Gandhidham",
+    "category": "events",
+    "area": "Oslo Circle, Gandhidham",
+    "url": "./sites/drashya-glamour-studio.html"
+  },
+  {
+    "slug": "trylo-inner-luxury",
+    "name": "Trylo Inner Luxury",
+    "town": "Gandhidham",
+    "category": "general",
+    "area": "Sector 1A, Gandhidham",
+    "url": "./sites/trylo-inner-luxury.html"
+  },
+  {
+    "slug": "chat-ka-chaska",
+    "name": "Chat Ka Chaska Restaurant",
+    "town": "Gandhidham",
+    "category": "general",
+    "area": "Shivaji Park, Gandhidham",
+    "url": "./sites/chat-ka-chaska.html"
+  },
+  {
+    "slug": "aaradhana-hospitality",
+    "name": "Aaradhana Hospitality Services",
+    "town": "Gandhidham",
+    "category": "pg-hostel",
+    "area": "GIDC Road, Adipur",
+    "url": "./sites/aaradhana-hospitality.html"
+  },
+  {
+    "slug": "suvidha-pg",
+    "name": "Suvidha PG & Accommodation",
+    "town": "Gandhidham",
+    "category": "pg-hostel",
+    "area": "Gandhidham HO",
+    "url": "./sites/suvidha-pg.html"
+  },
+  {
+    "slug": "vinod-electrical-solutions",
+    "name": "Vinod Electrical Solutions",
+    "town": "Gandhidham",
+    "category": "general",
+    "area": "Adipur, Gandhidham",
+    "url": "./sites/vinod-electrical-solutions.html"
+  },
+  {
+    "slug": "patel-plumber-works",
+    "name": "Patel Plumber Works",
+    "town": "Gandhidham",
+    "category": "general",
+    "area": "Oslo Road, Gandhidham",
+    "url": "./sites/patel-plumber-works.html"
+  },
+  {
+    "slug": "shiv-regency-gandhidham",
+    "name": "The Shiv Regency",
+    "town": "Gandhidham",
+    "category": "events",
+    "area": "Ward 12/B, Gandhidham",
+    "url": "./sites/shiv-regency-gandhidham.html"
+  },
+  {
+    "slug": "anchor-rahul-budhani",
+    "name": "Anchor Rahul Budhani",
+    "town": "Gandhidham",
+    "category": "events",
+    "area": "Station Road, Gandhidham",
+    "url": "./sites/anchor-rahul-budhani.html"
+  },
+  {
+    "slug": "maniifest-hr-consultancy",
+    "name": "Maniifest HR Consultancy Pvt Ltd",
+    "town": "Gandhidham",
+    "category": "it-tech",
+    "area": "Sathwara Colony, Gandhidham",
+    "url": "./sites/maniifest-hr-consultancy.html"
+  },
+  {
+    "slug": "bharat-hr-solutions",
+    "name": "Bharat HR Solutions & Consultancy",
+    "town": "Gandhidham",
+    "category": "it-tech",
+    "area": "Kanchan Complex, Gandhidham",
+    "url": "./sites/bharat-hr-solutions.html"
+  },
+  {
+    "slug": "pink-daisy-adipur",
+    "name": "Pink Daisy Boutique",
+    "town": "Adipur",
+    "category": "salons",
+    "area": "Adipur",
+    "url": "./sites/pink-daisy-adipur.html"
+  },
+  {
+    "slug": "metro-hair-beauty-adipur",
+    "name": "The Metro Hair & Beauty",
+    "town": "Adipur",
+    "category": "salons",
+    "area": "Ward 4/B, Adipur",
+    "url": "./sites/metro-hair-beauty-adipur.html"
+  },
+  {
+    "slug": "wellisa-salon-adipur",
+    "name": "Wellisa Salon & Nails",
+    "town": "Adipur",
+    "category": "salons",
+    "area": "Rotry Circle, Adipur",
+    "url": "./sites/wellisa-salon-adipur.html"
+  },
+  {
+    "slug": "satyabhama-job-consultants-adipur",
+    "name": "Satyabhama Job Consultants",
+    "town": "Adipur",
+    "category": "it-tech",
+    "area": "Near Maitri School, Adipur",
+    "url": "./sites/satyabhama-job-consultants-adipur.html"
+  },
+  {
+    "slug": "mad-networks-adipur",
+    "name": "MAD Networks Pvt Ltd",
+    "town": "Adipur",
+    "category": "it-tech",
+    "area": "Adipur",
+    "url": "./sites/mad-networks-adipur.html"
+  },
+  {
+    "slug": "krishna-manpower-adipur",
+    "name": "Krishna Manpower Supply",
+    "town": "Adipur",
+    "category": "it-tech",
+    "area": "Adipur",
+    "url": "./sites/krishna-manpower-adipur.html"
+  },
+  {
+    "slug": "acme-computing-adipur",
+    "name": "Acme Computing Services",
+    "town": "Adipur",
+    "category": "it-tech",
+    "area": "Adipur",
+    "url": "./sites/acme-computing-adipur.html"
+  },
+  {
+    "slug": "mk-soft-service-adipur",
+    "name": "M K Soft Service",
+    "town": "Adipur",
+    "category": "it-tech",
+    "area": "DC 5, Adipur",
+    "url": "./sites/mk-soft-service-adipur.html"
+  },
+  {
+    "slug": "shadofax-technologies",
+    "name": "Shadofax Technologies Pvt Ltd",
+    "town": "Adipur",
+    "category": "it-tech",
+    "area": "Rambhagh Road, Adipur",
+    "url": "./sites/shadofax-technologies.html"
+  },
+  {
+    "slug": "kpt-co-adipur",
+    "name": "Kpt & Co",
+    "town": "Adipur",
+    "category": "cas",
+    "area": "Ward 3b, Adipur",
+    "url": "./sites/kpt-co-adipur.html"
+  },
+  {
+    "slug": "jb-photo-studio-adipur",
+    "name": "JB Photo Studio",
+    "town": "Adipur",
+    "category": "events",
+    "area": "Golden City, Adipur",
+    "url": "./sites/jb-photo-studio-adipur.html"
+  },
+  {
+    "slug": "chheda-decorators-adipur",
+    "name": "Chheda Decorators",
+    "town": "Adipur",
+    "category": "events",
+    "area": "Behind DPS School, Adipur",
+    "url": "./sites/chheda-decorators-adipur.html"
+  },
+  {
+    "slug": "tongue-twister-adipur",
+    "name": "Tongue Twister The Garden Restaurant",
+    "town": "Adipur",
+    "category": "general",
+    "area": "Ward 6, Adipur",
+    "url": "./sites/tongue-twister-adipur.html"
+  },
+  {
+    "slug": "vidhus-treat-adipur",
+    "name": "Vidhu's Treat",
+    "town": "Adipur",
+    "category": "general",
+    "area": "Ward 5B, Adipur",
+    "url": "./sites/vidhus-treat-adipur.html"
+  },
+  {
+    "slug": "matka-house-adipur",
+    "name": "Matka House Restaurant",
+    "town": "Adipur",
+    "category": "general",
+    "area": "Rambaug Road, Adipur",
+    "url": "./sites/matka-house-adipur.html"
+  },
+  {
+    "slug": "pragati-girls-pg",
+    "name": "Pragati Girls PG",
+    "town": "Adipur",
+    "category": "pg-hostel",
+    "area": "Maitri School, Adipur",
+    "url": "./sites/pragati-girls-pg.html"
+  },
+  {
+    "slug": "yuva-sharthi-pg",
+    "name": "Yuva Sharthi PG",
+    "town": "Adipur",
+    "category": "pg-hostel",
+    "area": "Goldencity, Adipur",
+    "url": "./sites/yuva-sharthi-pg.html"
+  },
+  {
+    "slug": "pooja-pg-adipur",
+    "name": "Pooja PG",
+    "town": "Adipur",
+    "category": "pg-hostel",
+    "area": "Adipur",
+    "url": "./sites/pooja-pg-adipur.html"
+  },
+  {
+    "slug": "deepak-plumber-adipur",
+    "name": "Deepak Plumber",
+    "town": "Adipur",
+    "category": "general",
+    "area": "Adipur",
+    "url": "./sites/deepak-plumber-adipur.html"
+  },
+  {
+    "slug": "uma-enterprise-adipur",
+    "name": "Uma Enterprise",
+    "town": "Adipur",
+    "category": "general",
+    "area": "Bhagirath Nagar, Adipur",
+    "url": "./sites/uma-enterprise-adipur.html"
+  },
+  {
+    "slug": "dpt-exhibition-adipur",
+    "name": "DPT Exhibition Ground",
+    "town": "Adipur",
+    "category": "events",
+    "area": "Adipur",
+    "url": "./sites/dpt-exhibition-adipur.html"
+  },
+  {
+    "slug": "khavda-events-adipur",
+    "name": "Khavda Events",
+    "town": "Adipur",
+    "category": "events",
+    "area": "Meghpar, Adipur",
+    "url": "./sites/khavda-events-adipur.html"
+  },
+  {
+    "slug": "cheesy-events-adipur",
+    "name": "Cheesy Events",
+    "town": "Adipur",
+    "category": "events",
+    "area": "Near Iscon Mandir, Adipur",
+    "url": "./sites/cheesy-events-adipur.html"
+  },
+  {
+    "slug": "etrnity-solutions-adipur",
+    "name": "Etrnity Solutions",
+    "town": "Adipur",
+    "category": "it-tech",
+    "area": "Meghpar-Kumbharani, Adipur",
+    "url": "./sites/etrnity-solutions-adipur.html"
+  },
+  {
+    "slug": "rightfithr-solutions-adipur",
+    "name": "Rightfithr Solutions",
+    "town": "Adipur",
+    "category": "it-tech",
+    "area": "Rambag Road, Adipur",
+    "url": "./sites/rightfithr-solutions-adipur.html"
+  },
+  {
+    "slug": "sumit-collection-shinay",
+    "name": "Sumit Collection",
+    "town": "Shinay",
+    "category": "salons",
+    "area": "Mithila 2, Shinay",
+    "url": "./sites/sumit-collection-shinay.html"
+  },
+  {
+    "slug": "visanjhi-enterprise-shinay",
+    "name": "Visanjhi Enterprise",
+    "town": "Shinay",
+    "category": "it-tech",
+    "area": "Shinay Road, Kachchh",
+    "url": "./sites/visanjhi-enterprise-shinay.html"
+  },
+  {
+    "slug": "ekankotri-shinay",
+    "name": "Ekankotri",
+    "town": "Shinay",
+    "category": "it-tech",
+    "area": "Ward 1, Shinay",
+    "url": "./sites/ekankotri-shinay.html"
+  },
+  {
+    "slug": "shiv-sanket-shinay",
+    "name": "Shiv Sanket Blooming Lifestyle",
+    "town": "Shinay",
+    "category": "general",
+    "area": "Shinay",
+    "url": "./sites/shiv-sanket-shinay.html"
+  },
+  {
+    "slug": "shiv-fabrication-shinay",
+    "name": "Shiv Fabrication",
+    "town": "Shinay",
+    "category": "general",
+    "area": "Antarjaal, Shinay",
+    "url": "./sites/shiv-fabrication-shinay.html"
+  },
+  {
+    "slug": "madhav-hardware-shinay",
+    "name": "Madhav Hardware",
+    "town": "Shinay",
+    "category": "general",
+    "area": "Antarjal Shinay Road",
+    "url": "./sites/madhav-hardware-shinay.html"
+  },
+  {
+    "slug": "shree-ram-hardware-sinay",
+    "name": "Shree Ram Hardware Plumbers",
+    "town": "Adipur",
+    "category": "general",
+    "area": "Adipur Sinay Road",
+    "url": "./sites/shree-ram-hardware-sinay.html"
+  },
+  {
+    "slug": "navkar-events-shinay",
+    "name": "Navkar Events",
+    "town": "Shinay",
+    "category": "events",
+    "area": "Ward 3/B, Shinay",
+    "url": "./sites/navkar-events-shinay.html"
+  },
+  {
+    "slug": "bdh-party-lawns-shinay",
+    "name": "BDH Party Lawns Ramada",
+    "town": "Shinay",
+    "category": "events",
+    "area": "Adipur Mundra Highway, Shinay",
+    "url": "./sites/bdh-party-lawns-shinay.html"
+  },
+  {
+    "slug": "ramada-wyndham-shinay",
+    "name": "Ramada by Wyndham Gandhidham",
+    "town": "Shinay",
+    "category": "events",
+    "area": "Adipur Mundra Highway, Shinay",
+    "url": "./sites/ramada-wyndham-shinay.html"
+  },
+  {
+    "slug": "narayan-infotech-anjar",
+    "name": "Narayan Infotech",
+    "town": "Anjar",
+    "category": "it-tech",
+    "area": "Ravechi Circle, Anjar",
+    "url": "./sites/narayan-infotech-anjar.html"
+  },
+  {
+    "slug": "bhachau-guest-house",
+    "name": "Bhachau Guest House",
+    "town": "Bhachau",
+    "category": "pg-hostel",
+    "area": "Station Road, Bhachau",
+    "url": "./sites/bhachau-guest-house.html"
+  }
+]
