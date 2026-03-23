@@ -45,6 +45,15 @@
   .dir-tag { font-family: var(--mono); font-size: 10px; padding: 6px 12px; border-radius: 100px; text-transform: uppercase; letter-spacing: 0.5px; }
   .dir-website-btn { font-family: var(--mono); font-size: 11px; padding: 8px 16px; border: 1px solid var(--border); background: transparent; color: var(--text); text-decoration: none; border-radius: 2px; transition: 0.2s; text-transform: uppercase; }
   .dir-website-btn:hover { background: var(--surface2); }
+  .filter-count { display: inline-flex; align-items: center; justify-content: center; min-width: 22px; height: 22px; margin-left: 8px; padding: 0 6px; border-radius: 999px; background: var(--surface2); color: var(--text); font-size: 10px; }
+  .filter-btn.active .filter-count { background: rgba(0, 0, 0, 0.14); color: #000; }
+  .dir-card-meta { display: flex; align-items: center; gap: 10px; }
+  .save-btn { background: none; border: none; color: var(--muted); cursor: pointer; font-size: 20px; z-index: 10; position: relative; transition: 0.2s; }
+  .save-btn.is-saved { color: var(--accent); }
+  .dir-card-contact, .dir-card-note { font-size: 13px; color: var(--muted); margin-top: 10px; }
+  .dir-card-note { color: #b9b6ac; }
+  .dir-card-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+  .directory-empty { padding: 32px; color: var(--muted); font-family: var(--mono); grid-column: 1 / -1; text-align: center; border: 1px dashed var(--border); background: var(--bg); }
 
   /* Templates Section */
   .templates-section { padding: 80px 48px; border-bottom: 1px solid var(--border); }
@@ -89,17 +98,1173 @@
 
 <div class="filter-bar" id="filterBar">
   <input type="text" id="searchInput" placeholder="Search businesses..." style="width: 200px; padding: 8px; margin-right: 12px; background: var(--surface); border: 1px solid var(--border); color: #fff; font-family: var(--mono); font-size: 11px;">
-  <button class="filter-btn active" data-cat="all">All Businesses</button>
-  <button class="filter-btn" data-cat="saved">Saved</button>
-  <button class="filter-btn" data-cat="salon">Salons & Boutique</button>
-  <button class="filter-btn" data-cat="finance">CAs & Accounts</button>
-  <button class="filter-btn" data-cat="creative">Photography & Events</button>
-  <button class="filter-btn" data-cat="it">IT & Tech</button>
-  <button class="filter-btn" data-cat="accommodation">PG & Hostel</button>
+  <button class="filter-btn active" data-cat="all">All Businesses <span class="filter-count">0</span></button>
+  <button class="filter-btn" data-cat="saved">Saved <span class="filter-count">0</span></button>
+  <button class="filter-btn" data-cat="salons">Salons & Boutique <span class="filter-count">0</span></button>
+  <button class="filter-btn" data-cat="cas">CAs & Accounts <span class="filter-count">0</span></button>
+  <button class="filter-btn" data-cat="events">Photography & Events <span class="filter-count">0</span></button>
+  <button class="filter-btn" data-cat="it-tech">Placement / IT <span class="filter-count">0</span></button>
+  <button class="filter-btn" data-cat="pg-hostel">PG & Hostel <span class="filter-count">0</span></button>
+  <button class="filter-btn" data-cat="general">General / Trades <span class="filter-count">0</span></button>
 </div>
 
 <section class="directory" id="directoryGrid">
-  <!-- Dynamic Content Injected Here -->
+  <div class="dir-card" data-category="salons" data-name="Salon 2 The Family Salon &amp; Tattoo Studio" data-type="Salons &amp; Boutique" data-location="Shop No.19, Ground Floor, Golden Arcade, Oslo Road, Sector 8, Gandhidham - 370201">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(192,132,252,0.1);border:1px solid rgba(192,132,252,0.2);color:#c084fc">✂️</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(192,132,252,0.1);color:#c084fc; border: 1px solid rgba(192,132,252,0.2);">IDEA #6</span>
+        <button class="save-btn" type="button" data-business="Salon 2 The Family Salon &amp; Tattoo Studio" aria-label="Save Salon 2 The Family Salon &amp; Tattoo Studio">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Salon 2 The Family Salon &amp; Tattoo Studio</div>
+    <div class="dir-card-cat">Salons &amp; Boutique</div>
+    <div class="dir-card-loc"><span>📍</span> Shop No.19, Ground Floor, Golden Arcade, Oslo Road, Sector 8, Gandhidham - 370201</div>
+    <div class="dir-card-contact">📞 8460513709</div>
+    <div class="dir-card-note">Family salon and tattoo studio lead in a high-visibility Oslo Road arcade.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(192,132,252,0.1);color:#c084fc; border: 1px solid rgba(192,132,252,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        <a href="tel:8460513709" class="dir-website-btn" style="border-color: #c084fc; color: #c084fc;">Call</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Salon 2 The Family Salon %26 Tattoo Studio Shop No.19, Ground Floor, Golden Arcade, Oslo Road, Sector 8, Gandhidham - 370201" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="salons" data-name="De Mayra Collections" data-type="Salons &amp; Boutique" data-location="Plot No 18, Unit 1 and 2, Ward 7B, Sector 10, Gandhidham - 370201 (Near Blood Bank, Gurukul School)">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(192,132,252,0.1);border:1px solid rgba(192,132,252,0.2);color:#c084fc">✂️</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(192,132,252,0.1);color:#c084fc; border: 1px solid rgba(192,132,252,0.2);">IDEA #6</span>
+        <button class="save-btn" type="button" data-business="De Mayra Collections" aria-label="Save De Mayra Collections">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">De Mayra Collections</div>
+    <div class="dir-card-cat">Salons &amp; Boutique</div>
+    <div class="dir-card-loc"><span>📍</span> Plot No 18, Unit 1 and 2, Ward 7B, Sector 10, Gandhidham - 370201 (Near Blood Bank, Gurukul School)</div>
+    <div class="dir-card-contact">📞 8401155916</div>
+    <div class="dir-card-note">Boutique collection shop near Gurukul School with steady local footfall.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(192,132,252,0.1);color:#c084fc; border: 1px solid rgba(192,132,252,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        <a href="tel:8401155916" class="dir-website-btn" style="border-color: #c084fc; color: #c084fc;">Call</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=De Mayra Collections Plot No 18, Unit 1 and 2, Ward 7B, Sector 10, Gandhidham - 370201 (Near Blood Bank, Gurukul School)" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="it-tech" data-name="Skywings Job Placement &amp; Accounts Service" data-type="Placement / IT" data-location="T-6, Plot No. 32, Sector-7, Gandhidham Sector 1, Gandhidham - 370201">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(56,189,248,0.1);border:1px solid rgba(56,189,248,0.2);color:#38bdf8">💻</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2);">IDEA #7</span>
+        <button class="save-btn" type="button" data-business="Skywings Job Placement &amp; Accounts Service" aria-label="Save Skywings Job Placement &amp; Accounts Service">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Skywings Job Placement &amp; Accounts Service</div>
+    <div class="dir-card-cat">Placement / IT</div>
+    <div class="dir-card-loc"><span>📍</span> T-6, Plot No. 32, Sector-7, Gandhidham Sector 1, Gandhidham - 370201</div>
+    <div class="dir-card-contact">✉️ support@skywingsadvisors.com</div>
+    <div class="dir-card-note">Placement and accounts service positioned for resume-builder outreach.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        <a href="mailto:support@skywingsadvisors.com" class="dir-website-btn" style="border-color: #38bdf8; color: #38bdf8;">Email</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Skywings Job Placement %26 Accounts Service T-6, Plot No. 32, Sector-7, Gandhidham Sector 1, Gandhidham - 370201" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="it-tech" data-name="Dishaa Consultancy" data-type="Placement / IT" data-location="Plot No.216, Ward 12/B, Kutch Kala Road, Gandhidham Sector 1, Gandhidham - 370201">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(56,189,248,0.1);border:1px solid rgba(56,189,248,0.2);color:#38bdf8">💻</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2);">IDEA #7</span>
+        <button class="save-btn" type="button" data-business="Dishaa Consultancy" aria-label="Save Dishaa Consultancy">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Dishaa Consultancy</div>
+    <div class="dir-card-cat">Placement / IT</div>
+    <div class="dir-card-loc"><span>📍</span> Plot No.216, Ward 12/B, Kutch Kala Road, Gandhidham Sector 1, Gandhidham - 370201</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Prime target for digital upgrade and lead capture automation.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Dishaa Consultancy Plot No.216, Ward 12/B, Kutch Kala Road, Gandhidham Sector 1, Gandhidham - 370201" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="it-tech" data-name="N R Infotech" data-type="IT &amp; Tech" data-location="Gandhidham Sector 1, Gandhidham - 370201">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(56,189,248,0.1);border:1px solid rgba(56,189,248,0.2);color:#38bdf8">💻</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2);">IDEA #8</span>
+        <button class="save-btn" type="button" data-business="N R Infotech" aria-label="Save N R Infotech">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">N R Infotech</div>
+    <div class="dir-card-cat">IT &amp; Tech</div>
+    <div class="dir-card-loc"><span>📍</span> Gandhidham Sector 1, Gandhidham - 370201</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Digitally invisible local tech shop that is ripe for outreach.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=N R Infotech Gandhidham Sector 1, Gandhidham - 370201" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="it-tech" data-name="Great Peripherals" data-type="IT &amp; Tech" data-location="Dbz S-106 Ground Floor, Gandhidham Sector 1, Gandhidham - 370201 (Near Punjab Radiators)">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(56,189,248,0.1);border:1px solid rgba(56,189,248,0.2);color:#38bdf8">💻</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2);">IDEA #8</span>
+        <button class="save-btn" type="button" data-business="Great Peripherals" aria-label="Save Great Peripherals">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Great Peripherals</div>
+    <div class="dir-card-cat">IT &amp; Tech</div>
+    <div class="dir-card-loc"><span>📍</span> Dbz S-106 Ground Floor, Gandhidham Sector 1, Gandhidham - 370201 (Near Punjab Radiators)</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Peripheral and system sales lead currently without a dedicated website.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Great Peripherals Dbz S-106 Ground Floor, Gandhidham Sector 1, Gandhidham - 370201 (Near Punjab Radiators)" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="cas" data-name="Nilesh Buch &amp; Associates" data-type="CAs &amp; Accounts" data-location="SF-208, Golden Arcade, Plot 141-142, Sector-8, Oslo Road, Gandhidham - 370201">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(74,222,128,0.1);border:1px solid rgba(74,222,128,0.2);color:var(--green)">📊</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(74,222,128,0.1);color:var(--green); border: 1px solid rgba(74,222,128,0.2);">IDEA #9</span>
+        <button class="save-btn" type="button" data-business="Nilesh Buch &amp; Associates" aria-label="Save Nilesh Buch &amp; Associates">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Nilesh Buch &amp; Associates</div>
+    <div class="dir-card-cat">CAs &amp; Accounts</div>
+    <div class="dir-card-loc"><span>📍</span> SF-208, Golden Arcade, Plot 141-142, Sector-8, Oslo Road, Gandhidham - 370201</div>
+    <div class="dir-card-contact">✉️ nileshbuch@yahoo.com.sg</div>
+    <div class="dir-card-note">Owner: Nilesh Y Buch.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(74,222,128,0.1);color:var(--green); border: 1px solid rgba(74,222,128,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        <a href="mailto:nileshbuch@yahoo.com.sg" class="dir-website-btn" style="border-color: var(--green); color: var(--green);">Email</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Nilesh Buch %26 Associates SF-208, Golden Arcade, Plot 141-142, Sector-8, Oslo Road, Gandhidham - 370201" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="cas" data-name="R J Mehta &amp; Co" data-type="CAs &amp; Accounts" data-location="Ply Zone Bldg Plot 211, Kutch Kala Road, Gandhidham Sector 1, Gandhidham - 370201">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(74,222,128,0.1);border:1px solid rgba(74,222,128,0.2);color:var(--green)">📊</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(74,222,128,0.1);color:var(--green); border: 1px solid rgba(74,222,128,0.2);">IDEA #9</span>
+        <button class="save-btn" type="button" data-business="R J Mehta &amp; Co" aria-label="Save R J Mehta &amp; Co">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">R J Mehta &amp; Co</div>
+    <div class="dir-card-cat">CAs &amp; Accounts</div>
+    <div class="dir-card-loc"><span>📍</span> Ply Zone Bldg Plot 211, Kutch Kala Road, Gandhidham Sector 1, Gandhidham - 370201</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Owner: Rakesh R Mehta.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(74,222,128,0.1);color:var(--green); border: 1px solid rgba(74,222,128,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=R J Mehta %26 Co Ply Zone Bldg Plot 211, Kutch Kala Road, Gandhidham Sector 1, Gandhidham - 370201" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="events" data-name="Shree Ganesh Photos" data-type="Photography &amp; Events" data-location="Gurukrupa Society, Bharat Nagar, Gandhidham - 370201 (Opp. Lohana Mahajan Vadi, Plot 703)">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(244,114,182,0.1);border:1px solid rgba(244,114,182,0.2);color:#f472b6">📸</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(244,114,182,0.1);color:#f472b6; border: 1px solid rgba(244,114,182,0.2);">IDEA #10</span>
+        <button class="save-btn" type="button" data-business="Shree Ganesh Photos" aria-label="Save Shree Ganesh Photos">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Shree Ganesh Photos</div>
+    <div class="dir-card-cat">Photography &amp; Events</div>
+    <div class="dir-card-loc"><span>📍</span> Gurukrupa Society, Bharat Nagar, Gandhidham - 370201 (Opp. Lohana Mahajan Vadi, Plot 703)</div>
+    <div class="dir-card-contact">📞 8460382852</div>
+    <div class="dir-card-note">Established in 2014 with a strong neighborhood studio presence.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(244,114,182,0.1);color:#f472b6; border: 1px solid rgba(244,114,182,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        <a href="tel:8460382852" class="dir-website-btn" style="border-color: #f472b6; color: #f472b6;">Call</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Shree Ganesh Photos Gurukrupa Society, Bharat Nagar, Gandhidham - 370201 (Opp. Lohana Mahajan Vadi, Plot 703)" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="events" data-name="Drashya Glamour Studio &amp; Four Seasons Events" data-type="Photography &amp; Events" data-location="Gaytri Mandir Road, Near Oslo Circle, Gandhidham Sector 1, Gandhidham - 370201">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(244,114,182,0.1);border:1px solid rgba(244,114,182,0.2);color:#f472b6">📸</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(244,114,182,0.1);color:#f472b6; border: 1px solid rgba(244,114,182,0.2);">IDEA #10</span>
+        <button class="save-btn" type="button" data-business="Drashya Glamour Studio &amp; Four Seasons Events" aria-label="Save Drashya Glamour Studio &amp; Four Seasons Events">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Drashya Glamour Studio &amp; Four Seasons Events</div>
+    <div class="dir-card-cat">Photography &amp; Events</div>
+    <div class="dir-card-loc"><span>📍</span> Gaytri Mandir Road, Near Oslo Circle, Gandhidham Sector 1, Gandhidham - 370201</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Established in 1990 and still missing a modern portfolio site.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(244,114,182,0.1);color:#f472b6; border: 1px solid rgba(244,114,182,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Drashya Glamour Studio %26 Four Seasons Events Gaytri Mandir Road, Near Oslo Circle, Gandhidham Sector 1, Gandhidham - 370201" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="general" data-name="Trylo Inner Luxury" data-type="General / Restaurant / Trades" data-location="Plot No 11, Near Kutch Kala Road, Opp. Gokul Sweet, Sector No 1A, Gandhidham - 370201">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(245,166,35,0.1);border:1px solid rgba(245,166,35,0.2);color:var(--accent)">🛍️</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(245,166,35,0.1);color:var(--accent); border: 1px solid rgba(245,166,35,0.2);">IDEA #11</span>
+        <button class="save-btn" type="button" data-business="Trylo Inner Luxury" aria-label="Save Trylo Inner Luxury">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Trylo Inner Luxury</div>
+    <div class="dir-card-cat">General / Restaurant / Trades</div>
+    <div class="dir-card-loc"><span>📍</span> Plot No 11, Near Kutch Kala Road, Opp. Gokul Sweet, Sector No 1A, Gandhidham - 370201</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Local innerwear and essentials retail lead near a busy junction.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(245,166,35,0.1);color:var(--accent); border: 1px solid rgba(245,166,35,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Trylo Inner Luxury Plot No 11, Near Kutch Kala Road, Opp. Gokul Sweet, Sector No 1A, Gandhidham - 370201" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="general" data-name="Chat Ka Chaska Restaurant" data-type="General / Restaurant / Trades" data-location="Opposite Shivaji Park, Gandhidham">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(245,166,35,0.1);border:1px solid rgba(245,166,35,0.2);color:var(--accent)">🛍️</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(245,166,35,0.1);color:var(--accent); border: 1px solid rgba(245,166,35,0.2);">IDEA #11</span>
+        <button class="save-btn" type="button" data-business="Chat Ka Chaska Restaurant" aria-label="Save Chat Ka Chaska Restaurant">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Chat Ka Chaska Restaurant</div>
+    <div class="dir-card-cat">General / Restaurant / Trades</div>
+    <div class="dir-card-loc"><span>📍</span> Opposite Shivaji Park, Gandhidham</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Restaurant listing with strong local discoverability potential.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(245,166,35,0.1);color:var(--accent); border: 1px solid rgba(245,166,35,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Chat Ka Chaska Restaurant Opposite Shivaji Park, Gandhidham" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="pg-hostel" data-name="Aaradhana Hospitality Services" data-type="PG &amp; Hostel" data-location="Boys Hostel Tolani College, GIDC Road Adipur, Gandhidham - 370205">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(232,80,58,0.1);border:1px solid rgba(232,80,58,0.2);color:var(--accent2)">🏠</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(232,80,58,0.1);color:var(--accent2); border: 1px solid rgba(232,80,58,0.2);">IDEA #12</span>
+        <button class="save-btn" type="button" data-business="Aaradhana Hospitality Services" aria-label="Save Aaradhana Hospitality Services">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Aaradhana Hospitality Services</div>
+    <div class="dir-card-cat">PG &amp; Hostel</div>
+    <div class="dir-card-loc"><span>📍</span> Boys Hostel Tolani College, GIDC Road Adipur, Gandhidham - 370205</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Hostel accommodation lead serving student demand near Tolani College.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(232,80,58,0.1);color:var(--accent2); border: 1px solid rgba(232,80,58,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Aaradhana Hospitality Services Boys Hostel Tolani College, GIDC Road Adipur, Gandhidham - 370205" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="pg-hostel" data-name="Suvidha PG &amp; Accommodation" data-type="PG &amp; Hostel" data-location="Corporate Park, Opp. Arjan&#x27;s Mall, Gandhidham HO, Gandhidham - 370201">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(232,80,58,0.1);border:1px solid rgba(232,80,58,0.2);color:var(--accent2)">🏠</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(232,80,58,0.1);color:var(--accent2); border: 1px solid rgba(232,80,58,0.2);">IDEA #12</span>
+        <button class="save-btn" type="button" data-business="Suvidha PG &amp; Accommodation" aria-label="Save Suvidha PG &amp; Accommodation">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Suvidha PG &amp; Accommodation</div>
+    <div class="dir-card-cat">PG &amp; Hostel</div>
+    <div class="dir-card-loc"><span>📍</span> Corporate Park, Opp. Arjan&#x27;s Mall, Gandhidham HO, Gandhidham - 370201</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">PG and accommodation option positioned near a central commercial hub.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(232,80,58,0.1);color:var(--accent2); border: 1px solid rgba(232,80,58,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Suvidha PG %26 Accommodation Corporate Park, Opp. Arjan&#x27;s Mall, Gandhidham HO, Gandhidham - 370201" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="general" data-name="Vinod Electrical Solutions" data-type="General / Restaurant / Trades" data-location="House No.15, Plot No.161/162, Reliance Society, Near Balaji Super Market, Adipur, Gandhidham - 370205">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(245,166,35,0.1);border:1px solid rgba(245,166,35,0.2);color:var(--accent)">🛍️</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(245,166,35,0.1);color:var(--accent); border: 1px solid rgba(245,166,35,0.2);">IDEA #13</span>
+        <button class="save-btn" type="button" data-business="Vinod Electrical Solutions" aria-label="Save Vinod Electrical Solutions">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Vinod Electrical Solutions</div>
+    <div class="dir-card-cat">General / Restaurant / Trades</div>
+    <div class="dir-card-loc"><span>📍</span> House No.15, Plot No.161/162, Reliance Society, Near Balaji Super Market, Adipur, Gandhidham - 370205</div>
+    <div class="dir-card-contact">📞 9725367411</div>
+    <div class="dir-card-note">Electrical and plumbing service trade lead for review collection outreach.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(245,166,35,0.1);color:var(--accent); border: 1px solid rgba(245,166,35,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        <a href="tel:9725367411" class="dir-website-btn" style="border-color: var(--accent); color: var(--accent);">Call</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Vinod Electrical Solutions House No.15, Plot No.161/162, Reliance Society, Near Balaji Super Market, Adipur, Gandhidham - 370205" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="general" data-name="Patel Plumber Works" data-type="General / Restaurant / Trades" data-location="Bhim Market, Oslo Road, Opp. Golden Arcade, Gandhidham Sector 1, Gandhidham - 370201">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(245,166,35,0.1);border:1px solid rgba(245,166,35,0.2);color:var(--accent)">🛍️</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(245,166,35,0.1);color:var(--accent); border: 1px solid rgba(245,166,35,0.2);">IDEA #13</span>
+        <button class="save-btn" type="button" data-business="Patel Plumber Works" aria-label="Save Patel Plumber Works">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Patel Plumber Works</div>
+    <div class="dir-card-cat">General / Restaurant / Trades</div>
+    <div class="dir-card-loc"><span>📍</span> Bhim Market, Oslo Road, Opp. Golden Arcade, Gandhidham Sector 1, Gandhidham - 370201</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Established in 1990 with long-running local trust.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(245,166,35,0.1);color:var(--accent); border: 1px solid rgba(245,166,35,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Patel Plumber Works Bhim Market, Oslo Road, Opp. Golden Arcade, Gandhidham Sector 1, Gandhidham - 370201" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="events" data-name="The Shiv Regency" data-type="Photography &amp; Events" data-location="360, Ward 12/B, Gandhidham - 370201">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(244,114,182,0.1);border:1px solid rgba(244,114,182,0.2);color:#f472b6">📸</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(244,114,182,0.1);color:#f472b6; border: 1px solid rgba(244,114,182,0.2);">IDEA #14</span>
+        <button class="save-btn" type="button" data-business="The Shiv Regency" aria-label="Save The Shiv Regency">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">The Shiv Regency</div>
+    <div class="dir-card-cat">Photography &amp; Events</div>
+    <div class="dir-card-loc"><span>📍</span> 360, Ward 12/B, Gandhidham - 370201</div>
+    <div class="dir-card-contact">✉️ theshivregency@shivhotels.com</div>
+    <div class="dir-card-note">Venue and hospitality listing suited for event booking automation.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(244,114,182,0.1);color:#f472b6; border: 1px solid rgba(244,114,182,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        <a href="mailto:theshivregency@shivhotels.com" class="dir-website-btn" style="border-color: #f472b6; color: #f472b6;">Email</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=The Shiv Regency 360, Ward 12/B, Gandhidham - 370201" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="events" data-name="Anchor Rahul Budhani (Event Hosting)" data-type="Photography &amp; Events" data-location="B-306, Raj Plaza, Station Road, Mahatma Gandhi Road, Gandhidham - 370201">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(244,114,182,0.1);border:1px solid rgba(244,114,182,0.2);color:#f472b6">📸</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(244,114,182,0.1);color:#f472b6; border: 1px solid rgba(244,114,182,0.2);">IDEA #14</span>
+        <button class="save-btn" type="button" data-business="Anchor Rahul Budhani (Event Hosting)" aria-label="Save Anchor Rahul Budhani (Event Hosting)">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Anchor Rahul Budhani (Event Hosting)</div>
+    <div class="dir-card-cat">Photography &amp; Events</div>
+    <div class="dir-card-loc"><span>📍</span> B-306, Raj Plaza, Station Road, Mahatma Gandhi Road, Gandhidham - 370201</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Independent event-hosting lead for event discovery campaigns.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(244,114,182,0.1);color:#f472b6; border: 1px solid rgba(244,114,182,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Anchor Rahul Budhani (Event Hosting) B-306, Raj Plaza, Station Road, Mahatma Gandhi Road, Gandhidham - 370201" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="it-tech" data-name="Maniifest HR Consultancy Pvt Ltd" data-type="Placement / IT" data-location="Plot No 479, Sector No 5, Sathwara Colony, Gandhidham - 370201">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(56,189,248,0.1);border:1px solid rgba(56,189,248,0.2);color:#38bdf8">💻</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2);">IDEA #15</span>
+        <button class="save-btn" type="button" data-business="Maniifest HR Consultancy Pvt Ltd" aria-label="Save Maniifest HR Consultancy Pvt Ltd">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Maniifest HR Consultancy Pvt Ltd</div>
+    <div class="dir-card-cat">Placement / IT</div>
+    <div class="dir-card-loc"><span>📍</span> Plot No 479, Sector No 5, Sathwara Colony, Gandhidham - 370201</div>
+    <div class="dir-card-contact">✉️ maniifestempoweringsolutions@gmail.com</div>
+    <div class="dir-card-note">Directors: Amit Mukeshbhai Danani &amp; Malvika Amit Danani.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        <a href="mailto:maniifestempoweringsolutions@gmail.com" class="dir-website-btn" style="border-color: #38bdf8; color: #38bdf8;">Email</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Maniifest HR Consultancy Pvt Ltd Plot No 479, Sector No 5, Sathwara Colony, Gandhidham - 370201" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="it-tech" data-name="Bharat HR Solutions &amp; Consultancy" data-type="Placement / IT" data-location="Office No.02, First Floor, Kanchan Complex Kutchkala, Gandhidham - 370201">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(56,189,248,0.1);border:1px solid rgba(56,189,248,0.2);color:#38bdf8">💻</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2);">IDEA #15</span>
+        <button class="save-btn" type="button" data-business="Bharat HR Solutions &amp; Consultancy" aria-label="Save Bharat HR Solutions &amp; Consultancy">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Bharat HR Solutions &amp; Consultancy</div>
+    <div class="dir-card-cat">Placement / IT</div>
+    <div class="dir-card-loc"><span>📍</span> Office No.02, First Floor, Kanchan Complex Kutchkala, Gandhidham - 370201</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Owner: Vadecha Bharat.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Bharat HR Solutions %26 Consultancy Office No.02, First Floor, Kanchan Complex Kutchkala, Gandhidham - 370201" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="salons" data-name="Pink Daisy Boutique" data-type="Salons &amp; Boutique" data-location="Opposite Prabhudharshan Hall, Adipur">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(192,132,252,0.1);border:1px solid rgba(192,132,252,0.2);color:#c084fc">✂️</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(192,132,252,0.1);color:#c084fc; border: 1px solid rgba(192,132,252,0.2);">IDEA #6</span>
+        <button class="save-btn" type="button" data-business="Pink Daisy Boutique" aria-label="Save Pink Daisy Boutique">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Pink Daisy Boutique</div>
+    <div class="dir-card-cat">Salons &amp; Boutique</div>
+    <div class="dir-card-loc"><span>📍</span> Opposite Prabhudharshan Hall, Adipur</div>
+    <div class="dir-card-contact">📞 8156081561</div>
+    <div class="dir-card-note">Owner: Ashokbhai Motiyani.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(192,132,252,0.1);color:#c084fc; border: 1px solid rgba(192,132,252,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        <a href="tel:8156081561" class="dir-website-btn" style="border-color: #c084fc; color: #c084fc;">Call</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Pink Daisy Boutique Opposite Prabhudharshan Hall, Adipur" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="salons" data-name="The Metro Hair &amp; Beauty" data-type="Salons &amp; Boutique" data-location="Shop No 3, Plot No 310, Ward 4/B, Adipur">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(192,132,252,0.1);border:1px solid rgba(192,132,252,0.2);color:#c084fc">✂️</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(192,132,252,0.1);color:#c084fc; border: 1px solid rgba(192,132,252,0.2);">IDEA #6</span>
+        <button class="save-btn" type="button" data-business="The Metro Hair &amp; Beauty" aria-label="Save The Metro Hair &amp; Beauty">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">The Metro Hair &amp; Beauty</div>
+    <div class="dir-card-cat">Salons &amp; Boutique</div>
+    <div class="dir-card-loc"><span>📍</span> Shop No 3, Plot No 310, Ward 4/B, Adipur</div>
+    <div class="dir-card-contact">📞 7984669391</div>
+    <div class="dir-card-note">Hair and beauty salon serving a dense Adipur neighborhood.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(192,132,252,0.1);color:#c084fc; border: 1px solid rgba(192,132,252,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        <a href="tel:7984669391" class="dir-website-btn" style="border-color: #c084fc; color: #c084fc;">Call</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=The Metro Hair %26 Beauty Shop No 3, Plot No 310, Ward 4/B, Adipur" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="salons" data-name="Wellisa Salon &amp; Nails" data-type="Salons &amp; Boutique" data-location="Friends Square, Ground Floor, Near Rotry Circle, Adipur">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(192,132,252,0.1);border:1px solid rgba(192,132,252,0.2);color:#c084fc">✂️</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(192,132,252,0.1);color:#c084fc; border: 1px solid rgba(192,132,252,0.2);">IDEA #6</span>
+        <button class="save-btn" type="button" data-business="Wellisa Salon &amp; Nails" aria-label="Save Wellisa Salon &amp; Nails">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Wellisa Salon &amp; Nails</div>
+    <div class="dir-card-cat">Salons &amp; Boutique</div>
+    <div class="dir-card-loc"><span>📍</span> Friends Square, Ground Floor, Near Rotry Circle, Adipur</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Salon and nails studio lead near Rotry Circle.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(192,132,252,0.1);color:#c084fc; border: 1px solid rgba(192,132,252,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Wellisa Salon %26 Nails Friends Square, Ground Floor, Near Rotry Circle, Adipur" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="it-tech" data-name="Satyabhama Job Consultants" data-type="Placement / IT" data-location="Near Maitri School, Adipur">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(56,189,248,0.1);border:1px solid rgba(56,189,248,0.2);color:#38bdf8">💻</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2);">IDEA #7</span>
+        <button class="save-btn" type="button" data-business="Satyabhama Job Consultants" aria-label="Save Satyabhama Job Consultants">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Satyabhama Job Consultants</div>
+    <div class="dir-card-cat">Placement / IT</div>
+    <div class="dir-card-loc"><span>📍</span> Near Maitri School, Adipur</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Placement agency serving BPO, FMCG, and IT sectors.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Satyabhama Job Consultants Near Maitri School, Adipur" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="it-tech" data-name="MAD Networks Pvt Ltd" data-type="Placement / IT" data-location="Adipur">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(56,189,248,0.1);border:1px solid rgba(56,189,248,0.2);color:#38bdf8">💻</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2);">IDEA #7</span>
+        <button class="save-btn" type="button" data-business="MAD Networks Pvt Ltd" aria-label="Save MAD Networks Pvt Ltd">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">MAD Networks Pvt Ltd</div>
+    <div class="dir-card-cat">Placement / IT</div>
+    <div class="dir-card-loc"><span>📍</span> Adipur</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Placement agency focused on architecture, aviation, and manufacturing roles.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=MAD Networks Pvt Ltd Adipur" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="it-tech" data-name="Krishna Manpower Supply" data-type="Placement / IT" data-location="Adipur">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(56,189,248,0.1);border:1px solid rgba(56,189,248,0.2);color:#38bdf8">💻</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2);">IDEA #7</span>
+        <button class="save-btn" type="button" data-business="Krishna Manpower Supply" aria-label="Save Krishna Manpower Supply">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Krishna Manpower Supply</div>
+    <div class="dir-card-cat">Placement / IT</div>
+    <div class="dir-card-loc"><span>📍</span> Adipur</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Recruitment consultant and domestic placement company.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Krishna Manpower Supply Adipur" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="it-tech" data-name="Acme Computing Services" data-type="IT &amp; Tech" data-location="Jalaram Mandir Road, Adipur">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(56,189,248,0.1);border:1px solid rgba(56,189,248,0.2);color:#38bdf8">💻</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2);">IDEA #8</span>
+        <button class="save-btn" type="button" data-business="Acme Computing Services" aria-label="Save Acme Computing Services">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Acme Computing Services</div>
+    <div class="dir-card-cat">IT &amp; Tech</div>
+    <div class="dir-card-loc"><span>📍</span> Jalaram Mandir Road, Adipur</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Owner: Nitesh Punjani.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Acme Computing Services Jalaram Mandir Road, Adipur" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="it-tech" data-name="M K Soft Service" data-type="IT &amp; Tech" data-location="Shivani B Building, DC 5, Adipur (Near S P Office)">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(56,189,248,0.1);border:1px solid rgba(56,189,248,0.2);color:#38bdf8">💻</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2);">IDEA #8</span>
+        <button class="save-btn" type="button" data-business="M K Soft Service" aria-label="Save M K Soft Service">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">M K Soft Service</div>
+    <div class="dir-card-cat">IT &amp; Tech</div>
+    <div class="dir-card-loc"><span>📍</span> Shivani B Building, DC 5, Adipur (Near S P Office)</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Local software service lead near the S P Office.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=M K Soft Service Shivani B Building, DC 5, Adipur (Near S P Office)" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="it-tech" data-name="Shadofax Technologies Pvt Ltd" data-type="IT &amp; Tech" data-location="Plot No.319 4b, Rambhagh Road, Adipur">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(56,189,248,0.1);border:1px solid rgba(56,189,248,0.2);color:#38bdf8">💻</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2);">IDEA #8</span>
+        <button class="save-btn" type="button" data-business="Shadofax Technologies Pvt Ltd" aria-label="Save Shadofax Technologies Pvt Ltd">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Shadofax Technologies Pvt Ltd</div>
+    <div class="dir-card-cat">IT &amp; Tech</div>
+    <div class="dir-card-loc"><span>📍</span> Plot No.319 4b, Rambhagh Road, Adipur</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Private tech services company on Rambhagh Road.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Shadofax Technologies Pvt Ltd Plot No.319 4b, Rambhagh Road, Adipur" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="cas" data-name="Kpt &amp; Co" data-type="CAs &amp; Accounts" data-location="256, Om Mandir, Ward 3b, Adipur">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(74,222,128,0.1);border:1px solid rgba(74,222,128,0.2);color:var(--green)">📊</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(74,222,128,0.1);color:var(--green); border: 1px solid rgba(74,222,128,0.2);">IDEA #9</span>
+        <button class="save-btn" type="button" data-business="Kpt &amp; Co" aria-label="Save Kpt &amp; Co">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Kpt &amp; Co</div>
+    <div class="dir-card-cat">CAs &amp; Accounts</div>
+    <div class="dir-card-loc"><span>📍</span> 256, Om Mandir, Ward 3b, Adipur</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Chartered accountant firm with local compliance and filing demand.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(74,222,128,0.1);color:var(--green); border: 1px solid rgba(74,222,128,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Kpt %26 Co 256, Om Mandir, Ward 3b, Adipur" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="events" data-name="JB Photo Studio" data-type="Photography &amp; Events" data-location="Gold Star Complex, Golden City, Ward 1a, Adipur">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(244,114,182,0.1);border:1px solid rgba(244,114,182,0.2);color:#f472b6">📸</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(244,114,182,0.1);color:#f472b6; border: 1px solid rgba(244,114,182,0.2);">IDEA #10</span>
+        <button class="save-btn" type="button" data-business="JB Photo Studio" aria-label="Save JB Photo Studio">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">JB Photo Studio</div>
+    <div class="dir-card-cat">Photography &amp; Events</div>
+    <div class="dir-card-loc"><span>📍</span> Gold Star Complex, Golden City, Ward 1a, Adipur</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Photography studio lead in Golden City.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(244,114,182,0.1);color:#f472b6; border: 1px solid rgba(244,114,182,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=JB Photo Studio Gold Star Complex, Golden City, Ward 1a, Adipur" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="events" data-name="Chheda Decorators" data-type="Photography &amp; Events" data-location="Malyalmanorama Nagar, Behind DPS School, Adipur">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(244,114,182,0.1);border:1px solid rgba(244,114,182,0.2);color:#f472b6">📸</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(244,114,182,0.1);color:#f472b6; border: 1px solid rgba(244,114,182,0.2);">IDEA #10</span>
+        <button class="save-btn" type="button" data-business="Chheda Decorators" aria-label="Save Chheda Decorators">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Chheda Decorators</div>
+    <div class="dir-card-cat">Photography &amp; Events</div>
+    <div class="dir-card-loc"><span>📍</span> Malyalmanorama Nagar, Behind DPS School, Adipur</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Wedding planning and photography freelancer business.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(244,114,182,0.1);color:#f472b6; border: 1px solid rgba(244,114,182,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Chheda Decorators Malyalmanorama Nagar, Behind DPS School, Adipur" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="general" data-name="Tongue Twister - The Garden Restaurant" data-type="General / Restaurant / Trades" data-location="Ward 6, Adipur">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(245,166,35,0.1);border:1px solid rgba(245,166,35,0.2);color:var(--accent)">🛍️</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(245,166,35,0.1);color:var(--accent); border: 1px solid rgba(245,166,35,0.2);">IDEA #11</span>
+        <button class="save-btn" type="button" data-business="Tongue Twister - The Garden Restaurant" aria-label="Save Tongue Twister - The Garden Restaurant">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Tongue Twister - The Garden Restaurant</div>
+    <div class="dir-card-cat">General / Restaurant / Trades</div>
+    <div class="dir-card-loc"><span>📍</span> Ward 6, Adipur</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Garden restaurant with strong local dining appeal.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(245,166,35,0.1);color:var(--accent); border: 1px solid rgba(245,166,35,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Tongue Twister - The Garden Restaurant Ward 6, Adipur" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="general" data-name="Vidhu&#x27;s Treat" data-type="General / Restaurant / Trades" data-location="Plot No.3, Ward 5B, Opp. S P Office DC 5, Adipur">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(245,166,35,0.1);border:1px solid rgba(245,166,35,0.2);color:var(--accent)">🛍️</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(245,166,35,0.1);color:var(--accent); border: 1px solid rgba(245,166,35,0.2);">IDEA #11</span>
+        <button class="save-btn" type="button" data-business="Vidhu&#x27;s Treat" aria-label="Save Vidhu&#x27;s Treat">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Vidhu&#x27;s Treat</div>
+    <div class="dir-card-cat">General / Restaurant / Trades</div>
+    <div class="dir-card-loc"><span>📍</span> Plot No.3, Ward 5B, Opp. S P Office DC 5, Adipur</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Fast food and pizza outlet near a busy civic office cluster.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(245,166,35,0.1);color:var(--accent); border: 1px solid rgba(245,166,35,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Vidhu&#x27;s Treat Plot No.3, Ward 5B, Opp. S P Office DC 5, Adipur" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="general" data-name="Matka House Restaurant" data-type="General / Restaurant / Trades" data-location="Plot 25, Ward 6C, Rambaug Road, Adipur">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(245,166,35,0.1);border:1px solid rgba(245,166,35,0.2);color:var(--accent)">🛍️</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(245,166,35,0.1);color:var(--accent); border: 1px solid rgba(245,166,35,0.2);">IDEA #11</span>
+        <button class="save-btn" type="button" data-business="Matka House Restaurant" aria-label="Save Matka House Restaurant">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Matka House Restaurant</div>
+    <div class="dir-card-cat">General / Restaurant / Trades</div>
+    <div class="dir-card-loc"><span>📍</span> Plot 25, Ward 6C, Rambaug Road, Adipur</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Restaurant lead on Rambaug Road with local discovery upside.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(245,166,35,0.1);color:var(--accent); border: 1px solid rgba(245,166,35,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Matka House Restaurant Plot 25, Ward 6C, Rambaug Road, Adipur" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="pg-hostel" data-name="Pragati Girls PG" data-type="PG &amp; Hostel" data-location="108, Ashram Road, Near Maitri School, Ward 2A, Adipur">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(232,80,58,0.1);border:1px solid rgba(232,80,58,0.2);color:var(--accent2)">🏠</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(232,80,58,0.1);color:var(--accent2); border: 1px solid rgba(232,80,58,0.2);">IDEA #12</span>
+        <button class="save-btn" type="button" data-business="Pragati Girls PG" aria-label="Save Pragati Girls PG">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Pragati Girls PG</div>
+    <div class="dir-card-cat">PG &amp; Hostel</div>
+    <div class="dir-card-loc"><span>📍</span> 108, Ashram Road, Near Maitri School, Ward 2A, Adipur</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Girls PG option close to Maitri School.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(232,80,58,0.1);color:var(--accent2); border: 1px solid rgba(232,80,58,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Pragati Girls PG 108, Ashram Road, Near Maitri School, Ward 2A, Adipur" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="pg-hostel" data-name="Yuva Sharthi PG" data-type="PG &amp; Hostel" data-location="Sidhheswar Residency, Goldencity, Adipur">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(232,80,58,0.1);border:1px solid rgba(232,80,58,0.2);color:var(--accent2)">🏠</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(232,80,58,0.1);color:var(--accent2); border: 1px solid rgba(232,80,58,0.2);">IDEA #12</span>
+        <button class="save-btn" type="button" data-business="Yuva Sharthi PG" aria-label="Save Yuva Sharthi PG">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Yuva Sharthi PG</div>
+    <div class="dir-card-cat">PG &amp; Hostel</div>
+    <div class="dir-card-loc"><span>📍</span> Sidhheswar Residency, Goldencity, Adipur</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Residential PG lead in Goldencity.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(232,80,58,0.1);color:var(--accent2); border: 1px solid rgba(232,80,58,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Yuva Sharthi PG Sidhheswar Residency, Goldencity, Adipur" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="pg-hostel" data-name="Pooja PG" data-type="PG &amp; Hostel" data-location="Adipur">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(232,80,58,0.1);border:1px solid rgba(232,80,58,0.2);color:var(--accent2)">🏠</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(232,80,58,0.1);color:var(--accent2); border: 1px solid rgba(232,80,58,0.2);">IDEA #12</span>
+        <button class="save-btn" type="button" data-business="Pooja PG" aria-label="Save Pooja PG">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Pooja PG</div>
+    <div class="dir-card-cat">PG &amp; Hostel</div>
+    <div class="dir-card-loc"><span>📍</span> Adipur</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Girls PG accommodation lead in Adipur.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(232,80,58,0.1);color:var(--accent2); border: 1px solid rgba(232,80,58,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Pooja PG Adipur" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="general" data-name="Deepak Plumber" data-type="General / Restaurant / Trades" data-location="Adipur Hanuman Road, Adipur">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(245,166,35,0.1);border:1px solid rgba(245,166,35,0.2);color:var(--accent)">🛍️</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(245,166,35,0.1);color:var(--accent); border: 1px solid rgba(245,166,35,0.2);">IDEA #13</span>
+        <button class="save-btn" type="button" data-business="Deepak Plumber" aria-label="Save Deepak Plumber">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Deepak Plumber</div>
+    <div class="dir-card-cat">General / Restaurant / Trades</div>
+    <div class="dir-card-loc"><span>📍</span> Adipur Hanuman Road, Adipur</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Independent plumber lead serving Adipur households.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(245,166,35,0.1);color:var(--accent); border: 1px solid rgba(245,166,35,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Deepak Plumber Adipur Hanuman Road, Adipur" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="general" data-name="Uma Enterprise" data-type="General / Restaurant / Trades" data-location="Plot No.474, Bhagirath Nagar, Adipur">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(245,166,35,0.1);border:1px solid rgba(245,166,35,0.2);color:var(--accent)">🛍️</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(245,166,35,0.1);color:var(--accent); border: 1px solid rgba(245,166,35,0.2);">IDEA #13</span>
+        <button class="save-btn" type="button" data-business="Uma Enterprise" aria-label="Save Uma Enterprise">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Uma Enterprise</div>
+    <div class="dir-card-cat">General / Restaurant / Trades</div>
+    <div class="dir-card-loc"><span>📍</span> Plot No.474, Bhagirath Nagar, Adipur</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Plumbing and electrical contractor in Bhagirath Nagar.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(245,166,35,0.1);color:var(--accent); border: 1px solid rgba(245,166,35,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Uma Enterprise Plot No.474, Bhagirath Nagar, Adipur" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="events" data-name="DPT Exhibition Ground" data-type="Photography &amp; Events" data-location="Adipur/Gandhidham">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(244,114,182,0.1);border:1px solid rgba(244,114,182,0.2);color:#f472b6">📸</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(244,114,182,0.1);color:#f472b6; border: 1px solid rgba(244,114,182,0.2);">IDEA #14</span>
+        <button class="save-btn" type="button" data-business="DPT Exhibition Ground" aria-label="Save DPT Exhibition Ground">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">DPT Exhibition Ground</div>
+    <div class="dir-card-cat">Photography &amp; Events</div>
+    <div class="dir-card-loc"><span>📍</span> Adipur/Gandhidham</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Major exhibition and banquet ground for large-format events.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(244,114,182,0.1);color:#f472b6; border: 1px solid rgba(244,114,182,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=DPT Exhibition Ground Adipur/Gandhidham" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="events" data-name="Khavda Events" data-type="Photography &amp; Events" data-location="Plot No.500, Meghpar, Adipur">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(244,114,182,0.1);border:1px solid rgba(244,114,182,0.2);color:#f472b6">📸</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(244,114,182,0.1);color:#f472b6; border: 1px solid rgba(244,114,182,0.2);">IDEA #14</span>
+        <button class="save-btn" type="button" data-business="Khavda Events" aria-label="Save Khavda Events">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Khavda Events</div>
+    <div class="dir-card-cat">Photography &amp; Events</div>
+    <div class="dir-card-loc"><span>📍</span> Plot No.500, Meghpar, Adipur</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Event organizer and wedding planner operating from Meghpar.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(244,114,182,0.1);color:#f472b6; border: 1px solid rgba(244,114,182,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Khavda Events Plot No.500, Meghpar, Adipur" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="events" data-name="Cheesy Events" data-type="Photography &amp; Events" data-location="Mangleshwar Nagar, Near Iscon Mandir, Adipur">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(244,114,182,0.1);border:1px solid rgba(244,114,182,0.2);color:#f472b6">📸</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(244,114,182,0.1);color:#f472b6; border: 1px solid rgba(244,114,182,0.2);">IDEA #14</span>
+        <button class="save-btn" type="button" data-business="Cheesy Events" aria-label="Save Cheesy Events">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Cheesy Events</div>
+    <div class="dir-card-cat">Photography &amp; Events</div>
+    <div class="dir-card-loc"><span>📍</span> Mangleshwar Nagar, Near Iscon Mandir, Adipur</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Event organizer lead near Iscon Mandir.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(244,114,182,0.1);color:#f472b6; border: 1px solid rgba(244,114,182,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Cheesy Events Mangleshwar Nagar, Near Iscon Mandir, Adipur" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="it-tech" data-name="Etrnity Solutions" data-type="Placement / IT" data-location="29, Sidheshwar Park, Meghpar-Kumbharani, Adipur">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(56,189,248,0.1);border:1px solid rgba(56,189,248,0.2);color:#38bdf8">💻</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2);">IDEA #15</span>
+        <button class="save-btn" type="button" data-business="Etrnity Solutions" aria-label="Save Etrnity Solutions">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Etrnity Solutions</div>
+    <div class="dir-card-cat">Placement / IT</div>
+    <div class="dir-card-loc"><span>📍</span> 29, Sidheshwar Park, Meghpar-Kumbharani, Adipur</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Manpower supplier and consultant serving staffing needs.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Etrnity Solutions 29, Sidheshwar Park, Meghpar-Kumbharani, Adipur" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="it-tech" data-name="Rightfithr Solutions" data-type="Placement / IT" data-location="4B, Rambag Road, Adipur">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(56,189,248,0.1);border:1px solid rgba(56,189,248,0.2);color:#38bdf8">💻</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2);">IDEA #15</span>
+        <button class="save-btn" type="button" data-business="Rightfithr Solutions" aria-label="Save Rightfithr Solutions">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Rightfithr Solutions</div>
+    <div class="dir-card-cat">Placement / IT</div>
+    <div class="dir-card-loc"><span>📍</span> 4B, Rambag Road, Adipur</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">HR policy and human resource consultant on Rambag Road.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Rightfithr Solutions 4B, Rambag Road, Adipur" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="salons" data-name="Sumit Collection" data-type="Salons &amp; Boutique" data-location="Near Sarda Vidya Mandir Primary School, Mithila 2, Shinay">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(192,132,252,0.1);border:1px solid rgba(192,132,252,0.2);color:#c084fc">✂️</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(192,132,252,0.1);color:#c084fc; border: 1px solid rgba(192,132,252,0.2);">IDEA #6</span>
+        <button class="save-btn" type="button" data-business="Sumit Collection" aria-label="Save Sumit Collection">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Sumit Collection</div>
+    <div class="dir-card-cat">Salons &amp; Boutique</div>
+    <div class="dir-card-loc"><span>📍</span> Near Sarda Vidya Mandir Primary School, Mithila 2, Shinay</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Boutique and fashion collection lead in Shinay.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(192,132,252,0.1);color:#c084fc; border: 1px solid rgba(192,132,252,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Sumit Collection Near Sarda Vidya Mandir Primary School, Mithila 2, Shinay" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="it-tech" data-name="Visanjhi Enterprise" data-type="Placement / IT" data-location="227 New Society, 1 Shinay Road, Shinay Kachchh">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(56,189,248,0.1);border:1px solid rgba(56,189,248,0.2);color:#38bdf8">💻</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2);">IDEA #7 &amp; #15</span>
+        <button class="save-btn" type="button" data-business="Visanjhi Enterprise" aria-label="Save Visanjhi Enterprise">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Visanjhi Enterprise</div>
+    <div class="dir-card-cat">Placement / IT</div>
+    <div class="dir-card-loc"><span>📍</span> 227 New Society, 1 Shinay Road, Shinay Kachchh</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Staffing and placement lead serving Shinay-area businesses.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Visanjhi Enterprise 227 New Society, 1 Shinay Road, Shinay Kachchh" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="it-tech" data-name="Ekankotri (Software Co.)" data-type="IT &amp; Tech" data-location="Ward Number 1, Shop No 1, Shinay">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(56,189,248,0.1);border:1px solid rgba(56,189,248,0.2);color:#38bdf8">💻</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2);">IDEA #8</span>
+        <button class="save-btn" type="button" data-business="Ekankotri (Software Co.)" aria-label="Save Ekankotri (Software Co.)">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Ekankotri (Software Co.)</div>
+    <div class="dir-card-cat">IT &amp; Tech</div>
+    <div class="dir-card-loc"><span>📍</span> Ward Number 1, Shop No 1, Shinay</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Software company lead in Ward Number 1.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(56,189,248,0.1);color:#38bdf8; border: 1px solid rgba(56,189,248,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Ekankotri (Software Co.) Ward Number 1, Shop No 1, Shinay" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="general" data-name="Shiv Sanket Blooming Lifestyle" data-type="General / Restaurant / Trades" data-location="Shinay">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(245,166,35,0.1);border:1px solid rgba(245,166,35,0.2);color:var(--accent)">🛍️</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(245,166,35,0.1);color:var(--accent); border: 1px solid rgba(245,166,35,0.2);">IDEA #11</span>
+        <button class="save-btn" type="button" data-business="Shiv Sanket Blooming Lifestyle" aria-label="Save Shiv Sanket Blooming Lifestyle">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Shiv Sanket Blooming Lifestyle</div>
+    <div class="dir-card-cat">General / Restaurant / Trades</div>
+    <div class="dir-card-loc"><span>📍</span> Shinay</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Construction and contractor business with local brand potential.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(245,166,35,0.1);color:var(--accent); border: 1px solid rgba(245,166,35,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Shiv Sanket Blooming Lifestyle Shinay" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="general" data-name="Shiv Fabrication" data-type="General / Restaurant / Trades" data-location="Shop No 11, Shinay, Antarjaal">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(245,166,35,0.1);border:1px solid rgba(245,166,35,0.2);color:var(--accent)">🛍️</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(245,166,35,0.1);color:var(--accent); border: 1px solid rgba(245,166,35,0.2);">IDEA #11</span>
+        <button class="save-btn" type="button" data-business="Shiv Fabrication" aria-label="Save Shiv Fabrication">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Shiv Fabrication</div>
+    <div class="dir-card-cat">General / Restaurant / Trades</div>
+    <div class="dir-card-loc"><span>📍</span> Shop No 11, Shinay, Antarjaal</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Fabrication and workshop lead in Antarjaal.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(245,166,35,0.1);color:var(--accent); border: 1px solid rgba(245,166,35,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Shiv Fabrication Shop No 11, Shinay, Antarjaal" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="general" data-name="Madhav Hardware" data-type="General / Restaurant / Trades" data-location="Sudamapuri Plot No 26, Antarjal Shinay Road">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(245,166,35,0.1);border:1px solid rgba(245,166,35,0.2);color:var(--accent)">🛍️</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(245,166,35,0.1);color:var(--accent); border: 1px solid rgba(245,166,35,0.2);">IDEA #11</span>
+        <button class="save-btn" type="button" data-business="Madhav Hardware" aria-label="Save Madhav Hardware">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Madhav Hardware</div>
+    <div class="dir-card-cat">General / Restaurant / Trades</div>
+    <div class="dir-card-loc"><span>📍</span> Sudamapuri Plot No 26, Antarjal Shinay Road</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Hardware supply lead on the Antarjal Shinay Road corridor.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(245,166,35,0.1);color:var(--accent); border: 1px solid rgba(245,166,35,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Madhav Hardware Sudamapuri Plot No 26, Antarjal Shinay Road" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="general" data-name="Shree Ram Hardware / Plumbers" data-type="General / Restaurant / Trades" data-location="Gurukrupa Complex, Adipur Sinay Road">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(245,166,35,0.1);border:1px solid rgba(245,166,35,0.2);color:var(--accent)">🛍️</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(245,166,35,0.1);color:var(--accent); border: 1px solid rgba(245,166,35,0.2);">IDEA #13</span>
+        <button class="save-btn" type="button" data-business="Shree Ram Hardware / Plumbers" aria-label="Save Shree Ram Hardware / Plumbers">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Shree Ram Hardware / Plumbers</div>
+    <div class="dir-card-cat">General / Restaurant / Trades</div>
+    <div class="dir-card-loc"><span>📍</span> Gurukrupa Complex, Adipur Sinay Road</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Hardware and plumbing service trade lead on the Adipur Shinay Road route.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(245,166,35,0.1);color:var(--accent); border: 1px solid rgba(245,166,35,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Shree Ram Hardware / Plumbers Gurukrupa Complex, Adipur Sinay Road" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="events" data-name="Navkar Events" data-type="Photography &amp; Events" data-location="Ward 3/B, Plot No 100, Shinay">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(244,114,182,0.1);border:1px solid rgba(244,114,182,0.2);color:#f472b6">📸</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(244,114,182,0.1);color:#f472b6; border: 1px solid rgba(244,114,182,0.2);">IDEA #14</span>
+        <button class="save-btn" type="button" data-business="Navkar Events" aria-label="Save Navkar Events">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Navkar Events</div>
+    <div class="dir-card-cat">Photography &amp; Events</div>
+    <div class="dir-card-loc"><span>📍</span> Ward 3/B, Plot No 100, Shinay</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Event organizer serving Shinay and nearby localities.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(244,114,182,0.1);color:#f472b6; border: 1px solid rgba(244,114,182,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Navkar Events Ward 3/B, Plot No 100, Shinay" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="events" data-name="BDH Party Lawns (Ramada By Wyndham)" data-type="Photography &amp; Events" data-location="Adipur Mundra Highway, Shinay">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(244,114,182,0.1);border:1px solid rgba(244,114,182,0.2);color:#f472b6">📸</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(244,114,182,0.1);color:#f472b6; border: 1px solid rgba(244,114,182,0.2);">IDEA #14</span>
+        <button class="save-btn" type="button" data-business="BDH Party Lawns (Ramada By Wyndham)" aria-label="Save BDH Party Lawns (Ramada By Wyndham)">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">BDH Party Lawns (Ramada By Wyndham)</div>
+    <div class="dir-card-cat">Photography &amp; Events</div>
+    <div class="dir-card-loc"><span>📍</span> Adipur Mundra Highway, Shinay</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Large-format party lawn and venue on the highway corridor.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(244,114,182,0.1);color:#f472b6; border: 1px solid rgba(244,114,182,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=BDH Party Lawns (Ramada By Wyndham) Adipur Mundra Highway, Shinay" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="dir-card" data-category="events" data-name="Ramada by Wyndham Gandhidham Shinay" data-type="Photography &amp; Events" data-location="Adipur Mundra Highway, Shinay">
+    <div class="dir-card-top">
+      <div class="dir-avatar" style="background:rgba(244,114,182,0.1);border:1px solid rgba(244,114,182,0.2);color:#f472b6">📸</div>
+      <div class="dir-card-meta">
+        <span class="dir-tag" style="background:rgba(244,114,182,0.1);color:#f472b6; border: 1px solid rgba(244,114,182,0.2);">IDEA #14</span>
+        <button class="save-btn" type="button" data-business="Ramada by Wyndham Gandhidham Shinay" aria-label="Save Ramada by Wyndham Gandhidham Shinay">☆</button>
+      </div>
+    </div>
+    <div class="dir-card-name">Ramada by Wyndham Gandhidham Shinay</div>
+    <div class="dir-card-cat">Photography &amp; Events</div>
+    <div class="dir-card-loc"><span>📍</span> Adipur Mundra Highway, Shinay</div>
+    <div class="dir-card-contact">📞 Contact details not listed</div>
+    <div class="dir-card-note">Emerald Room plus outdoor lawn venue with 1,000 guest capacity.</div>
+    <div class="dir-card-footer">
+      <button type="button" class="dir-tag claim-btn" style="background:rgba(244,114,182,0.1);color:#f472b6; border: 1px solid rgba(244,114,182,0.2); cursor: pointer; transition: 0.2s;">Claim Listing</button>
+      <div class="dir-card-actions">
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Ramada by Wyndham Gandhidham Shinay Adipur Mundra Highway, Shinay" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="directory-empty" id="directoryEmpty" hidden>No businesses found matching your criteria.</div>
 </section>
 
 <section class="templates-section">
@@ -139,6 +1304,6 @@
   </div>
 </div>
 
-<script src="/directory.js"></script>
+<script src="./directory.js"></script>
 </body>
 </html>
