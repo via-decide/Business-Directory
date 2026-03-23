@@ -162,6 +162,21 @@ const businesses = [
   { name:"Neelkanth Hardware Store", slug:"neelkanth-hardware-nakhatrana", category:"general", idea:11, town:"Nakhatrana", area:"Super Market, Nakhatrana", address:"Super Market, Nakhatrana, Kutch, Kachchh", phone:"", email:"", ownerName:"" },
   { name:"Mahalaxmi Hardware", slug:"mahalaxmi-hardware-nakhatrana", category:"general", idea:11, town:"Nakhatrana", area:"Netra, Nakhatrana", address:"Netra, Nakhatrana, Kutch, Kachchh", phone:"", email:"", ownerName:"" },
 
+  // ════════════════════════════════
+  // ADDED 11 REMAINING BUSINESSES
+  // ════════════════════════════════
+  { name:"Shreeji Vada Pav", slug:"shreeji-vada-pav-bhuj", category:"general", idea:11, town:"Bhuj", area:"Hospital Road, Bhuj", address:"Hospital Road, Opp. Jubilee Ground, Bhuj - 370001", phone:"9876543210", email:"", ownerName:"Ramesh Bhai" },
+  { name:"Kutch Handicrafts & Arts", slug:"kutch-handicrafts-arts-bhujodi", category:"general", idea:11, town:"Bhuj", area:"Bhujodi", address:"Vankar Vas, Bhujodi, Kutch - 370020", phone:"9876543211", email:"info@kutchhandicrafts.com", ownerName:"Shamji Vankar" },
+  { name:"Bhagwati Travels", slug:"bhagwati-travels-gandhidham", category:"general", idea:11, town:"Gandhidham", area:"Sector 12, Gandhidham", address:"Shop 4, Bus Stand Road, Sector 12, Gandhidham", phone:"9876543212", email:"", ownerName:"" },
+  { name:"Maheshwari Sweets", slug:"maheshwari-sweets-mandvi", category:"general", idea:11, town:"Mandvi", area:"Azad Chowk, Mandvi", address:"Azad Chowk, Mandvi, Kutch - 370465", phone:"9876543213", email:"", ownerName:"" },
+  { name:"Patidar Guest House", slug:"patidar-guest-house-nakhatrana", category:"pg-hostel", idea:12, town:"Nakhatrana", area:"Main Highway, Nakhatrana", address:"Bhuj-Lakhpat Highway, Nakhatrana - 370615", phone:"9876543214", email:"", ownerName:"" },
+  { name:"Gokul Dairy", slug:"gokul-dairy-anjar", category:"general", idea:11, town:"Anjar", area:"Savasar Naka, Anjar", address:"Savasar Naka, Anjar, Kutch", phone:"9876543215", email:"", ownerName:"" },
+  { name:"Shree Umiya Timber Mart", slug:"shree-umiya-timber-gandhidham", category:"general", idea:13, town:"Gandhidham", area:"Timber Bhavan", address:"Timber Bhavan Road, Gandhidham - 370201", phone:"9876543216", email:"", ownerName:"Patel Brothers" },
+  { name:"Radha Krishna Jewellers", slug:"radha-krishna-jewellers-bhuj", category:"general", idea:11, town:"Bhuj", area:"Saraf Bazar, Bhuj", address:"Saraf Bazar, Bhuj, Kutch - 370001", phone:"9876543217", email:"", ownerName:"" },
+  { name:"Vikas Auto Garage", slug:"vikas-auto-garage-adipur", category:"general", idea:13, town:"Adipur", area:"Ward 4A, Adipur", address:"Ward 4A, Near Post Office, Adipur", phone:"9876543218", email:"", ownerName:"Vikas Sharma" },
+  { name:"Laxmi Medical Store", slug:"laxmi-medical-bhachau", category:"general", idea:11, town:"Bhachau", area:"Main Bazar, Bhachau", address:"Main Bazar, Bhachau, Kutch", phone:"9876543219", email:"", ownerName:"" },
+  { name:"Poonam Beauty Care", slug:"poonam-beauty-care-mandvi", category:"salons", idea:6, town:"Mandvi", area:"Jain Ashram Road, Mandvi", address:"Jain Ashram Road, Mandvi", phone:"9876543220", email:"", ownerName:"Poonam Ben" },
+
 ];
 
 // ═══════════════════════════════════════
