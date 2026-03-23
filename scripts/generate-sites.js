@@ -60,9 +60,39 @@ const rawBusinesses = [
   { name: 'Ramada by Wyndham Gandhidham', slug: 'ramada-wyndham-shinay', category: 'events', idea: 14, area: 'Adipur Mundra Highway, Shinay', address: 'Adipur Mundra Highway, Shinay - 370205', phone: '', email: '', town: 'Shinay' },
   { name: 'Narayan Infotech', slug: 'narayan-infotech-anjar', category: 'it-tech', idea: 8, area: 'Ravechi Circle, Anjar', address: '1st Floor, Shivam Complex, Near Ravechi Circle, Anjar - 370110', phone: '', email: '', town: 'Anjar', note: 'Anjar technology-services lead added to expand town coverage in the directory.' },
   { name: 'Bhachau Guest House', slug: 'bhachau-guest-house', category: 'pg-hostel', idea: 12, area: 'Station Road, Bhachau', address: 'Plot No.12, Station Road, Bhachau - 370140', phone: '', email: '', town: 'Bhachau', note: 'Bhachau accommodation listing added to broaden the district-wide directory rollout.' },
+  { name: 'The Fab Tales', slug: 'the-fab-tales-bhuj', category: 'salons', idea: 6, town: 'Bhuj', area: 'Sanskar Nagar, Bhuj', address: 'Mangalam Ground Floor, Sanskar Nagar, Bhuj, Kachchh', phone: '', email: '', ownerName: '' },
+  { name: 'White Hair Care', slug: 'white-hair-care-bhuj', category: 'salons', idea: 6, town: 'Bhuj', area: 'Ghanshyam Nagar, Bhuj', address: 'Near Anand Hotel, Ghanshyam Nagar, Bhuj, Kachchh', phone: '', email: '', ownerName: '' },
+  { name: 'Gems Hairs Studio', slug: 'gems-hairs-studio-bhuj', category: 'salons', idea: 6, town: 'Bhuj', area: 'Din Dayal Nagar, Bhuj', address: 'Hospital Road, Din Dayal Nagar, Bhuj, Kachchh', phone: '', email: '', ownerName: '' },
+  { name: 'Urdhvaga Consultancy', slug: 'urdhvaga-consultancy-bhuj', category: 'it-tech', idea: 7, town: 'Bhuj', area: 'Ashapura Ring Road, Bhuj', address: 'Katira Shopping Center, Ashapura Ring Road, Bhuj, Kachchh', phone: '', email: '', ownerName: '' },
+  { name: 'Vinay Manpower Consultant', slug: 'vinay-manpower-consultant-bhuj', category: 'it-tech', idea: 7, town: 'Bhuj', area: 'Mirjapar, Bhuj', address: 'Bhuj Sukhpar Highway, Mirjapar, Bhuj, Kachchh', phone: '', email: '', ownerName: '' },
+  { name: 'Arkay HR Consultancy', slug: 'arkay-hr-consultancy-bhuj', category: 'it-tech', idea: 7, town: 'Bhuj', area: 'Bhuj', address: 'Bhuj, Kachchh', phone: '', email: '', ownerName: '' },
+  { name: 'CodelyHut Infotech', slug: 'codelyhut-infotech-bhuj', category: 'it-tech', idea: 8, town: 'Bhuj', area: 'New Station Road, Bhuj', address: 'Parasmani Appartment, New Station Road, Bhuj, Kachchh', phone: '', email: '', ownerName: '' },
+  { name: 'WRTeam', slug: 'wrteam-bhuj', category: 'it-tech', idea: 8, town: 'Bhuj', area: 'Mirjapar Highway, Bhuj', address: 'Time Square Empire, Mirjapar Highway, Bhuj, Kachchh', phone: '', email: '', ownerName: '' },
+  { name: 'Skyline Softech Solution', slug: 'skyline-softech-bhujpur', category: 'it-tech', idea: 8, town: 'Bhuj', area: 'Station Road, Bhujpur', address: 'Station Road, Bhujpur, Kutch, Kachchh', phone: '', email: '', ownerName: '' },
+  { name: 'Deep Koradia & Associates', slug: 'deep-koradia-associates-bhuj', category: 'cas', idea: 9, town: 'Bhuj', area: 'Bhanushali Nagar, Bhuj', address: 'Platinum One, Bhanushali Nagar, Bhuj, Kachchh', phone: '', email: '', ownerName: 'Deep Koradia' },
+  { name: 'Pandit Vora & Associates', slug: 'pandit-vora-associates-bhuj', category: 'cas', idea: 9, town: 'Bhuj', area: 'Station Road, Bhuj', address: 'Krishna Chambers, Station Road, Bhuj, Kachchh', phone: '', email: '', ownerName: '' },
+  { name: 'KMG CO LLP', slug: 'kmg-co-llp-bhuj', category: 'cas', idea: 9, town: 'Bhuj', area: 'Bhuj', address: 'Bhuj, Kachchh', phone: '', email: '', ownerName: '' },
+  { name: 'Jitendra Thacker And Associates', slug: 'jitendra-thacker-associates-bhuj', category: 'cas', idea: 9, town: 'Bhuj', area: 'New Station Road, Bhuj', address: 'Happy Commercial Center, New Station Road, Bhuj, Kachchh', phone: '', email: '', ownerName: 'Jitendra Thacker' },
+  { name: 'Bird Eye Production', slug: 'bird-eye-production-bhuj', category: 'events', idea: 10, town: 'Bhuj', area: 'Mirzapur Main Bazar, Bhuj', address: 'Main Bazar, Mirzapur, Bhuj, Kachchh', phone: '', email: '', ownerName: '' },
+  { name: 'Bhavin Patadiya Photography', slug: 'bhavin-patadiya-photography-bhuj', category: 'events', idea: 10, town: 'Bhuj', area: 'Lakhond, Bhuj', address: 'Main Bazar, Lakhond, Bhuj, Kachchh', phone: '', email: '', ownerName: 'Bhavin Patadiya' },
+  { name: 'Sahara Photo & Video', slug: 'sahara-photo-video-bhuj', category: 'events', idea: 10, town: 'Bhuj', area: 'Sonivad, Bhuj', address: 'Flore Tariq Complex, Sonivad, Bhuj, Kachchh', phone: '', email: '', ownerName: '', estYear: '2002' },
+  { name: 'Bhujodi Kala Cotton', slug: 'bhujodi-kala-cotton-bhujodi', category: 'general', idea: 11, town: 'Bhuj', area: 'Bhujodi, Kutch', address: 'Bhujodi, Kutch, Kachchh', phone: '', email: '', ownerName: '' },
+  { name: 'Apna Adda', slug: 'apna-adda-bhuj', category: 'general', idea: 11, town: 'Bhuj', area: 'Airport Road, Bhuj', address: 'The Katira Complex, Airport Road, Bhuj, Kachchh', phone: '', email: '', ownerName: '' },
+  { name: 'Diamond PG', slug: 'diamond-pg-bhuj', category: 'pg-hostel', idea: 12, town: 'Bhuj', area: 'Bhuj', address: 'Bhuj, Kachchh', phone: '', email: '', ownerName: '' },
+  { name: 'Sweet Home Hostel', slug: 'sweet-home-hostel-bhuj', category: 'pg-hostel', idea: 12, town: 'Bhuj', area: 'Sahyognagar, Bhuj', address: 'Opposite Engineering College, Sahyognagar, Bhuj, Kachchh', phone: '', email: '', ownerName: '' },
+  { name: 'Bhimratna Samras Boys Hostel', slug: 'bhimratna-samras-hostel-bhuj', category: 'pg-hostel', idea: 12, town: 'Bhuj', area: 'Mirjapar, Bhuj', address: 'Sahjanand Nagar, Mirjapar, Bhuj, Kachchh', phone: '', email: '', ownerName: '' },
+  { name: 'Hari Om Electric & AC Service', slug: 'hari-om-electric-ac-bhuj', category: 'general', idea: 13, town: 'Bhuj', area: 'Mirzapar Road, Bhuj', address: 'Odhavkrupa Apartment, Mirzapar Road, Bhuj, Kachchh', phone: '', email: '', ownerName: '' },
+  { name: 'Mitesh House Maintenance', slug: 'mitesh-house-maintenance-bhuj', category: 'general', idea: 13, town: 'Bhuj', area: 'New Bhuj', address: 'New Bhuj, Kachchh', phone: '', email: '', ownerName: 'Mitesh' },
+  { name: 'Mehran Plumbing Services', slug: 'mehran-plumbing-services-bhuj', category: 'general', idea: 13, town: 'Bhuj', area: 'Mankuwa, Bhuj', address: 'Near Patel Ice Candy, Bhuj Nakhatrana Road, Mankuwa, Kachchh', phone: '', email: '', ownerName: '' },
+  { name: 'Time Square Resort & Spa', slug: 'time-square-resort-bhuj', category: 'events', idea: 14, town: 'Bhuj', area: 'Bhuj-Mundra Road, Bhuj', address: 'Bhuj-Mundra Road, Bhuj, Kachchh', phone: '', email: '', ownerName: '' },
+  { name: 'Seven Sky Clarks Exotica', slug: 'seven-sky-clarks-exotica-bhuj', category: 'events', idea: 14, town: 'Bhuj', area: 'Airport Road, Bhuj', address: 'Airport Road, Bhuj, Kachchh', phone: '', email: '', ownerName: '' },
+  { name: 'STAR Sound & DJ & Lights', slug: 'star-sound-dj-lights-bhuj', category: 'events', idea: 14, town: 'Bhuj', area: 'Kukma, Bhuj', address: 'Padheda Vistar, Kukma, Bhuj, Kachchh', phone: '', email: '', ownerName: '' },
+  { name: 'Veeha Boutique', slug: 'veeha-boutique-mandvi', category: 'salons', idea: 6, town: 'Mandvi', area: 'Babavadi Road, Mandvi', address: 'Babavadi Road, Mandvi, Kachchh', phone: '', email: '', ownerName: '' },
+  { name: 'Neelkanth Hardware Store', slug: 'neelkanth-hardware-nakhatrana', category: 'general', idea: 11, town: 'Nakhatrana', area: 'Super Market, Nakhatrana', address: 'Super Market, Nakhatrana, Kutch, Kachchh', phone: '', email: '', ownerName: '' },
+  { name: 'Mahalaxmi Hardware', slug: 'mahalaxmi-hardware-nakhatrana', category: 'general', idea: 11, town: 'Nakhatrana', area: 'Netra, Nakhatrana', address: 'Netra, Nakhatrana, Kutch, Kachchh', phone: '', email: '', ownerName: '' },
 ];
 
-const knownTowns = ['Gandhidham', 'Adipur', 'Shinay', 'Anjar', 'Bhachau'];
+const knownTowns = ['Gandhidham', 'Adipur', 'Shinay', 'Anjar', 'Bhachau', 'Bhuj', 'Mandvi', 'Nakhatrana'];
 
 function inferTown(business) {
   const source = `${business.town || ''} ${business.area || ''} ${business.address || ''}`.toLowerCase();
@@ -122,6 +152,21 @@ function getAreaSummary(business) {
   return business.area.toLowerCase().includes(business.town.toLowerCase())
     ? business.area
     : `${business.area}, ${business.town}`;
+}
+
+function getIdeaLabel(idea) {
+  return {
+    6: 'Caption Generator',
+    7: 'AI Resume Builder',
+    8: 'Email Outreach',
+    9: 'Expense Tracker',
+    10: 'Mini CRM',
+    11: 'Business Directory',
+    12: 'PG Listing',
+    13: 'Review Tool',
+    14: 'Event Ticketing',
+    15: 'Job Board',
+  }[idea] || 'Business Tool';
 }
 
 function getFeaturePreview(business, meta) {
@@ -647,27 +692,39 @@ function getDirectoryContactAction(business, style) {
   return '';
 }
 
+function getDirectoryContactMarkup(business) {
+  if (business.phone) {
+    return `<a href="tel:${escapeHtml(business.phone)}" class="inline-link">${escapeHtml(business.phone)}</a>`;
+  }
+  if (business.email) {
+    return `<a href="mailto:${escapeHtml(business.email)}" class="inline-link">${escapeHtml(business.email)}</a>`;
+  }
+  return '<span style="color:#666">Contact via directory</span>';
+}
+
 function buildIndexCard(business) {
   const style = getIndexStyle(business.category);
   const categoryLabel = prettyCategory(business.category);
   const displayName = getDirectoryDisplayName(business);
-  const contact = business.phone ? `📞 ${business.phone}` : business.email ? `✉️ ${business.email}` : '📞 Contact details not listed';
+  const contact = getDirectoryContactMarkup(business);
   const note = business.note || (business.ownerName ? `Owner: ${business.ownerName}.` : `${categoryLabel} lead in ${getAreaSummary(business)}.`);
   const mapUrl = getMapUrl(business.address);
   const contactAction = getDirectoryContactAction(business, style);
+  const ideaLabel = getIdeaLabel(business.idea);
 
   return `  <div class="dir-card" data-category="${escapeHtml(business.category)}" data-name="${escapeHtml(displayName)}" data-town="${escapeHtml(business.town)}" data-type="${escapeHtml(categoryLabel)}" data-location="${escapeHtml(business.address)}">
     <div class="dir-card-top">
       <div class="dir-avatar" style="background:${style.bg};border:1px solid ${style.border};color:${style.color}">${style.emoji}</div>
       <div class="dir-card-meta">
-        <span class="dir-tag" style="background:${style.bg};color:${style.color}; border: 1px solid ${style.border};">${escapeHtml(business.town)} · IDEA #${escapeHtml(business.idea)}</span>
+        <span class="dir-tag saas-tag" style="background:${style.bg};color:${style.color}; border: 1px solid ${style.border};">#${escapeHtml(business.idea)} ${escapeHtml(ideaLabel)}</span>
+        <span class="dir-tag town-tag" style="background:${style.bg};color:${style.color}; border: 1px solid ${style.border};">${escapeHtml(business.town)}</span>
         <button class="save-btn" type="button" data-business="${escapeHtml(displayName)}" aria-label="Save ${escapeHtml(displayName)}">☆</button>
       </div>
     </div>
-    <div class="dir-card-name">${escapeHtml(displayName)}</div>
+    <h3 class="business-name dir-card-name">${escapeHtml(displayName)}</h3>
     <div class="dir-card-cat">${escapeHtml(`${categoryLabel} · ${business.town}`)}</div>
-    <div class="dir-card-loc"><span>📍</span> ${escapeHtml(business.address)}</div>
-    <div class="dir-card-contact">${escapeHtml(contact)}</div>
+    <p class="business-location dir-card-loc"><span>📍</span> ${escapeHtml(business.address)}</p>
+    <div class="dir-card-contact">${contact}</div>
     <div class="dir-card-note">${escapeHtml(note)}</div>
     <div class="dir-card-footer">
       <button type="button" class="dir-tag claim-btn" style="background:${style.bg};color:${style.color}; border: 1px solid ${style.border}; cursor: pointer; transition: 0.2s;">Claim Listing</button>
@@ -683,6 +740,18 @@ function buildIndexCard(business) {
 function buildDirectoryGrid() {
   const cards = businesses.map((business) => buildIndexCard(business)).join('\n');
   return `<section class="directory" id="directoryGrid">\n${cards}\n  <div class="directory-empty" id="directoryEmpty" hidden>No businesses found matching your criteria.</div>\n</section>`;
+}
+
+function validateUniqueSlugs(items) {
+  const seen = new Set();
+  const duplicates = [];
+  items.forEach((item) => {
+    if (seen.has(item.slug)) duplicates.push(item.slug);
+    seen.add(item.slug);
+  });
+  if (duplicates.length) {
+    throw new Error(`Duplicate slugs detected: ${duplicates.join(', ')}`);
+  }
 }
 
 function updateIndexHtml(indexHtml) {
@@ -702,20 +771,36 @@ function writeOutputs() {
   const indexPath = path.join(repoRoot, 'index.html');
   const businessesPath = path.join(repoRoot, 'businesses.json');
 
+  validateUniqueSlugs(businesses);
+
   fs.mkdirSync(sitesDir, { recursive: true });
   fs.mkdirSync(templatesDir, { recursive: true });
 
+  let generatedCount = 0;
+  let skippedCount = 0;
+
   businesses.forEach((business) => {
     const html = generateHTML(business);
-    fs.writeFileSync(path.join(sitesDir, `${business.slug}.html`), html);
+    const outputPath = path.join(sitesDir, `${business.slug}.html`);
+    if (fs.existsSync(outputPath)) {
+      skippedCount += 1;
+      return;
+    }
+    fs.writeFileSync(outputPath, html);
+    generatedCount += 1;
   });
 
   const sitemap = businesses.map((business) => ({
     slug: business.slug,
     name: business.name,
+    idea: business.idea,
     town: business.town,
     category: business.category,
     area: business.area,
+    address: business.address,
+    phone: business.phone,
+    email: business.email,
+    ownerName: business.ownerName || '',
     url: `./sites/${business.slug}.html`,
   }));
 
@@ -746,7 +831,9 @@ function writeOutputs() {
   const indexHtml = fs.readFileSync(indexPath, 'utf8');
   fs.writeFileSync(indexPath, updateIndexHtml(indexHtml));
 
-  console.log(`✅ Generated ${businesses.length} business sites → /sites/`);
+  console.log(`✅ Generated ${generatedCount} new sites → /sites/`);
+  console.log(`⏭  Skipped ${skippedCount} existing sites`);
+  console.log(`📄 Updated sites/index.json — total: ${sitemap.length} entries`);
 }
 
 writeOutputs();

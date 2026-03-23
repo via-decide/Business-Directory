@@ -1,5 +1,6 @@
 let savedBusinesses = JSON.parse(localStorage.getItem('kutchmap_saved')) || [];
 let currentFilter = 'all';
+let currentTown = 'all';
 let searchQuery = '';
 
 function getCards() {
@@ -8,6 +9,10 @@ function getCards() {
 
 function getCardName(card) {
   return card.dataset.name || '';
+}
+
+function getCardTown(card) {
+  return card.dataset.town || '';
 }
 
 function updateSavedButtons(cards = getCards()) {
@@ -59,6 +64,11 @@ function matchesFilter(card) {
   return card.dataset.category === currentFilter;
 }
 
+function matchesTown(card) {
+  if (currentTown === 'all') return true;
+  return getCardTown(card) === currentTown;
+}
+
 function matchesSearch(card) {
   if (!searchQuery) return true;
   return card.textContent.toLowerCase().includes(searchQuery);
@@ -70,7 +80,7 @@ function render() {
   let visibleCount = 0;
 
   cards.forEach((card) => {
-    const isVisible = matchesFilter(card) && matchesSearch(card);
+    const isVisible = matchesFilter(card) && matchesTown(card) && matchesSearch(card);
     card.style.display = isVisible ? 'flex' : 'none';
     if (isVisible) visibleCount += 1;
   });
@@ -86,6 +96,17 @@ function bindFilterButtons() {
       document.querySelectorAll('.filter-btn').forEach((btn) => btn.classList.remove('active'));
       button.classList.add('active');
       currentFilter = button.dataset.cat;
+      render();
+    });
+  });
+}
+
+function bindTownButtons() {
+  document.querySelectorAll('.town-btn').forEach((button) => {
+    button.addEventListener('click', () => {
+      document.querySelectorAll('.town-btn').forEach((btn) => btn.classList.remove('active'));
+      button.classList.add('active');
+      currentTown = button.dataset.town || 'all';
       render();
     });
   });
@@ -144,6 +165,7 @@ function init() {
   updateSavedButtons(cards);
   updateFilterCounts(cards);
   bindFilterButtons();
+  bindTownButtons();
   bindSearch();
   bindSaveButtons();
   bindClaimButtons();
