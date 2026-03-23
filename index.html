@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Viadecide Gandhidham — Local Discovery Engine</title>
+<title>Kutch Digital Map — Local Discovery Engine</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Mono:wght@400;500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
 <style>
   :root {
-    --bg: #0a0a08; --surface: #111110; --border: #252520;
+    --bg: #0a0a08; --surface: #111110; --surface2: #1a1a17; --border: #252520;
     --text: #e8e6df; --muted: #6b6960; --accent: #f5a623;
     --accent2: #e8503a; --green: #4ade80;
     --serif: 'Playfair Display', serif; --mono: 'DM Mono', monospace; --sans: 'Outfit', sans-serif;
@@ -32,13 +32,33 @@
 
   /* Directory Grid */
   .directory { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1px; background: var(--border); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
-  .biz-card { background: var(--bg); padding: 32px; transition: 0.3s; position: relative; }
-  .biz-card:hover { background: var(--surface); }
-  .biz-cat { font-family: var(--mono); font-size: 10px; color: var(--accent); letter-spacing: 1px; margin-bottom: 8px; }
-  .biz-name { font-family: var(--serif); font-size: 22px; margin-bottom: 12px; }
-  .biz-loc { font-size: 13px; color: var(--muted); margin-bottom: 20px; display: flex; align-items: center; gap: 6px; }
-  .biz-btn { font-family: var(--mono); font-size: 11px; padding: 10px 20px; border: 1px solid var(--border); color: var(--text); text-decoration: none; display: inline-block; transition: 0.2s; }
-  .biz-btn:hover { border-color: var(--accent); color: var(--accent); }
+  
+  /* Directory Card Styles */
+  .dir-card { background: var(--bg); padding: 32px; transition: 0.3s; position: relative; display: flex; flex-direction: column; }
+  .dir-card:hover { background: var(--surface); }
+  .dir-card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; }
+  .dir-avatar { width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 20px; }
+  .dir-card-name { font-family: var(--serif); font-size: 22px; margin-bottom: 8px; line-height: 1.2; }
+  .dir-card-cat { font-family: var(--mono); font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+  .dir-card-loc { font-size: 13px; color: var(--muted); display: flex; align-items: center; gap: 6px; flex-grow: 1; }
+  .dir-card-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--border); }
+  .dir-tag { font-family: var(--mono); font-size: 10px; padding: 6px 12px; border-radius: 100px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .dir-website-btn { font-family: var(--mono); font-size: 11px; padding: 8px 16px; border: 1px solid var(--border); background: transparent; color: var(--text); text-decoration: none; border-radius: 2px; transition: 0.2s; text-transform: uppercase; }
+  .dir-website-btn:hover { background: var(--surface2); }
+
+  /* Templates Section */
+  .templates-section { padding: 80px 48px; border-bottom: 1px solid var(--border); }
+  .section-header { margin-bottom: 40px; }
+  .section-title { font-family: var(--serif); font-size: 32px; margin-bottom: 12px; }
+  .section-desc { color: var(--muted); font-size: 16px; max-width: 600px; }
+  
+  .template-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
+  .template-card { background: var(--surface); border: 1px solid var(--border); padding: 24px; border-radius: 4px; transition: 0.3s; }
+  .template-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+  .template-img { width: 100%; height: 160px; background: var(--surface2); border: 1px solid var(--border); margin-bottom: 20px; border-radius: 2px; display: flex; align-items: center; justify-content: center; font-family: var(--mono); color: var(--muted); font-size: 12px; }
+  .template-title { font-family: var(--serif); font-size: 20px; margin-bottom: 8px; }
+  .template-desc { font-size: 14px; color: var(--muted); margin-bottom: 20px; }
+  .template-link { font-family: var(--mono); font-size: 11px; color: var(--accent); text-decoration: none; text-transform: uppercase; letter-spacing: 1px; }
 
   /* ONDC Style Modal */
   .modal { position: fixed; inset: 0; background: rgba(0,0,0,0.9); z-index: 1000; display: none; align-items: center; justify-content: center; padding: 20px; }
@@ -47,7 +67,7 @@
   input { width: 100%; padding: 12px; background: var(--bg); border: 1px solid var(--border); color: #fff; margin-bottom: 20px; font-family: var(--mono); }
   .action-btn { background: var(--accent); color: #000; padding: 12px 24px; border: none; font-weight: 700; cursor: pointer; width: 100%; font-family: var(--mono); }
 
-  @media (max-width: 768px) { nav, .filter-bar { padding: 20px; } }
+  @media (max-width: 768px) { nav, .filter-bar, .templates-section, header { padding: 20px; } }
 </style>
 </head>
 <body>
@@ -55,15 +75,15 @@
 <div class="grain"></div>
 
 <nav>
-  <a href="#" class="logo">Via<span>decide</span></a>
-  <div style="font-family: var(--mono); font-size: 11px; color: var(--muted);">GANDHIDHAM DIRECTORY v1.0</div>
+  <a href="#" class="logo">Kutch<span>DigitalMap</span></a>
+  <div style="font-family: var(--mono); font-size: 11px; color: var(--muted);">KUTCH DIRECTORY v1.0</div>
 </nav>
 
 <header style="padding: 80px 48px; position: relative; overflow: hidden; border-bottom: 1px solid var(--border);">
   <div class="hero-grid"></div>
   <div style="position: relative; z-index: 1;">
-    <h1 style="font-family: var(--serif); font-size: clamp(40px, 8vw, 80px); line-height: 1; margin-bottom: 20px;">Gandhidham<br><em style="color: var(--accent);">Digital Map.</em></h1>
-    <p style="max-width: 500px; color: var(--muted); font-size: 18px; font-weight: 300;">14 local businesses ready for a digital upgrade. Open-source, commission-free, community-driven.</p>
+    <h1 style="font-family: var(--serif); font-size: clamp(40px, 8vw, 80px); line-height: 1; margin-bottom: 20px;">Kutch<br><em style="color: var(--accent);">Digital Map.</em></h1>
+    <p style="max-width: 500px; color: var(--muted); font-size: 18px; font-weight: 300;">Discover local businesses in Kutch. A community-driven directory to help you find the best services around you.</p>
   </div>
 </header>
 
@@ -82,12 +102,39 @@
   <!-- Dynamic Content Injected Here -->
 </section>
 
+<section class="templates-section">
+  <div class="section-header">
+    <h2 class="section-title">Website Templates</h2>
+    <p class="section-desc">Explore our collection of minimal, high-performance website templates designed specifically for local businesses in Kutch.</p>
+  </div>
+  <div class="template-grid">
+    <div class="template-card">
+      <div class="template-img">[ Salon Preview ]</div>
+      <h3 class="template-title">The Boutique</h3>
+      <p class="template-desc">Elegant and clean design perfect for salons, spas, and boutique stores.</p>
+      <a href="/templates/salon.html" class="template-link">View Template →</a>
+    </div>
+    <div class="template-card">
+      <div class="template-img">[ Finance Preview ]</div>
+      <h3 class="template-title">The Firm</h3>
+      <p class="template-desc">Professional and trustworthy layout for CAs, lawyers, and consultants.</p>
+      <a href="/templates/finance.html" class="template-link">View Template →</a>
+    </div>
+    <div class="template-card">
+      <div class="template-img">[ Creative Preview ]</div>
+      <h3 class="template-title">The Studio</h3>
+      <p class="template-desc">Portfolio-first design for photographers, event planners, and artists.</p>
+      <a href="/templates/creative.html" class="template-link">View Template →</a>
+    </div>
+  </div>
+</section>
+
 <div class="modal" id="claimModal">
   <div class="modal-content">
-    <h2>Claim Listing</h2>
-    <p style="font-size: 14px; color: var(--muted); margin-bottom: 20px;">To verify ownership, please enter your business registration UTR or contact code.</p>
-    <input type="text" id="utrInput" placeholder="Enter 12-digit UTR Code">
-    <button class="action-btn" onclick="verifyUTR()">Verify & Connect</button>
+    <h2>Claim Your Listing</h2>
+    <p style="font-size: 14px; color: var(--muted); margin-bottom: 20px;">To verify ownership and update your business details, please enter your 12-digit UTR code.</p>
+    <input type="text" id="claimInput" placeholder="Enter 12-digit UTR Code">
+    <button class="action-btn" onclick="verifyClaim()">Verify & Connect</button>
     <button onclick="closeModal()" style="background: none; border: none; color: var(--muted); margin-top: 15px; cursor: pointer; width: 100%; font-family: var(--mono); font-size: 10px;">CANCEL</button>
   </div>
 </div>
