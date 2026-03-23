@@ -56,8 +56,12 @@ function delay(ms) {
       const b = businesses[i];
       const bizDir = path.join(imgDir, b.slug);
       
-      if (fs.existsSync(bizDir) && fs.readdirSync(bizDir).length >= 1) {
-          console.log(`[${i+1}/${businesses.length}] Skipping ${b.name}`);
+      const aboutPath = path.join(bizDir, 'about.txt');
+      const hasPhotos = fs.existsSync(bizDir) && fs.readdirSync(bizDir).filter(f => f.endsWith('.jpg')).length >= 1;
+      const hasAbout = fs.existsSync(aboutPath);
+
+      if (hasPhotos && hasAbout) {
+          console.log(`[${i+1}/${businesses.length}] Skipping ${b.name} (Photos & About exist)`);
           continue;
       }
 
@@ -75,10 +79,9 @@ function delay(ms) {
         await delay(3000);
 
         // Extract any image source that looks like a photo
-        const imgUrls = await page.evaluate(() => {
+        const result = await page.evaluate(() => {
+          // 1. Get Images
           const sources = Array.from(document.querySelectorAll('img')).map(img => img.src);
-          
-          // Also check background images
           const bgs = Array.from(document.querySelectorAll('div, button, a'))
               .map(el => {
                   const bg = el.style.backgroundImage;
@@ -90,23 +93,47 @@ function delay(ms) {
               })
               .filter(u => !!u);
 
-          const all = [...sources, ...bgs];
-          
-          return Array.from(new Set(all))
+          const allImgs = [...sources, ...bgs];
+          const filteredImgs = Array.from(new Set(allImgs))
               .filter(src => src.includes('googleusercontent.com'))
-              .filter(src => !src.includes('streetview')) // avoid streetview icons
-              .filter(src => src.length > 50) // filter out small icons/scripts
+              .filter(src => !src.includes('streetview'))
+              .filter(src => src.length > 50)
               .slice(0, 5);
+
+          // 2. Get Description (About)
+          // Look for "From the owner" or editorial summaries
+          const selectors = [
+            'div.PYvSYb', // "From the owner" content
+            'div.fontBodyMedium', // General body text that might contain summary
+            'div.we7oDe', // Editorial summary
+            'div.w896Jd' // Alternative description container
+          ];
+          
+          let description = '';
+          for (const selector of selectors) {
+            const el = document.querySelector(selector);
+            if (el && el.innerText.length > 30) {
+              description = el.innerText.trim();
+              break;
+            }
+          }
+
+          return { images: filteredImgs, about: description };
         });
 
-        if (imgUrls.length > 0) {
-          console.log(`   Found ${imgUrls.length} image sources. Downloading...`);
-          for (let j = 0; j < imgUrls.length; j++) {
+        if (result.images.length > 0) {
+          console.log(`   Found ${result.images.length} image sources. Downloading...`);
+          for (let j = 0; j < result.images.length; j++) {
               const dest = path.join(bizDir, `photo_${j+1}.jpg`);
-              await downloadImage(imgUrls[j], dest);
+              await downloadImage(result.images[j], dest);
           }
+        }
+
+        if (result.about) {
+          console.log(`   Found description (${result.about.substring(0, 50)}...). Saving...`);
+          fs.writeFileSync(path.join(bizDir, 'about.txt'), result.about);
         } else {
-          console.log('   No photos found.');
+          console.log('   No description found.');
         }
       } catch (err) {
         console.error(`   Error scraping ${b.name}:`, err.message);

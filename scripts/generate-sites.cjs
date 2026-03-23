@@ -209,13 +209,19 @@ function generateMicrositeHtml(b) {
   const estRow = b.estYear ? `<div class="info-row est-row">📅 Est. ${b.estYear}</div>` : '';
   const mapUrl = `https://maps.google.com/?q=${encodeURIComponent(b.address)}`;
   
-  // Look for downloaded photos
+  // Look for downloaded photos and about info
   const bizDir = path.join(__dirname, '..', 'sites', 'assets', b.slug);
   let photos = [];
+  let aboutText = '';
   if (fs.existsSync(bizDir)) {
       try {
           photos = fs.readdirSync(bizDir).filter(f => f.endsWith('.jpg') && fs.statSync(path.join(bizDir, f)).size > 1000);
           photos = photos.map(f => `assets/${b.slug}/${f}`);
+          
+          const aboutPath = path.join(bizDir, 'about.txt');
+          if (fs.existsSync(aboutPath)) {
+              aboutText = fs.readFileSync(aboutPath, 'utf8');
+          }
       } catch(e) {}
   }
 
@@ -271,6 +277,15 @@ function generateMicrositeHtml(b) {
           `;
       }
   }
+
+  const aboutHtml = aboutText ? `
+    <div class="section">
+      <div class="section-title">ABOUT THIS BUSINESS</div>
+      <div class="info-card about-card" style="font-size:14px; line-height:1.8; color:var(--muted); text-align:left; border-left: 3px solid var(--brand);">
+        ${escHtml(aboutText)}
+      </div>
+    </div>
+  ` : '';
 
   if (b.category === 'salons') {
     themeCss = `
@@ -432,6 +447,8 @@ function generateMicrositeHtml(b) {
     .modal-box .cancel-btn{width:100%;padding:8px;background:none;border:none;color:var(--muted);cursor:pointer;margin-top:8px;font-size:13px}
     .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#1a1a1a;border:1px solid #333;color:#4ade80;padding:12px 24px;border-radius:6px;font-size:14px;z-index:300;opacity:0;transition:opacity 0.3s}
     .toast.show{opacity:1}
+    .share-btn{background:none;border:none;color:var(--muted);cursor:pointer;display:flex;align-items:center;justify-content:center;padding:8px;border-radius:50%;transition:0.2s}
+    .share-btn:hover{background:var(--surface);color:var(--brand)}
     @media(max-width:600px){.topbar{padding:12px 16px}.hero{padding:40px 16px 30px}.section{padding:24px 16px}.masonry-grid{columns:1}}
   `;
 
@@ -452,11 +469,14 @@ ${themeCss}
 
 <div class="topbar">
   <div class="topbar-name">${escHtml(b.name)}</div>
-  <span class="cat-pill">${cat.icon} ${escHtml(cat.label)}</span>
-  <button class="claim-top-btn" onclick="openModal()">CLAIM LISTING</button>
+  <button class="share-btn" onclick="shareSite()" title="Share Business">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>
+  </button>
+  <button class="claim-top-btn" onclick="openModal()">CLAIM</button>
 </div>
 
 ${heroHtml}
+${aboutHtml}
 
 <div class="section">
   <div class="section-title">Business Information</div>
@@ -503,9 +523,27 @@ ${galleryHtml}
   </div>
 </div>
 
-<div class="toast" id="toast">✅ Claim request submitted!</div>
+<div class="toast" id="toast">✅ Action Successful!</div>
 
 <script>
+function shareSite() {
+  if (navigator.share) {
+    navigator.share({
+      title: '${escHtml(b.name)} — Kutch Digital Map',
+      text: 'Check out ${escHtml(b.name)} in ${escHtml(b.town)} on Kutch Digital Map!',
+      url: window.location.href
+    }).catch(console.error);
+  } else {
+    navigator.clipboard.writeText(window.location.href);
+    showToast('Link copied to clipboard!');
+  }
+}
+function showToast(msg) {
+  var t=document.getElementById('toast');
+  t.innerText = msg || '✅ Action Successful!';
+  t.classList.add('show');
+  setTimeout(function(){t.classList.remove('show')},3000);
+}
 function openModal(){document.getElementById('claimModal').classList.add('active')}
 function closeModal(){document.getElementById('claimModal').classList.remove('active')}
 function submitClaim(){
