@@ -202,12 +202,189 @@ function escHtml(s) {
 
 function generateMicrositeHtml(b) {
   const cat = categoryMeta[b.category] || categoryMeta.general;
-  const phoneLink = b.phone ? `<a href="tel:${b.phone}" style="color:#ff671f;text-decoration:none">📞 ${b.phone}</a>` : '';
-  const emailLink = b.email ? `<a href="mailto:${b.email}" style="color:#ff671f;text-decoration:none">✉️ ${b.email}</a>` : '';
-  const contactInfo = phoneLink || emailLink || '<span style="color:#888">Contact via directory</span>';
-  const ownerRow = b.ownerName ? `<div style="margin-top:12px;color:#aaa">👤 Owner: <strong style="color:#fff">${escHtml(b.ownerName)}</strong></div>` : '';
-  const estRow = b.estYear ? `<div style="margin-top:8px;color:#aaa">📅 Est. ${b.estYear}</div>` : '';
+  const phoneLink = b.phone ? `<a href="tel:${b.phone}">📞 ${b.phone}</a>` : '';
+  const emailLink = b.email ? `<a href="mailto:${b.email}">✉️ ${b.email}</a>` : '';
+  const contactInfo = phoneLink || emailLink || '<span>Contact via directory</span>';
+  const ownerRow = b.ownerName ? `<div class="info-row owner-row">👤 Owner: <strong>${escHtml(b.ownerName)}</strong></div>` : '';
+  const estRow = b.estYear ? `<div class="info-row est-row">📅 Est. ${b.estYear}</div>` : '';
   const mapUrl = `https://maps.google.com/?q=${encodeURIComponent(b.address)}`;
+  
+  let themeCss = '';
+  let heroHtml = '';
+
+  if (b.category === 'salons') {
+    themeCss = `
+      :root { --font-main: 'Playfair Display', serif; --font-sans: 'Outfit', sans-serif; --brand: ${cat.color}; --bg: #0f0a0d; --surface: #1f141a; --surface2: #2e1e27; --border: #3d2834; --text: #fdfafa; --muted: #d4c4cc; --radius: 16px; }
+      body { font-family: var(--font-sans); }
+      h1, h2, h3, .topbar-name { font-family: var(--font-main); font-weight: 400; }
+      .hero { text-align: center; padding: 100px 24px 80px; background: linear-gradient(to bottom, var(--surface) 0%, var(--bg) 100%); border-bottom: none; }
+      .hero h1 { font-size: clamp(36px, 8vw, 64px); color: var(--brand); font-style: italic; margin-bottom: 16px; font-weight: 500;}
+      .hero-tagline { font-size: 14px; font-family: var(--font-sans); text-transform: uppercase; letter-spacing: 2px; }
+      .hero::before { background: radial-gradient(circle, ${cat.color}22 0%, transparent 60%); top: -50%; right: 50%; transform: translateX(50%); width:800px; height:800px;}
+      .info-card, .upgrade-banner, .map-card, .modal-box { border-radius: var(--radius); }
+      .info-row { border-bottom: 1px dashed var(--border); }
+      .claim-top-btn { border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; }
+      .breadcrumb { justify-content: center; margin-bottom: 24px; }
+      .upgrade-banner { background: var(--surface); border: 1px solid var(--brand); }
+    `;
+    heroHtml = `
+      <div class="hero">
+        <div class="breadcrumb">Kutch → <span>${escHtml(b.town)}</span> → ${escHtml(cat.label)}</div>
+        <h1>${escHtml(b.name)}</h1>
+        <div class="hero-tagline">${cat.icon} Premium ${escHtml(cat.label)}</div>
+      </div>
+    `;
+  } else if (b.category === 'cas') {
+    themeCss = `
+      :root { --font-main: 'Inter', sans-serif; --font-mono: 'DM Mono', monospace; --brand: ${cat.color}; --bg: #f8f9fa; --surface: #ffffff; --surface2: #e9ecef; --border: #dee2e6; --text: #212529; --muted: #6c757d; --radius: 4px; }
+      body { font-family: var(--font-main); color: var(--text); }
+      .topbar { background: #fff; border-bottom: 1px solid var(--border); }
+      .topbar-name { color: #000; font-weight: 700; }
+      .claim-top-btn { color: #fff; background: #000; border-radius: 2px; }
+      .breadcrumb { font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; margin-bottom: 16px; }
+      .hero { padding: 80px 40px; background: #fff; border-bottom: 1px solid var(--border); border-left: 6px solid var(--brand); }
+      .hero h1 { color: #000; font-weight: 800; letter-spacing: -1px; }
+      .info-card, .upgrade-banner, .map-card, .modal-box { border: 1px solid var(--border); box-shadow: 0 4px 12px rgba(0,0,0,0.03); background: #fff; color: #000;}
+      .section-title { font-family: var(--font-mono); color: var(--muted); }
+      .map-card-text { color: #000; }
+    `;
+    heroHtml = `
+      <div class="hero">
+        <div class="breadcrumb">Kutch / ${escHtml(b.town)} / ${escHtml(cat.label)}</div>
+        <h1>${escHtml(b.name)}</h1>
+        <div class="hero-tagline" style="font-family:var(--font-mono)">${cat.icon} Financial & Corporate Services</div>
+      </div>
+    `;
+  } else if (b.category === 'events') {
+    themeCss = `
+      :root { --font-main: 'Outfit', sans-serif; --brand: ${cat.color}; --bg: #050505; --surface: #111; --surface2: #1a1a1a; --border: #222; --text: #fff; --muted: #888; --radius: 0; }
+      body { font-family: var(--font-main); background-image: radial-gradient(circle at center, #111 0%, #000 100%); }
+      .hero { text-align: center; padding: 140px 24px; position: relative; border-bottom: none; }
+      .hero h1 { font-size: clamp(40px, 10vw, 80px); font-weight: 900; letter-spacing: -2px; text-transform: uppercase; color: #fff; text-shadow: 0 10px 30px rgba(0,0,0,0.8); z-index: 2; position: relative; }
+      .hero-tagline { font-size: 16px; color: var(--brand); letter-spacing: 8px; text-transform: uppercase; margin-top: 24px; z-index: 2; position: relative; }
+      .breadcrumb { display: none; }
+      .info-card, .map-card, .upgrade-banner { background: rgba(20,20,20,0.5); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.05); }
+      .info-row { border-bottom: 1px solid rgba(255,255,255,0.05); }
+      .section-title { text-align: center; font-size: 10px; letter-spacing: 4px; border-bottom: 1px solid var(--border); padding-bottom: 12px; margin-bottom: 32px; }
+    `;
+    heroHtml = `
+      <div class="hero">
+        <h1>${escHtml(b.name)}</h1>
+        <div class="hero-tagline">${escHtml(cat.label)}</div>
+      </div>
+    `;
+  } else if (b.category === 'it-tech') {
+    themeCss = `
+      :root { --font-main: 'DM Mono', monospace; --brand: ${cat.color}; --bg: #000814; --surface: #00122e; --surface2: #001d4a; --border: #00296b; --text: #00ffcc; --muted: #008899; --radius: 0px; }
+      body { font-family: var(--font-main); }
+      .topbar { background: var(--bg); border-bottom: 1px solid var(--brand); }
+      .claim-top-btn { font-family: var(--font-main); background: transparent; border: 1px solid var(--brand); color: var(--brand); }
+      .claim-top-btn:hover { background: var(--brand); color: #000; }
+      .hero { padding: 80px 32px; border-bottom: 2px dashed var(--brand); background: var(--surface); position: relative; }
+      .hero::before { content:''; position:absolute; inset:0; background: linear-gradient(rgba(0,255,204,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(0,255,204,0.05) 1px, transparent 1px); background-size: 20px 20px; pointer-events: none;}
+      .hero h1 { color: #fff; font-weight: 500; font-size: 32px; }
+      .hero h1::before { content: ">_ "; color: var(--brand); }
+      .info-card, .map-card, .modal-box { background: transparent; border: 1px solid var(--brand); box-shadow: 6px 6px 0 var(--surface2); }
+      .upgrade-banner { background: var(--surface); border: 1px solid var(--brand); text-align: left; }
+      .upgrade-banner h3::before { content: "[WARN] "; color: #ffeb3b; }
+      .section-title { color: var(--brand); border-bottom: 1px solid var(--border); padding-bottom: 8px; display: inline-block; }
+    `;
+    heroHtml = `
+      <div class="hero">
+        <div class="breadcrumb" style="margin-bottom:20px;color:var(--brand)">~/${escHtml(b.town).toLowerCase()}/${escHtml(cat.label).replace(/\s/g,'-').toLowerCase()}</div>
+        <h1>${escHtml(b.name)}</h1>
+        <div class="hero-tagline" style="margin-top:16px; color:#fff">${cat.icon} System active: ${escHtml(cat.ideaLabel)}</div>
+      </div>
+    `;
+  } else if (b.category === 'pg-hostel') {
+    themeCss = `
+      :root { --font-main: 'Outfit', sans-serif; --brand: ${cat.color}; --bg: #fdfafa; --surface: #ffffff; --surface2: #f0f0f0; --border: #e0e0e0; --text: #333; --muted: #666; --radius: 12px; }
+      body { font-family: var(--font-main); color: var(--text); }
+      .topbar { background: #fff; border-bottom: 1px solid var(--border); }
+      .topbar-name { color: #333; }
+      .claim-top-btn { color: #fff; }
+      .hero { padding: 60px 24px; background: var(--brand); color: #fff; border-radius: 0 0 32px 32px; border-bottom: none; margin-bottom: 24px; }
+      .hero h1 { color: #fff; font-weight: 800; font-size: 40px; }
+      .hero-tagline, .breadcrumb { color: rgba(255,255,255,0.9); }
+      .breadcrumb span { color: #fff; font-weight: 700; }
+      .hero::before { display: none; }
+      .info-card, .map-card { border: none; box-shadow: 0 8px 24px rgba(0,0,0,0.06); background: #fff; border-radius: var(--radius); }
+      .map-card-text { color: #333; }
+      .upgrade-banner { background: #fff8e1; border: 1px solid #ffeada; }
+      .modal-box { background: #fff; color: #333; box-shadow: 0 20px 40px rgba(0,0,0,0.2); }
+      .modal-box h2 { color: var(--brand); }
+      .modal-box input, .modal-box textarea { background: #fff; border: 1px solid #ccc; color:#000; }
+    `;
+    heroHtml = `
+      <div class="hero">
+        <div class="breadcrumb">Kutch → <span>${escHtml(b.town)}</span> → ${escHtml(cat.label)}</div>
+        <h1>${escHtml(b.name)}</h1>
+        <div class="hero-tagline">${cat.icon} Comfortable stay & accommodation</div>
+      </div>
+    `;
+  } else {
+    // general/trades - Default vibrant dark theme
+    themeCss = `
+      :root{--font-main: 'Outfit', sans-serif; --brand: ${cat.color}; --bg: #000; --surface: #111; --surface2: #1a1a1a; --border: #252525; --text: #fff; --muted: #888; --radius: 8px;}
+      body{font-family: var(--font-main); }
+      .hero h1{font-weight:700;color:var(--brand);}
+      .info-card, .map-card, .upgrade-banner, .modal-box { border-radius: var(--radius); }
+      .map-card-text { color: var(--text); }
+    `;
+    heroHtml = `
+      <div class="hero">
+        <div class="breadcrumb">Kutch → <span>${escHtml(b.town)}</span> → ${escHtml(cat.label)}</div>
+        <h1>${escHtml(b.name)}</h1>
+        <div class="hero-tagline">${cat.icon} ${escHtml(cat.label)} — ${escHtml(cat.ideaLabel)}</div>
+      </div>
+    `;
+  }
+
+  // Base CSS applying common variables and structure
+  const baseCss = `
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{background:var(--bg);color:var(--text);line-height:1.6;min-height:100vh}
+    .topbar{position:sticky;top:0;z-index:100;background:var(--bg);border-bottom:1px solid var(--border);padding:14px 24px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+    .topbar-name{font-size:15px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:1}
+    .cat-pill{font-size:11px;padding:4px 12px;border-radius:20px;background:${cat.color}22;color:${cat.color};border:1px solid ${cat.color}44;white-space:nowrap}
+    .claim-top-btn{font-size:11px;padding:6px 16px;background:var(--brand);color:#000;border:none;font-weight:600;cursor:pointer;white-space:nowrap;transition:0.2s}
+    .claim-top-btn:hover{filter:brightness(1.15)}
+    .hero{padding:60px 24px 40px;border-bottom:1px solid var(--border);position:relative;overflow:hidden}
+    .hero::before{content:'';position:absolute;top:-50%;right:-30%;width:500px;height:500px;background:radial-gradient(circle,${cat.color}15 0%,transparent 70%);pointer-events:none}
+    .hero h1{font-size:clamp(28px,6vw,48px);line-height:1.15;margin-bottom:12px;position:relative}
+    .hero-tagline{font-size:16px;color:var(--muted);margin-bottom:16px;position:relative}
+    .breadcrumb{font-size:13px;color:var(--muted);position:relative;display:flex;gap:6px;}
+    .breadcrumb span{color:var(--brand)}
+    .section{padding:32px 24px;border-bottom:1px solid var(--border)}
+    .section-title{font-size:11px;text-transform:uppercase;letter-spacing:2px;color:var(--muted);margin-bottom:20px}
+    .info-card{background:var(--surface);border:1px solid var(--border);padding:24px}
+    .info-row{padding:12px 0;border-bottom:1px solid var(--border);font-size:15px;display:flex;align-items:center;color:var(--text)}
+    .info-row:last-child{border-bottom:none}
+    .info-row a{color:var(--brand);text-decoration:none}
+    .info-row a:hover{text-decoration:underline}
+    .upgrade-banner{background:linear-gradient(135deg,var(--surface) 0%,var(--surface2) 100%);border:1px solid var(--border);padding:24px;}
+    .upgrade-banner h3{color:var(--brand);font-size:18px;margin-bottom:8px}
+    .upgrade-banner p{color:var(--muted);font-size:14px;margin-bottom:16px}
+    .upgrade-banner button{background:var(--brand);color:#000;border:none;padding:10px 24px;border-radius:4px;font-weight:600;cursor:pointer;font-size:14px;transition:0.2s}
+    .upgrade-banner button:hover{filter:brightness(1.15)}
+    .map-card{background:var(--surface);border:1px solid var(--border);padding:24px;display:flex;align-items:center;justify-content:space-between;cursor:pointer;text-decoration:none;transition:0.2s}
+    .map-card:hover{border-color:var(--brand);background:var(--surface2)}
+    .map-card-text{font-size:16px;font-weight:500}
+    .map-card-arrow{font-size:20px;color:var(--brand)}
+    .footer{padding:32px 24px;text-align:center;color:var(--muted);font-size:13px;}
+    .footer a{color:var(--brand);text-decoration:none}
+    .modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.85);z-index:200;align-items:center;justify-content:center;padding:20px}
+    .modal-overlay.active{display:flex}
+    .modal-box{background:var(--surface);border:1px solid var(--border);padding:32px;max-width:420px;width:100%}
+    .modal-box input,.modal-box textarea{width:100%;padding:12px;background:var(--bg);border:1px solid var(--border);color:var(--text);border-radius:4px;margin-bottom:12px;font-family:inherit;font-size:14px}
+    .modal-box textarea{height:80px;resize:vertical}
+    .modal-box .submit-btn{width:100%;padding:12px;background:var(--brand);color:#000;border:none;border-radius:4px;font-weight:600;font-size:15px;cursor:pointer;transition:0.2s}
+    .modal-box .submit-btn:hover{filter:brightness(1.15)}
+    .modal-box .cancel-btn{width:100%;padding:8px;background:none;border:none;color:var(--muted);cursor:pointer;margin-top:8px;font-size:13px}
+    .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#1a1a1a;border:1px solid #333;color:#4ade80;padding:12px 24px;border-radius:6px;font-size:14px;z-index:300;opacity:0;transition:opacity 0.3s}
+    .toast.show{opacity:1}
+    @media(max-width:600px){.topbar{padding:12px 16px}.hero{padding:40px 16px 30px}.section{padding:24px 16px}}
+  `;
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -216,52 +393,10 @@ function generateMicrositeHtml(b) {
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>${escHtml(b.name)} — Kutch Digital Map</title>
 <meta name="description" content="${escHtml(b.name)} in ${escHtml(b.town)}, Kutch. ${escHtml(cat.label)} listed on Kutch Digital Map.">
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-:root{--brand:#ff671f;--bg:#000;--surface:#111;--surface2:#1a1a1a;--border:#252525;--text:#fff;--muted:#888}
-body{background:var(--bg);color:var(--text);font-family:'Outfit',sans-serif;line-height:1.6;min-height:100vh}
-.topbar{position:sticky;top:0;z-index:100;background:rgba(0,0,0,0.85);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:14px 24px;display:flex;justify-content:space-between;align-items:center;gap:12px}
-.topbar-name{font-size:15px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:1}
-.cat-pill{font-size:11px;padding:4px 12px;border-radius:20px;background:${cat.color}22;color:${cat.color};border:1px solid ${cat.color}44;white-space:nowrap}
-.claim-top-btn{font-size:11px;padding:6px 16px;border-radius:4px;background:var(--brand);color:#000;border:none;font-weight:600;cursor:pointer;white-space:nowrap;transition:0.2s}
-.claim-top-btn:hover{filter:brightness(1.15)}
-.hero{padding:60px 24px 40px;border-bottom:1px solid var(--border);position:relative;overflow:hidden}
-.hero::before{content:'';position:absolute;top:-50%;right:-30%;width:500px;height:500px;background:radial-gradient(circle,${cat.color}15 0%,transparent 70%);pointer-events:none}
-.hero h1{font-size:clamp(28px,6vw,48px);font-weight:700;color:var(--brand);line-height:1.15;margin-bottom:12px;position:relative}
-.hero-tagline{font-size:16px;color:var(--muted);margin-bottom:16px;position:relative}
-.breadcrumb{font-size:13px;color:var(--muted);position:relative}
-.breadcrumb span{color:var(--brand)}
-.section{padding:32px 24px;border-bottom:1px solid var(--border)}
-.section-title{font-size:11px;text-transform:uppercase;letter-spacing:2px;color:var(--muted);margin-bottom:20px}
-.info-card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:24px}
-.info-row{padding:12px 0;border-bottom:1px solid var(--border);font-size:15px}
-.info-row:last-child{border-bottom:none}
-.info-row a{color:var(--brand);text-decoration:none}
-.info-row a:hover{text-decoration:underline}
-.upgrade-banner{background:linear-gradient(135deg,#ff671f15,#ff980015);border:1px solid #ff980033;border-radius:8px;padding:24px;text-align:center}
-.upgrade-banner h3{color:#ff9800;font-size:18px;margin-bottom:8px}
-.upgrade-banner p{color:var(--muted);font-size:14px;margin-bottom:16px}
-.upgrade-banner button{background:var(--brand);color:#000;border:none;padding:10px 24px;border-radius:4px;font-weight:600;cursor:pointer;font-size:14px;transition:0.2s}
-.upgrade-banner button:hover{filter:brightness(1.15)}
-.map-card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:24px;display:flex;align-items:center;justify-content:space-between;cursor:pointer;text-decoration:none;color:var(--text);transition:0.2s}
-.map-card:hover{border-color:var(--brand);background:var(--surface2)}
-.map-card-text{font-size:16px;font-weight:500}
-.map-card-arrow{font-size:20px;color:var(--brand)}
-.footer{padding:32px 24px;text-align:center;color:var(--muted);font-size:13px;border-top:1px solid var(--border)}
-.footer a{color:var(--brand);text-decoration:none}
-.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.85);z-index:200;align-items:center;justify-content:center;padding:20px}
-.modal-overlay.active{display:flex}
-.modal-box{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:32px;max-width:420px;width:100%}
-.modal-box h2{font-size:22px;margin-bottom:16px;color:var(--brand)}
-.modal-box input,.modal-box textarea{width:100%;padding:12px;background:var(--bg);border:1px solid var(--border);color:var(--text);border-radius:4px;margin-bottom:12px;font-family:'Outfit',sans-serif;font-size:14px}
-.modal-box textarea{height:80px;resize:vertical}
-.modal-box .submit-btn{width:100%;padding:12px;background:var(--brand);color:#000;border:none;border-radius:4px;font-weight:600;font-size:15px;cursor:pointer;transition:0.2s}
-.modal-box .submit-btn:hover{filter:brightness(1.15)}
-.modal-box .cancel-btn{width:100%;padding:8px;background:none;border:none;color:var(--muted);cursor:pointer;margin-top:8px;font-size:13px}
-.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#1a1a1a;border:1px solid #333;color:#4ade80;padding:12px 24px;border-radius:6px;font-size:14px;z-index:300;opacity:0;transition:opacity 0.3s}
-.toast.show{opacity:1}
-@media(max-width:600px){.topbar{padding:12px 16px}.hero{padding:40px 16px 30px}.section{padding:24px 16px}}
+${baseCss}
+${themeCss}
 </style>
 </head>
 <body>
@@ -272,17 +407,13 @@ body{background:var(--bg);color:var(--text);font-family:'Outfit',sans-serif;line
   <button class="claim-top-btn" onclick="openModal()">CLAIM LISTING</button>
 </div>
 
-<div class="hero">
-  <h1>${escHtml(b.name)}</h1>
-  <div class="hero-tagline">${cat.icon} ${escHtml(cat.label)} — ${escHtml(cat.ideaLabel)}</div>
-  <div class="breadcrumb">Kutch → <span>${escHtml(b.town)}</span> → ${escHtml(cat.label)}</div>
-</div>
+${heroHtml}
 
 <div class="section">
   <div class="section-title">Business Information</div>
   <div class="info-card">
-    <div class="info-row">📍 ${escHtml(b.address)}</div>
-    <div class="info-row">${contactInfo}</div>
+    <div class="info-row"><span style="margin-right:8px">📍</span> ${escHtml(b.address)}</div>
+    <div class="info-row"><span style="margin-right:8px">📞</span> ${contactInfo}</div>
     ${ownerRow}
     ${estRow}
   </div>
@@ -336,6 +467,7 @@ document.getElementById('claimModal').addEventListener('click',function(e){if(e.
 </body>
 </html>`;
 }
+
 
 // ═══════════════════════════════════════
 // GENERATE FILES
