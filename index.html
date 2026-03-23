@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Viadecide Gandhidham — Local Discovery Engine</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Mono:wght@400;500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #0a0a08; --surface: #111110; --border: #252520;
+    --text: #e8e6df; --muted: #6b6960; --accent: #f5a623;
+    --accent2: #e8503a; --green: #4ade80;
+    --serif: 'Playfair Display', serif; --mono: 'DM Mono', monospace; --sans: 'Outfit', sans-serif;
+  }
+
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--text); font-family: var(--sans); overflow-x: hidden; line-height: 1.6; }
+
+  /* Grain & Grid */
+  .grain { position: fixed; inset: 0; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E"); opacity: 0.03; pointer-events: none; z-index: 999; }
+  .hero-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(245,166,35,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(245,166,35,0.03) 1px, transparent 1px); background-size: 50px 50px; z-index: 0; }
+
+  /* Navigation */
+  nav { padding: 20px 48px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: rgba(10,10,8,0.8); backdrop-filter: blur(10px); z-index: 100; border-bottom: 1px solid var(--border); }
+  .logo { font-family: var(--serif); font-size: 24px; font-weight: 900; color: var(--text); text-decoration: none; }
+  .logo span { color: var(--accent); }
+
+  /* Filter System */
+  .filter-bar { padding: 40px 48px; display: flex; gap: 12px; overflow-x: auto; white-space: nowrap; scrollbar-width: none; }
+  .filter-btn { font-family: var(--mono); font-size: 11px; padding: 8px 16px; border: 1px solid var(--border); background: var(--surface); color: var(--muted); cursor: pointer; border-radius: 2px; transition: 0.2s; text-transform: uppercase; }
+  .filter-btn.active { background: var(--accent); color: #000; border-color: var(--accent); }
+
+  /* Directory Grid */
+  .directory { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1px; background: var(--border); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+  .biz-card { background: var(--bg); padding: 32px; transition: 0.3s; position: relative; }
+  .biz-card:hover { background: var(--surface); }
+  .biz-cat { font-family: var(--mono); font-size: 10px; color: var(--accent); letter-spacing: 1px; margin-bottom: 8px; }
+  .biz-name { font-family: var(--serif); font-size: 22px; margin-bottom: 12px; }
+  .biz-loc { font-size: 13px; color: var(--muted); margin-bottom: 20px; display: flex; align-items: center; gap: 6px; }
+  .biz-btn { font-family: var(--mono); font-size: 11px; padding: 10px 20px; border: 1px solid var(--border); color: var(--text); text-decoration: none; display: inline-block; transition: 0.2s; }
+  .biz-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+  /* ONDC Style Modal */
+  .modal { position: fixed; inset: 0; background: rgba(0,0,0,0.9); z-index: 1000; display: none; align-items: center; justify-content: center; padding: 20px; }
+  .modal-content { background: var(--surface); border: 1px solid var(--border); padding: 40px; max-width: 500px; width: 100%; border-radius: 4px; }
+  .modal h2 { font-family: var(--serif); margin-bottom: 20px; }
+  input { width: 100%; padding: 12px; background: var(--bg); border: 1px solid var(--border); color: #fff; margin-bottom: 20px; font-family: var(--mono); }
+  .action-btn { background: var(--accent); color: #000; padding: 12px 24px; border: none; font-weight: 700; cursor: pointer; width: 100%; font-family: var(--mono); }
+
+  @media (max-width: 768px) { nav, .filter-bar { padding: 20px; } }
+</style>
+</head>
+<body>
+
+<div class="grain"></div>
+
+<nav>
+  <a href="#" class="logo">Via<span>decide</span></a>
+  <div style="font-family: var(--mono); font-size: 11px; color: var(--muted);">GANDHIDHAM DIRECTORY v1.0</div>
+</nav>
+
+<header style="padding: 80px 48px; position: relative; overflow: hidden; border-bottom: 1px solid var(--border);">
+  <div class="hero-grid"></div>
+  <div style="position: relative; z-index: 1;">
+    <h1 style="font-family: var(--serif); font-size: clamp(40px, 8vw, 80px); line-height: 1; margin-bottom: 20px;">Gandhidham<br><em style="color: var(--accent);">Digital Map.</em></h1>
+    <p style="max-width: 500px; color: var(--muted); font-size: 18px; font-weight: 300;">14 local businesses ready for a digital upgrade. Open-source, commission-free, community-driven.</p>
+  </div>
+</header>
+
+<div class="filter-bar" id="filterBar">
+  <input type="text" id="searchInput" placeholder="Search businesses..." style="width: 200px; padding: 8px; margin-right: 12px; background: var(--surface); border: 1px solid var(--border); color: #fff; font-family: var(--mono); font-size: 11px;">
+  <button class="filter-btn active" data-cat="all">All Businesses</button>
+  <button class="filter-btn" data-cat="saved">Saved</button>
+  <button class="filter-btn" data-cat="salon">Salons & Boutique</button>
+  <button class="filter-btn" data-cat="finance">CAs & Accounts</button>
+  <button class="filter-btn" data-cat="creative">Photography & Events</button>
+  <button class="filter-btn" data-cat="it">IT & Tech</button>
+  <button class="filter-btn" data-cat="accommodation">PG & Hostel</button>
+</div>
+
+<section class="directory" id="directoryGrid">
+  <!-- Dynamic Content Injected Here -->
+</section>
+
+<div class="modal" id="claimModal">
+  <div class="modal-content">
+    <h2>Claim Listing</h2>
+    <p style="font-size: 14px; color: var(--muted); margin-bottom: 20px;">To verify ownership, please enter your business registration UTR or contact code.</p>
+    <input type="text" id="utrInput" placeholder="Enter 12-digit UTR Code">
+    <button class="action-btn" onclick="verifyUTR()">Verify & Connect</button>
+    <button onclick="closeModal()" style="background: none; border: none; color: var(--muted); margin-top: 15px; cursor: pointer; width: 100%; font-family: var(--mono); font-size: 10px;">CANCEL</button>
+  </div>
+</div>
+
+<script src="/directory.js"></script>
+</body>
+</html>
