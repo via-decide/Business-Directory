@@ -49,18 +49,18 @@
     .modal-box .cancel-btn{width:100%;padding:8px;background:none;border:none;color:var(--muted);cursor:pointer;margin-top:8px;font-size:13px}
     .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#1a1a1a;border:1px solid #333;color:#4ade80;padding:12px 24px;border-radius:6px;font-size:14px;z-index:300;opacity:0;transition:opacity 0.3s}
     .toast.show{opacity:1}
-    @media(max-width:600px){.topbar{padding:12px 16px}.hero{padding:40px 16px 30px}.section{padding:24px 16px}}
+    @media(max-width:600px){.topbar{padding:12px 16px}.hero{padding:40px 16px 30px}.section{padding:24px 16px}.masonry-grid{columns:1}}
   
 
       :root { --font-main: 'Outfit', sans-serif; --brand: #9c27b0; --bg: #050505; --surface: #111; --surface2: #1a1a1a; --border: #222; --text: #fff; --muted: #888; --radius: 0; }
       body { font-family: var(--font-main); background-image: radial-gradient(circle at center, #111 0%, #000 100%); }
       .hero { text-align: center; padding: 140px 24px; position: relative; border-bottom: none; }
+      .masonry-grid { columns: 2; column-gap: 12px; }
+      .masonry-item { margin-bottom: 12px; break-inside: avoid; border: 1px solid #333; transition: 0.3s; }
+      .masonry-item img { width: 100%; height: auto; display: block; opacity: 0.8; }
+      .masonry-item:hover { transform: translateY(-5px); border-color: var(--brand); }
+      .masonry-item:hover img { opacity: 1; }
       .hero h1 { font-size: clamp(40px, 10vw, 80px); font-weight: 900; letter-spacing: -2px; text-transform: uppercase; color: #fff; text-shadow: 0 10px 30px rgba(0,0,0,0.8); z-index: 2; position: relative; }
-      .hero-tagline { font-size: 16px; color: var(--brand); letter-spacing: 8px; text-transform: uppercase; margin-top: 24px; z-index: 2; position: relative; }
-      .breadcrumb { display: none; }
-      .info-card, .map-card, .upgrade-banner { background: rgba(20,20,20,0.5); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.05); }
-      .info-row { border-bottom: 1px solid rgba(255,255,255,0.05); }
-      .section-title { text-align: center; font-size: 10px; letter-spacing: 4px; border-bottom: 1px solid var(--border); padding-bottom: 12px; margin-bottom: 32px; }
     
 </style>
 </head>
@@ -88,6 +88,8 @@
     <div class="info-row est-row">📅 Est. 2002</div>
   </div>
 </div>
+
+
 
 <div class="section">
   <div class="section-title">Digital Presence</div>

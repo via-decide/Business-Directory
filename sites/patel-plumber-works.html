@@ -49,14 +49,15 @@
     .modal-box .cancel-btn{width:100%;padding:8px;background:none;border:none;color:var(--muted);cursor:pointer;margin-top:8px;font-size:13px}
     .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#1a1a1a;border:1px solid #333;color:#4ade80;padding:12px 24px;border-radius:6px;font-size:14px;z-index:300;opacity:0;transition:opacity 0.3s}
     .toast.show{opacity:1}
-    @media(max-width:600px){.topbar{padding:12px 16px}.hero{padding:40px 16px 30px}.section{padding:24px 16px}}
+    @media(max-width:600px){.topbar{padding:12px 16px}.hero{padding:40px 16px 30px}.section{padding:24px 16px}.masonry-grid{columns:1}}
   
 
       :root{--font-main: 'Outfit', sans-serif; --brand: #607d8b; --bg: #000; --surface: #111; --surface2: #1a1a1a; --border: #252525; --text: #fff; --muted: #888; --radius: 8px;}
       body{font-family: var(--font-main); }
+      .standard-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }
+      .grid-item { aspect-ratio: 4/5; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--border); }
+      .grid-item img { width: 100%; height: 100%; object-fit: cover; }
       .hero h1{font-weight:700;color:var(--brand);}
-      .info-card, .map-card, .upgrade-banner, .modal-box { border-radius: var(--radius); }
-      .map-card-text { color: var(--text); }
     
 </style>
 </head>
@@ -85,6 +86,15 @@
     
   </div>
 </div>
+
+
+            <div class="section">
+                <div class="section-title">Business Photos</div>
+                <div class="standard-grid">
+                    <div class="grid-item"><img src="assets/patel-plumber-works/photo_1.jpg" loading="lazy"></div><div class="grid-item"><img src="assets/patel-plumber-works/photo_2.jpg" loading="lazy"></div><div class="grid-item"><img src="assets/patel-plumber-works/photo_3.jpg" loading="lazy"></div><div class="grid-item"><img src="assets/patel-plumber-works/photo_4.jpg" loading="lazy"></div><div class="grid-item"><img src="assets/patel-plumber-works/photo_5.jpg" loading="lazy"></div>
+                </div>
+            </div>
+          
 
 <div class="section">
   <div class="section-title">Digital Presence</div>

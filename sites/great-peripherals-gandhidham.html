@@ -49,22 +49,17 @@
     .modal-box .cancel-btn{width:100%;padding:8px;background:none;border:none;color:var(--muted);cursor:pointer;margin-top:8px;font-size:13px}
     .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#1a1a1a;border:1px solid #333;color:#4ade80;padding:12px 24px;border-radius:6px;font-size:14px;z-index:300;opacity:0;transition:opacity 0.3s}
     .toast.show{opacity:1}
-    @media(max-width:600px){.topbar{padding:12px 16px}.hero{padding:40px 16px 30px}.section{padding:24px 16px}}
+    @media(max-width:600px){.topbar{padding:12px 16px}.hero{padding:40px 16px 30px}.section{padding:24px 16px}.masonry-grid{columns:1}}
   
 
       :root { --font-main: 'DM Mono', monospace; --brand: #1e88e5; --bg: #000814; --surface: #00122e; --surface2: #001d4a; --border: #00296b; --text: #00ffcc; --muted: #008899; --radius: 0px; }
       body { font-family: var(--font-main); }
-      .topbar { background: var(--bg); border-bottom: 1px solid var(--brand); }
-      .claim-top-btn { font-family: var(--font-main); background: transparent; border: 1px solid var(--brand); color: var(--brand); }
-      .claim-top-btn:hover { background: var(--brand); color: #000; }
+      .tech-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
+      .tech-item { border: 1px solid var(--brand); background: var(--bg); position: relative; padding: 10px; }
+      .tech-item .item-header { font-size: 10px; color: var(--brand); border-bottom: 1px solid var(--border); margin-bottom: 8px; }
+      .tech-item img { width: 100%; height: 160px; object-fit: cover; filter: hue-rotate(180deg) brightness(0.7) contrast(1.2); transition: 0.3s; }
+      .tech-item:hover img { filter: none; }
       .hero { padding: 80px 32px; border-bottom: 2px dashed var(--brand); background: var(--surface); position: relative; }
-      .hero::before { content:''; position:absolute; inset:0; background: linear-gradient(rgba(0,255,204,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(0,255,204,0.05) 1px, transparent 1px); background-size: 20px 20px; pointer-events: none;}
-      .hero h1 { color: #fff; font-weight: 500; font-size: 32px; }
-      .hero h1::before { content: ">_ "; color: var(--brand); }
-      .info-card, .map-card, .modal-box { background: transparent; border: 1px solid var(--brand); box-shadow: 6px 6px 0 var(--surface2); }
-      .upgrade-banner { background: var(--surface); border: 1px solid var(--brand); text-align: left; }
-      .upgrade-banner h3::before { content: "[WARN] "; color: #ffeb3b; }
-      .section-title { color: var(--brand); border-bottom: 1px solid var(--border); padding-bottom: 8px; display: inline-block; }
     
 </style>
 </head>
@@ -93,6 +88,15 @@
     
   </div>
 </div>
+
+
+            <div class="section">
+                <div class="section-title">SYSTEM_LOGS // BUSINESS_RESOURCES</div>
+                <div class="tech-grid">
+                    <div class="tech-item"><div class="item-header">IMG_ID_6177.JPG</div><img src="assets/great-peripherals-gandhidham/photo_1.jpg" loading="lazy"></div><div class="tech-item"><div class="item-header">IMG_ID_8375.JPG</div><img src="assets/great-peripherals-gandhidham/photo_2.jpg" loading="lazy"></div><div class="tech-item"><div class="item-header">IMG_ID_2962.JPG</div><img src="assets/great-peripherals-gandhidham/photo_3.jpg" loading="lazy"></div><div class="tech-item"><div class="item-header">IMG_ID_3997.JPG</div><img src="assets/great-peripherals-gandhidham/photo_4.jpg" loading="lazy"></div><div class="tech-item"><div class="item-header">IMG_ID_5152.JPG</div><img src="assets/great-peripherals-gandhidham/photo_5.jpg" loading="lazy"></div>
+                </div>
+            </div>
+          
 
 <div class="section">
   <div class="section-title">Digital Presence</div>

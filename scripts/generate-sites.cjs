@@ -209,8 +209,68 @@ function generateMicrositeHtml(b) {
   const estRow = b.estYear ? `<div class="info-row est-row">📅 Est. ${b.estYear}</div>` : '';
   const mapUrl = `https://maps.google.com/?q=${encodeURIComponent(b.address)}`;
   
+  // Look for downloaded photos
+  const bizDir = path.join(__dirname, '..', 'sites', 'assets', b.slug);
+  let photos = [];
+  if (fs.existsSync(bizDir)) {
+      try {
+          photos = fs.readdirSync(bizDir).filter(f => f.endsWith('.jpg') && fs.statSync(path.join(bizDir, f)).size > 1000);
+          photos = photos.map(f => `assets/${b.slug}/${f}`);
+      } catch(e) {}
+  }
+
   let themeCss = '';
   let heroHtml = '';
+  let galleryHtml = '';
+
+  if (photos.length > 0) {
+      if (b.category === 'salons') {
+          galleryHtml = `
+            <div class="section">
+                <div class="section-title">THE LOOKBOOK — PREMIUM PORTFOLIO</div>
+                <div class="lookbook-carousel">
+                    ${photos.map(p => `<div class="lookbook-item"><img src="${p}" loading="lazy"></div>`).join('')}
+                </div>
+            </div>
+          `;
+      } else if (b.category === 'events') {
+           galleryHtml = `
+            <div class="section">
+                <div class="section-title">CREATIVE PORTFOLIO SHOWCASE</div>
+                <div class="masonry-grid">
+                    ${photos.map(p => `<div class="masonry-item"><img src="${p}" loading="lazy"></div>`).join('')}
+                </div>
+            </div>
+          `;
+      } else if (b.category === 'it-tech') {
+           galleryHtml = `
+            <div class="section">
+                <div class="section-title">SYSTEM_LOGS // BUSINESS_RESOURCES</div>
+                <div class="tech-grid">
+                    ${photos.map(p => `<div class="tech-item"><div class="item-header">IMG_ID_${Math.floor(Math.random()*9000)+1000}.JPG</div><img src="${p}" loading="lazy"></div>`).join('')}
+                </div>
+            </div>
+          `;
+      } else if (b.category === 'pg-hostel') {
+          galleryHtml = `
+            <div class="section">
+                <div class="section-title">PROPERTY & AMENITIES GALLERY</div>
+                <div class="property-grid">
+                    ${photos.map(p => `<div class="prop-item"><img src="${p}" loading="lazy"><div class="prop-label">Verified Room View</div></div>`).join('')}
+                </div>
+            </div>
+          `;
+      } else {
+          galleryHtml = `
+            <div class="section">
+                <div class="section-title">Business Photos</div>
+                <div class="standard-grid">
+                    ${photos.map(p => `<div class="grid-item"><img src="${p}" loading="lazy"></div>`).join('')}
+                </div>
+            </div>
+          `;
+      }
+  }
 
   if (b.category === 'salons') {
     themeCss = `
@@ -219,13 +279,15 @@ function generateMicrositeHtml(b) {
       h1, h2, h3, .topbar-name { font-family: var(--font-main); font-weight: 400; }
       .hero { text-align: center; padding: 100px 24px 80px; background: linear-gradient(to bottom, var(--surface) 0%, var(--bg) 100%); border-bottom: none; }
       .hero h1 { font-size: clamp(36px, 8vw, 64px); color: var(--brand); font-style: italic; margin-bottom: 16px; font-weight: 500;}
-      .hero-tagline { font-size: 14px; font-family: var(--font-sans); text-transform: uppercase; letter-spacing: 2px; }
-      .hero::before { background: radial-gradient(circle, ${cat.color}22 0%, transparent 60%); top: -50%; right: 50%; transform: translateX(50%); width:800px; height:800px;}
+      .lookbook-carousel { display: flex; gap: 16px; overflow-x: auto; padding-bottom: 16px; scroll-snap-type: x mandatory; scrollbar-width: none; }
+      .lookbook-carousel::-webkit-scrollbar { display: none; }
+      .lookbook-item { flex: 0 0 280px; height: 380px; border-radius: 20px; overflow: hidden; border: 1px solid var(--border); scroll-snap-align: start; box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+      .lookbook-item img { width: 100%; height: 100%; object-fit: cover; transition: 0.5s; }
+      .lookbook-item:hover img { transform: scale(1.05); }
       .info-card, .upgrade-banner, .map-card, .modal-box { border-radius: var(--radius); }
       .info-row { border-bottom: 1px dashed var(--border); }
       .claim-top-btn { border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; }
       .breadcrumb { justify-content: center; margin-bottom: 24px; }
-      .upgrade-banner { background: var(--surface); border: 1px solid var(--brand); }
     `;
     heroHtml = `
       <div class="hero">
@@ -240,13 +302,11 @@ function generateMicrositeHtml(b) {
       body { font-family: var(--font-main); color: var(--text); }
       .topbar { background: #fff; border-bottom: 1px solid var(--border); }
       .topbar-name { color: #000; font-weight: 700; }
+      .standard-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+      .grid-item { aspect-ratio: 4/3; border: 1px solid var(--border); padding: 4px; background: #fff; }
+      .grid-item img { width: 100%; height: 100%; object-fit: cover; }
       .claim-top-btn { color: #fff; background: #000; border-radius: 2px; }
-      .breadcrumb { font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; margin-bottom: 16px; }
       .hero { padding: 80px 40px; background: #fff; border-bottom: 1px solid var(--border); border-left: 6px solid var(--brand); }
-      .hero h1 { color: #000; font-weight: 800; letter-spacing: -1px; }
-      .info-card, .upgrade-banner, .map-card, .modal-box { border: 1px solid var(--border); box-shadow: 0 4px 12px rgba(0,0,0,0.03); background: #fff; color: #000;}
-      .section-title { font-family: var(--font-mono); color: var(--muted); }
-      .map-card-text { color: #000; }
     `;
     heroHtml = `
       <div class="hero">
@@ -260,12 +320,12 @@ function generateMicrositeHtml(b) {
       :root { --font-main: 'Outfit', sans-serif; --brand: ${cat.color}; --bg: #050505; --surface: #111; --surface2: #1a1a1a; --border: #222; --text: #fff; --muted: #888; --radius: 0; }
       body { font-family: var(--font-main); background-image: radial-gradient(circle at center, #111 0%, #000 100%); }
       .hero { text-align: center; padding: 140px 24px; position: relative; border-bottom: none; }
+      .masonry-grid { columns: 2; column-gap: 12px; }
+      .masonry-item { margin-bottom: 12px; break-inside: avoid; border: 1px solid #333; transition: 0.3s; }
+      .masonry-item img { width: 100%; height: auto; display: block; opacity: 0.8; }
+      .masonry-item:hover { transform: translateY(-5px); border-color: var(--brand); }
+      .masonry-item:hover img { opacity: 1; }
       .hero h1 { font-size: clamp(40px, 10vw, 80px); font-weight: 900; letter-spacing: -2px; text-transform: uppercase; color: #fff; text-shadow: 0 10px 30px rgba(0,0,0,0.8); z-index: 2; position: relative; }
-      .hero-tagline { font-size: 16px; color: var(--brand); letter-spacing: 8px; text-transform: uppercase; margin-top: 24px; z-index: 2; position: relative; }
-      .breadcrumb { display: none; }
-      .info-card, .map-card, .upgrade-banner { background: rgba(20,20,20,0.5); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.05); }
-      .info-row { border-bottom: 1px solid rgba(255,255,255,0.05); }
-      .section-title { text-align: center; font-size: 10px; letter-spacing: 4px; border-bottom: 1px solid var(--border); padding-bottom: 12px; margin-bottom: 32px; }
     `;
     heroHtml = `
       <div class="hero">
@@ -277,17 +337,12 @@ function generateMicrositeHtml(b) {
     themeCss = `
       :root { --font-main: 'DM Mono', monospace; --brand: ${cat.color}; --bg: #000814; --surface: #00122e; --surface2: #001d4a; --border: #00296b; --text: #00ffcc; --muted: #008899; --radius: 0px; }
       body { font-family: var(--font-main); }
-      .topbar { background: var(--bg); border-bottom: 1px solid var(--brand); }
-      .claim-top-btn { font-family: var(--font-main); background: transparent; border: 1px solid var(--brand); color: var(--brand); }
-      .claim-top-btn:hover { background: var(--brand); color: #000; }
+      .tech-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
+      .tech-item { border: 1px solid var(--brand); background: var(--bg); position: relative; padding: 10px; }
+      .tech-item .item-header { font-size: 10px; color: var(--brand); border-bottom: 1px solid var(--border); margin-bottom: 8px; }
+      .tech-item img { width: 100%; height: 160px; object-fit: cover; filter: hue-rotate(180deg) brightness(0.7) contrast(1.2); transition: 0.3s; }
+      .tech-item:hover img { filter: none; }
       .hero { padding: 80px 32px; border-bottom: 2px dashed var(--brand); background: var(--surface); position: relative; }
-      .hero::before { content:''; position:absolute; inset:0; background: linear-gradient(rgba(0,255,204,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(0,255,204,0.05) 1px, transparent 1px); background-size: 20px 20px; pointer-events: none;}
-      .hero h1 { color: #fff; font-weight: 500; font-size: 32px; }
-      .hero h1::before { content: ">_ "; color: var(--brand); }
-      .info-card, .map-card, .modal-box { background: transparent; border: 1px solid var(--brand); box-shadow: 6px 6px 0 var(--surface2); }
-      .upgrade-banner { background: var(--surface); border: 1px solid var(--brand); text-align: left; }
-      .upgrade-banner h3::before { content: "[WARN] "; color: #ffeb3b; }
-      .section-title { color: var(--brand); border-bottom: 1px solid var(--border); padding-bottom: 8px; display: inline-block; }
     `;
     heroHtml = `
       <div class="hero">
@@ -302,18 +357,11 @@ function generateMicrositeHtml(b) {
       body { font-family: var(--font-main); color: var(--text); }
       .topbar { background: #fff; border-bottom: 1px solid var(--border); }
       .topbar-name { color: #333; }
-      .claim-top-btn { color: #fff; }
+      .property-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+      .prop-item { position: relative; border-radius: var(--radius); overflow: hidden; aspect-ratio: 1; }
+      .prop-item img { width: 100%; height: 100%; object-fit: cover; }
+      .prop-label { position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.6); color: #fff; font-size: 10px; padding: 6px; text-transform: uppercase; }
       .hero { padding: 60px 24px; background: var(--brand); color: #fff; border-radius: 0 0 32px 32px; border-bottom: none; margin-bottom: 24px; }
-      .hero h1 { color: #fff; font-weight: 800; font-size: 40px; }
-      .hero-tagline, .breadcrumb { color: rgba(255,255,255,0.9); }
-      .breadcrumb span { color: #fff; font-weight: 700; }
-      .hero::before { display: none; }
-      .info-card, .map-card { border: none; box-shadow: 0 8px 24px rgba(0,0,0,0.06); background: #fff; border-radius: var(--radius); }
-      .map-card-text { color: #333; }
-      .upgrade-banner { background: #fff8e1; border: 1px solid #ffeada; }
-      .modal-box { background: #fff; color: #333; box-shadow: 0 20px 40px rgba(0,0,0,0.2); }
-      .modal-box h2 { color: var(--brand); }
-      .modal-box input, .modal-box textarea { background: #fff; border: 1px solid #ccc; color:#000; }
     `;
     heroHtml = `
       <div class="hero">
@@ -327,9 +375,10 @@ function generateMicrositeHtml(b) {
     themeCss = `
       :root{--font-main: 'Outfit', sans-serif; --brand: ${cat.color}; --bg: #000; --surface: #111; --surface2: #1a1a1a; --border: #252525; --text: #fff; --muted: #888; --radius: 8px;}
       body{font-family: var(--font-main); }
+      .standard-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }
+      .grid-item { aspect-ratio: 4/5; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--border); }
+      .grid-item img { width: 100%; height: 100%; object-fit: cover; }
       .hero h1{font-weight:700;color:var(--brand);}
-      .info-card, .map-card, .upgrade-banner, .modal-box { border-radius: var(--radius); }
-      .map-card-text { color: var(--text); }
     `;
     heroHtml = `
       <div class="hero">
@@ -340,7 +389,7 @@ function generateMicrositeHtml(b) {
     `;
   }
 
-  // Base CSS applying common variables and structure
+  // Base CSS
   const baseCss = `
     *{margin:0;padding:0;box-sizing:border-box}
     body{background:var(--bg);color:var(--text);line-height:1.6;min-height:100vh}
@@ -383,7 +432,7 @@ function generateMicrositeHtml(b) {
     .modal-box .cancel-btn{width:100%;padding:8px;background:none;border:none;color:var(--muted);cursor:pointer;margin-top:8px;font-size:13px}
     .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#1a1a1a;border:1px solid #333;color:#4ade80;padding:12px 24px;border-radius:6px;font-size:14px;z-index:300;opacity:0;transition:opacity 0.3s}
     .toast.show{opacity:1}
-    @media(max-width:600px){.topbar{padding:12px 16px}.hero{padding:40px 16px 30px}.section{padding:24px 16px}}
+    @media(max-width:600px){.topbar{padding:12px 16px}.hero{padding:40px 16px 30px}.section{padding:24px 16px}.masonry-grid{columns:1}}
   `;
 
   return `<!DOCTYPE html>
@@ -418,6 +467,8 @@ ${heroHtml}
     ${estRow}
   </div>
 </div>
+
+${galleryHtml}
 
 <div class="section">
   <div class="section-title">Digital Presence</div>
