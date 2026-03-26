@@ -126,7 +126,7 @@
   <button class="filter-btn" data-cat="general">General / Trades <span class="filter-count">38</span></button>
 </div>
 
-<section class="directory" id="directoryGrid">
+<section class="directory-grid" id="directoryGrid">
   <div class="dir-card" data-category="salons" data-town="Gandhidham">
     <div class="dir-card-top">
       <div class="dir-avatar" style="background:rgba(233,30,140,0.1);border:1px solid rgba(233,30,140,0.2);color:#e91e8c">✂️</div>
@@ -2723,178 +2723,95 @@
       <button type="button" class="dir-tag claim-btn" style="background:rgba(233,30,140,0.1);color:#e91e8c;border:1px solid rgba(233,30,140,0.2);cursor:pointer;transition:0.2s">Claim Listing</button>
       <div class="dir-card-actions">
         <a href="https://www.google.com/maps/search/?api=1&query=Jain%20Ashram%20Road%2C%20Mandvi" target="_blank" rel="noreferrer" class="dir-website-btn">Directions ↗</a>
-        <button class="dir-website-btn" onclick="shareBiz('', 'poonam-beauty-care-mandvi')" title="Share" style="padding:8px 10px"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg></button><a href="./sites/poonam-beauty-care-mandvi.html" class="dir-website-btn btn-visit">VIEW SITE →</a>
+        <button class="dir-website-btn" onclick="window._VD_SEARCH.share('Poonam Beauty Care', 'poonam-beauty-mandvi')" title="Share" style="padding:8px 10px"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg></button><a href="./sites/poonam-beauty-mandvi.html" class="dir-website-btn btn-visit">VIEW SITE →</a>
       </div>
     </div>
   </div>
-  <div class="directory-empty" id="directoryEmpty" hidden>No businesses found matching your criteria.</div>
 </section>
 
-<section class="templates-section">
-  <div class="section-header">
-    <h2 class="section-title">Website Templates</h2>
-    <p class="section-desc">Explore our collection of minimal, high-performance website templates designed specifically for local businesses in Kutch.</p>
-  </div>
-  <div class="template-grid">
-    <div class="template-card">
-      <div class="template-img" style="background:#1f141a; color:#e91e8c; border:1px solid #3d2834">THE BOUTIQUE</div>
-      <h3 class="template-title">Salon & Boutique</h3>
-      <p class="template-desc">Elegant and clean design with premium image galleries for fashion and beauty.</p>
-      <a href="./templates/salon.html" class="template-link">View Template →</a>
+<!-- Templates Section -->
+<section id="templates" class="templates-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Directory Templates</h2>
+      <p class="section-desc">Choose a premium layout for your verified business listing. Each template is ONDC-ready and mobile-optimized.</p>
     </div>
-    <div class="template-card">
-      <div class="template-img" style="background:#fff; color:#000; border:1px solid #dee2e6">THE FIRM</div>
-      <h3 class="template-title">CA & Accountants</h3>
-      <p class="template-desc">Professional, trust-focused layout for financial and corporate services.</p>
-      <a href="./templates/finance.html" class="template-link">View Template →</a>
-    </div>
-    <div class="template-card">
-      <div class="template-img" style="background:#111; color:#fff; border:1px solid #222">THE STUDIO</div>
-      <h3 class="template-title">Creative & Events</h3>
-      <p class="template-desc">Portfolio-first design with cinematic dark themes and masonry galleries.</p>
-      <a href="./templates/creative.html" class="template-link">View Template →</a>
-    </div>
-    <div class="template-card">
-      <div class="template-img" style="background:#00122e; color:#00ffcc; border:1px solid #00296b">THE SYSTEM</div>
-      <h3 class="template-title">IT & Tech</h3>
-      <p class="template-desc">Modern terminal-inspired design for technology and placement firms.</p>
-      <a href="./templates/tech.html" class="template-link">View Template →</a>
-    </div>
-    <div class="template-card">
-      <div class="template-img" style="background:#e0f2f1; color:#009688; border:1px solid #b2dfdb">THE HABITAT</div>
-      <h3 class="template-title">PG & Hostel</h3>
-      <p class="template-desc">Warm and approachable layout highlighting amenities and accommodation views.</p>
-      <a href="./templates/accommodation.html" class="template-link">View Template →</a>
-    </div>
-    <div class="template-card">
-      <div class="template-img" style="background:#1a1a1a; color:#607d8b; border:1px solid #252525">THE TRADESTAR</div>
-      <h3 class="template-title">General Business</h3>
-      <p class="template-desc">Versatile and bold design for all types of local services and retail.</p>
-      <a href="./templates/business.html" class="template-link">View Template →</a>
+    <div class="template-grid">
+      <div class="template-card">
+        <div class="template-img" style="background:#fff5f8; color:#e91e63; border:1px solid #fce4ec">THE GLAMOUR</div>
+        <h3 class="template-title">Salon & Boutique</h3>
+        <p class="template-desc">Elegant, image-heavy layouts perfect for fashion, beauty, and premium services.</p>
+        <a href="./templates/salon.html" class="template-link">View Template →</a>
+      </div>
+      <div class="template-card">
+        <div class="template-img" style="background:#fff; color:#000; border:1px solid #dee2e6">THE FIRM</div>
+        <h3 class="template-title">CA & Accountants</h3>
+        <p class="template-desc">Professional, trust-focused layout for financial and corporate services.</p>
+        <a href="./templates/finance.html" class="template-link">View Template →</a>
+      </div>
+      <div class="template-card">
+        <div class="template-img" style="background:#111; color:#fff; border:1px solid #222">THE STUDIO</div>
+        <h3 class="template-title">Creative & Events</h3>
+        <p class="template-desc">Portfolio-first design with cinematic dark themes and masonry galleries.</p>
+        <a href="./templates/creative.html" class="template-link">View Template →</a>
+      </div>
+      <div class="template-card">
+        <div class="template-img" style="background:#00122e; color:#00ffcc; border:1px solid #00296b">THE SYSTEM</div>
+        <h3 class="template-title">IT & Tech</h3>
+        <p class="template-desc">Modern terminal-inspired design for technology and placement firms.</p>
+        <a href="./templates/tech.html" class="template-link">View Template →</a>
+      </div>
+      <div class="template-card">
+        <div class="template-img" style="background:#e0f2f1; color:#009688; border:1px solid #b2dfdb">THE HABITAT</div>
+        <h3 class="template-title">PG & Hostel</h3>
+        <p class="template-desc">Warm and approachable layout highlighting amenities and accommodation details.</p>
+        <a href="./templates/accommodation.html" class="template-link">View Template →</a>
+      </div>
     </div>
   </div>
 </section>
 
-<div class="modal" id="claimModal">
-  <div class="modal-content">
-    <h2>Claim Your Listing</h2>
-    <p style="font-size: 14px; color: var(--muted); margin-bottom: 20px;">To verify ownership and update your business details, please enter your 12-digit UTR code.</p>
-    <input type="text" id="claimInput" placeholder="Enter 12-digit UTR Code">
-    <button class="action-btn" onclick="verifyClaim()">Verify & Connect</button>
-    <button onclick="closeModal()" style="background: none; border: none; color: var(--muted); margin-top: 15px; cursor: pointer; width: 100%; font-family: var(--mono); font-size: 10px;">CANCEL</button>
+<!-- Footer -->
+<footer style="padding: 60px 48px; background: var(--surface); border-top: 1px solid var(--border); text-align: center;">
+  <div style="font-family: var(--serif); font-size: 24px; font-weight: 900; margin-bottom: 20px;">Kutch<span>DigitalMap</span></div>
+  <div style="font-family: var(--mono); font-size: 11px; color: var(--muted); max-width: 600px; margin: 0 auto 30px;">
+    An open community directory documenting the business landscape of Kutch. 
+    Built for discovery, verified via Firebase, and enabled for ONDC network.
   </div>
-</div>
+  <div style="display: flex; justify-content: center; gap: 24px; font-family: var(--mono); font-size: 11px;">
+    <a href="#" style="color: var(--muted); text-decoration: none;">HOME</a>
+    <a href="#directoryGrid" style="color: var(--muted); text-decoration: none;">DIRECTORY</a>
+    <a href="#templates" style="color: var(--muted); text-decoration: none;">TEMPLATES</a>
+    <a href="https://github.com/via-decide/Business-Directory" style="color: var(--muted); text-decoration: none;">OPEN SOURCE</a>
+  </div>
+  <div style="margin-top: 40px; font-family: var(--mono); font-size: 10px; color: var(--subtle);">
+    &copy; 2026 VIADECIDE · BUILT IN KUTCH
+  </div>
+</footer>
+
+<!-- Production Layer Integration -->
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
 
 <script>
-(function() {
-  
-function shareBiz(name, slug) {
-  const url = window.location.origin + window.location.pathname.replace('index.html','') + 'sites/' + slug + '.html';
-  if (navigator.share) {
-    navigator.share({ title: name, url }).catch(console.error);
-  } else {
-    navigator.clipboard.writeText(url);
-    alert('Link copied to clipboard!');
+  // Final Firebase Config from Host
+  const firebaseConfig = {
+    apiKey: "AIzaSyB4ues4tuPmT_BVqTr_gzUQ5m0TPbLB5H4",
+    authDomain: "gen-lang-client-0530513864.firebaseapp.com",
+    projectId: "gen-lang-client-0530513864",
+    storageBucket: "gen-lang-client-0530513864.firebasestorage.app",
+    messagingSenderId: "783755173296",
+    appId: "1:783755173296:web:242974c84f464f979e8a75"
+  };
+  if (!firebase.apps.length) {
+    firebase.initializeApp(firebaseConfig);
   }
-}
-
-  // State
-  let activeTown = 'all';
-  let activeCat = 'all';
-  let searchQuery = '';
-
-  const cards = Array.from(document.querySelectorAll('.dir-card'));
-  const emptyMsg = document.getElementById('directoryEmpty');
-  const townBtns = document.querySelectorAll('.town-btn');
-  const catBtns = document.querySelectorAll('.filter-btn');
-  const searchInput = document.getElementById('searchInput');
-
-  function applyFilters() {
-    let visibleCount = 0;
-    const countsByCat = { all: 0, salons: 0, cas: 0, events: 0, 'it-tech': 0, 'pg-hostel': 0, general: 0 };
-    
-    cards.forEach(card => {
-      const cardTown = card.dataset.town;
-      const cardCat = card.dataset.category;
-      const cardText = card.textContent.toLowerCase();
-      
-      const townMatch = activeTown === 'all' || cardTown === activeTown;
-      const catMatch = activeCat === 'all' || cardCat === activeCat;
-      const searchMatch = !searchQuery || cardText.includes(searchQuery.toLowerCase());
-      
-      // For counting: town + search must match
-      if (townMatch && searchMatch) {
-        countsByCat.all++;
-        if (countsByCat[cardCat] !== undefined) countsByCat[cardCat]++;
-      }
-      
-      const visible = townMatch && catMatch && searchMatch;
-      card.style.display = visible ? '' : 'none';
-      if (visible) visibleCount++;
-    });
-    
-    // Update count badges
-    catBtns.forEach(btn => {
-      const cat = btn.dataset.cat;
-      const countEl = btn.querySelector('.filter-count');
-      if (countEl && countsByCat[cat] !== undefined) {
-        countEl.textContent = countsByCat[cat];
-      }
-    });
-    
-    emptyMsg.hidden = visibleCount > 0;
-  }
-
-  // Town filter
-  townBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      townBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      activeTown = btn.dataset.town;
-      applyFilters();
-    });
-  });
-
-  // Category filter
-  catBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      catBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      activeCat = btn.dataset.cat;
-      applyFilters();
-    });
-  });
-
-  // Search
-  searchInput.addEventListener('input', () => {
-    searchQuery = searchInput.value;
-    applyFilters();
-  });
-
-  // Claim modal
-  document.querySelectorAll('.claim-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.getElementById('claimModal').style.display = 'flex';
-    });
-  });
-
-  // Initial count
-  applyFilters();
-})();
-
-function verifyClaim() {
-  const code = document.getElementById('claimInput').value;
-  if (code.length === 12) {
-    alert('✅ Verification request submitted! We will contact you within 24 hours.');
-    closeModal();
-  } else {
-    alert('Please enter a valid 12-digit UTR code.');
-  }
-}
-
-function closeModal() {
-  document.getElementById('claimModal').style.display = 'none';
-}
 </script>
+
+<script type="module" src="./shared/vd-auth.js"></script>
+<script type="module" src="./directory/search.js"></script>
+<script type="module" src="./directory/claim.js"></script>
+
 </body>
 </html>
