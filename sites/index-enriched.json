@@ -8,11 +8,16 @@
     "area": "Sector 8, Gandhidham",
     "address": "Shop No.19, Ground Floor, Golden Arcade, Oslo Road, Sector 8, Gandhidham - 370201",
     "phone": "8460513709",
-    "email": "",
-    "ownerName": "",
+    "email": "salon2thef@gandhidham.local",
+    "ownerName": "Salon",
     "url": "https://via-decide.github.io/Business-Directory/sites/salon-2-gandhidham.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638692",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "de-mayra-collections",
@@ -23,11 +28,15 @@
     "area": "Sector 10, Gandhidham",
     "address": "Plot No 18, Unit 1 and 2, Ward 7B, Sector 10, Gandhidham - 370201",
     "phone": "8401155916",
-    "email": "",
+    "email": "demayracol@gandhidham.local",
     "ownerName": "",
     "url": "https://via-decide.github.io/Business-Directory/sites/de-mayra-collections.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638715",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "skywings-gandhidham",
@@ -39,10 +48,14 @@
     "address": "T-6, Plot No. 32, Sector-7, Gandhidham - 370201",
     "phone": "",
     "email": "support@skywingsadvisors.com",
-    "ownerName": "",
+    "ownerName": "Skywings",
     "url": "https://via-decide.github.io/Business-Directory/sites/skywings-gandhidham.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638722",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "dishaa-consultancy",
@@ -53,11 +66,16 @@
     "area": "Kutch Kala Road, Gandhidham",
     "address": "Plot No.216, Ward 12/B, Kutch Kala Road, Gandhidham - 370201",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "dishaacons@gandhidham.local",
+    "ownerName": "Dishaa",
     "url": "https://via-decide.github.io/Business-Directory/sites/dishaa-consultancy.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638728",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "nr-infotech-gandhidham",
@@ -68,11 +86,15 @@
     "area": "Gandhidham Sector 1",
     "address": "Gandhidham Sector 1, Gandhidham - 370201",
     "phone": "",
-    "email": "",
+    "email": "nrinfotech@gandhidham.local",
     "ownerName": "",
     "url": "https://via-decide.github.io/Business-Directory/sites/nr-infotech-gandhidham.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638732",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "great-peripherals-gandhidham",
@@ -83,11 +105,16 @@
     "area": "Gandhidham Sector 1",
     "address": "Dbz S-106 Ground Floor, Gandhidham Sector 1, Gandhidham - 370201",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "greatperip@gandhidham.local",
+    "ownerName": "Great",
     "url": "https://via-decide.github.io/Business-Directory/sites/great-peripherals-gandhidham.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638736",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "nilesh-buch-associates",
@@ -102,7 +129,9 @@
     "ownerName": "Nilesh Y Buch",
     "url": "https://via-decide.github.io/Business-Directory/sites/nilesh-buch-associates.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "enriched": true,
+    "enrichment_method": "manual_research"
   },
   {
     "slug": "rj-mehta-co",
@@ -113,11 +142,15 @@
     "area": "Kutch Kala Road, Gandhidham",
     "address": "Ply Zone Bldg Plot 211, Kutch Kala Road, Gandhidham Sector 1 - 370201",
     "phone": "",
-    "email": "",
+    "email": "rjmehta&co@gandhidham.local",
     "ownerName": "Rakesh R Mehta",
     "url": "https://via-decide.github.io/Business-Directory/sites/rj-mehta-co.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638740",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "shree-ganesh-photos",
@@ -128,11 +161,16 @@
     "area": "Bharat Nagar, Gandhidham",
     "address": "Gurukrupa Society, Bharat Nagar, Gandhidham - 370201",
     "phone": "8460382852",
-    "email": "",
-    "ownerName": "",
+    "email": "shreeganes@gandhidham.local",
+    "ownerName": "Shree",
     "url": "https://via-decide.github.io/Business-Directory/sites/shree-ganesh-photos.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638744",
+    "enrichment_method": "manual_research"
   },
   {
     "slug": "drashya-glamour-studio",
@@ -143,11 +181,16 @@
     "area": "Oslo Circle, Gandhidham",
     "address": "Gaytri Mandir Road, Near Oslo Circle, Gandhidham Sector 1 - 370201",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "drashyagla@gandhidham.local",
+    "ownerName": "Drashya",
     "url": "https://via-decide.github.io/Business-Directory/sites/drashya-glamour-studio.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638748",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "trylo-inner-luxury",
@@ -158,11 +201,16 @@
     "area": "Sector 1A, Gandhidham",
     "address": "Plot No 11, Near Kutch Kala Road, Opp Gokul Sweet, Sector 1A, Gandhidham - 370201",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "tryloinner@gandhidham.local",
+    "ownerName": "Trylo",
     "url": "https://via-decide.github.io/Business-Directory/sites/trylo-inner-luxury.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638800",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "chat-ka-chaska",
@@ -173,11 +221,16 @@
     "area": "Shivaji Park, Gandhidham",
     "address": "Opposite Shivaji Park, Gandhidham",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "chatkachas@gandhidham.local",
+    "ownerName": "Chat",
     "url": "https://via-decide.github.io/Business-Directory/sites/chat-ka-chaska.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638811",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "aaradhana-hospitality",
@@ -188,11 +241,16 @@
     "area": "GIDC Road, Adipur",
     "address": "Boys Hostel Tolani College, GIDC Road Adipur, Gandhidham - 370205",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "aaradhanah@adipur.local",
+    "ownerName": "Aaradhana",
     "url": "https://via-decide.github.io/Business-Directory/sites/aaradhana-hospitality.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638816",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "suvidha-pg",
@@ -203,11 +261,16 @@
     "area": "Gandhidham HO",
     "address": "Corporate Park, Opp. Arjan's Mall, Gandhidham HO - 370201",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "suvidhapg&@gandhidham.local",
+    "ownerName": "Suvidha",
     "url": "https://via-decide.github.io/Business-Directory/sites/suvidha-pg.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638820",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "vinod-electrical-solutions",
@@ -218,11 +281,16 @@
     "area": "Adipur",
     "address": "House No.15, Plot No.161/162, Reliance Society, Near Balaji Super Market, Adipur - 370205",
     "phone": "9725367411",
-    "email": "",
-    "ownerName": "",
+    "email": "vinodelect@adipur.local",
+    "ownerName": "Vinod",
     "url": "https://via-decide.github.io/Business-Directory/sites/vinod-electrical-solutions.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638824",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "patel-plumber-works",
@@ -233,11 +301,16 @@
     "area": "Oslo Road, Gandhidham",
     "address": "Bhim Market, Oslo Road, Opp Golden Arcade, Gandhidham Sector 1 - 370201",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "patelplumb@gandhidham.local",
+    "ownerName": "Patel",
     "url": "https://via-decide.github.io/Business-Directory/sites/patel-plumber-works.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638828",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "shiv-regency-gandhidham",
@@ -249,10 +322,14 @@
     "address": "360, Ward 12/B, Gandhidham - 370201",
     "phone": "",
     "email": "theshivregency@shivhotels.com",
-    "ownerName": "",
+    "ownerName": "The",
     "url": "https://via-decide.github.io/Business-Directory/sites/shiv-regency-gandhidham.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638832",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "anchor-rahul-budhani",
@@ -263,11 +340,16 @@
     "area": "Station Road, Gandhidham",
     "address": "B-306, Raj Plaza, Station Road, Mahatma Gandhi Road, Gandhidham - 370201",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "anchorrahu@gandhidham.local",
+    "ownerName": "Anchor",
     "url": "https://via-decide.github.io/Business-Directory/sites/anchor-rahul-budhani.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638838",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "maniifest-hr-consultancy",
@@ -293,11 +375,15 @@
     "area": "Kanchan Complex, Gandhidham",
     "address": "Office No.02, First Floor, Kanchan Complex Kutchkala, Gandhidham - 370201",
     "phone": "",
-    "email": "",
+    "email": "bharathrso@gandhidham.local",
     "ownerName": "Vadecha Bharat",
     "url": "https://via-decide.github.io/Business-Directory/sites/bharat-hr-solutions.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638841",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "pink-daisy-adipur",
@@ -308,11 +394,15 @@
     "area": "Adipur",
     "address": "Opposite Prabhudharshan Hall, Adipur",
     "phone": "8156081561",
-    "email": "",
+    "email": "pinkdaisyb@adipur.local",
     "ownerName": "Ashokbhai Motiyani",
     "url": "https://via-decide.github.io/Business-Directory/sites/pink-daisy-adipur.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638924",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "metro-hair-beauty-adipur",
@@ -323,11 +413,16 @@
     "area": "Ward 4/B, Adipur",
     "address": "Shop No 3, Plot No 310, Ward 4/B, Adipur",
     "phone": "7984669391",
-    "email": "",
-    "ownerName": "",
+    "email": "themetroha@adipur.local",
+    "ownerName": "The",
     "url": "https://via-decide.github.io/Business-Directory/sites/metro-hair-beauty-adipur.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638933",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "wellisa-salon-adipur",
@@ -338,11 +433,16 @@
     "area": "Rotry Circle, Adipur",
     "address": "Friends Square, Ground Floor, Near Rotry Circle, Adipur",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "wellisasal@adipur.local",
+    "ownerName": "Wellisa",
     "url": "https://via-decide.github.io/Business-Directory/sites/wellisa-salon-adipur.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638937",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "acme-computing-adipur",
@@ -353,11 +453,15 @@
     "area": "Jalaram Mandir Road, Adipur",
     "address": "Jalaram Mandir Road, Adipur",
     "phone": "",
-    "email": "",
+    "email": "acmecomput@adipur.local",
     "ownerName": "Nitesh Punjani",
     "url": "https://via-decide.github.io/Business-Directory/sites/acme-computing-adipur.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638940",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "mk-soft-service-adipur",
@@ -368,11 +472,15 @@
     "area": "DC 5, Adipur",
     "address": "Shivani B Building, DC 5, Adipur",
     "phone": "",
-    "email": "",
+    "email": "mksoftserv@adipur.local",
     "ownerName": "",
     "url": "https://via-decide.github.io/Business-Directory/sites/mk-soft-service-adipur.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638943",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "shadofax-technologies",
@@ -383,11 +491,16 @@
     "area": "Rambhagh Road, Adipur",
     "address": "Plot No.319 4b, Rambhagh Road, Adipur",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "shadofaxte@adipur.local",
+    "ownerName": "Shadofax",
     "url": "https://via-decide.github.io/Business-Directory/sites/shadofax-technologies.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638947",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "kpt-co-adipur",
@@ -398,11 +511,16 @@
     "area": "Ward 3b, Adipur",
     "address": "256, Om Mandir, Ward 3b, Adipur",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "kpt&co@adipur.local",
+    "ownerName": "Kpt",
     "url": "https://via-decide.github.io/Business-Directory/sites/kpt-co-adipur.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638953",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "jb-photo-studio-adipur",
@@ -413,11 +531,15 @@
     "area": "Golden City, Adipur",
     "address": "Gold Star Complex, Golden City, Ward 1a, Adipur",
     "phone": "",
-    "email": "",
+    "email": "jbphotostu@adipur.local",
     "ownerName": "",
     "url": "https://via-decide.github.io/Business-Directory/sites/jb-photo-studio-adipur.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638956",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "chheda-decorators-adipur",
@@ -428,11 +550,16 @@
     "area": "Behind DPS School, Adipur",
     "address": "Malyalmanorama Nagar, Behind DPS School, Adipur",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "chhedadeco@adipur.local",
+    "ownerName": "Chheda",
     "url": "https://via-decide.github.io/Business-Directory/sites/chheda-decorators-adipur.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638960",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "tongue-twister-adipur",
@@ -443,11 +570,16 @@
     "area": "Ward 6, Adipur",
     "address": "Ward 6, Adipur",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "tonguetwis@adipur.local",
+    "ownerName": "Tongue",
     "url": "https://via-decide.github.io/Business-Directory/sites/tongue-twister-adipur.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638964",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "vidhus-treat-adipur",
@@ -458,11 +590,16 @@
     "area": "Ward 5B, Adipur",
     "address": "Plot No.3, Ward 5B, Opp S P Office DC 5, Adipur",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "vidhu'stre@adipur.local",
+    "ownerName": "Vidhu",
     "url": "https://via-decide.github.io/Business-Directory/sites/vidhus-treat-adipur.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638982",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "matka-house-adipur",
@@ -473,11 +610,16 @@
     "area": "Rambaug Road, Adipur",
     "address": "Plot 25, Ward 6C, Rambaug Road, Adipur",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "matkahouse@adipur.local",
+    "ownerName": "Matka",
     "url": "https://via-decide.github.io/Business-Directory/sites/matka-house-adipur.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638992",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "pragati-girls-pg",
@@ -488,11 +630,16 @@
     "area": "Maitri School, Adipur",
     "address": "108, Ashram Road, Near Maitri School, Ward 2A, Adipur",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "pragatigir@adipur.local",
+    "ownerName": "Pragati",
     "url": "https://via-decide.github.io/Business-Directory/sites/pragati-girls-pg.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.638998",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "yuva-sharthi-pg",
@@ -503,11 +650,16 @@
     "area": "Goldencity, Adipur",
     "address": "Sidhheswar Residency, Goldencity, Adipur",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "yuvasharth@adipur.local",
+    "ownerName": "Yuva",
     "url": "https://via-decide.github.io/Business-Directory/sites/yuva-sharthi-pg.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639004",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "deepak-plumber-adipur",
@@ -518,11 +670,16 @@
     "area": "Adipur",
     "address": "Adipur Hanuman Road, Adipur",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "deepakplum@adipur.local",
+    "ownerName": "Deepak",
     "url": "https://via-decide.github.io/Business-Directory/sites/deepak-plumber-adipur.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639011",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "uma-enterprise-adipur",
@@ -533,11 +690,16 @@
     "area": "Bhagirath Nagar, Adipur",
     "address": "Plot No.474, Bhagirath Nagar, Adipur",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "umaenterpr@adipur.local",
+    "ownerName": "Uma",
     "url": "https://via-decide.github.io/Business-Directory/sites/uma-enterprise-adipur.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639017",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "dpt-exhibition-adipur",
@@ -548,11 +710,16 @@
     "area": "Adipur",
     "address": "DPT Exhibition Ground, Adipur",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "dptexhibit@adipur.local",
+    "ownerName": "DPT",
     "url": "https://via-decide.github.io/Business-Directory/sites/dpt-exhibition-adipur.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639024",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "khavda-events-adipur",
@@ -563,11 +730,16 @@
     "area": "Meghpar, Adipur",
     "address": "Plot No.500, Meghpar, Adipur",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "khavdaeven@adipur.local",
+    "ownerName": "Khavda",
     "url": "https://via-decide.github.io/Business-Directory/sites/khavda-events-adipur.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639030",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "cheesy-events-adipur",
@@ -578,11 +750,16 @@
     "area": "Near Iscon Mandir, Adipur",
     "address": "Mangleshwar Nagar, Near Iscon Mandir, Adipur",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "cheesyeven@adipur.local",
+    "ownerName": "Cheesy",
     "url": "https://via-decide.github.io/Business-Directory/sites/cheesy-events-adipur.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639035",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "etrnity-solutions-adipur",
@@ -593,11 +770,16 @@
     "area": "Meghpar-Kumbharani, Adipur",
     "address": "29, Sidheshwar Park, Meghpar-Kumbharani, Adipur",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "etrnitysol@adipur.local",
+    "ownerName": "Etrnity",
     "url": "https://via-decide.github.io/Business-Directory/sites/etrnity-solutions-adipur.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639039",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "rightfithr-solutions-adipur",
@@ -608,11 +790,16 @@
     "area": "Rambag Road, Adipur",
     "address": "4B, Rambag Road, Adipur",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "rightfithr@adipur.local",
+    "ownerName": "Rightfithr",
     "url": "https://via-decide.github.io/Business-Directory/sites/rightfithr-solutions-adipur.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639070",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "sumit-collection-shinay",
@@ -623,11 +810,16 @@
     "area": "Mithila 2, Shinay",
     "address": "Near Sarda Vidya Mandir Primary School, Mithila 2, Shinay",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "sumitcolle@shinay.local",
+    "ownerName": "Sumit",
     "url": "https://via-decide.github.io/Business-Directory/sites/sumit-collection-shinay.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639077",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "visanjhi-enterprise-shinay",
@@ -638,11 +830,16 @@
     "area": "Shinay Road, Kachchh",
     "address": "227 New Society, 1 Shinay Road, Shinay Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "visanjhien@shinay.local",
+    "ownerName": "Visanjhi",
     "url": "https://via-decide.github.io/Business-Directory/sites/visanjhi-enterprise-shinay.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639081",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "ekankotri-shinay",
@@ -653,11 +850,16 @@
     "area": "Ward 1, Shinay",
     "address": "Ward Number 1, Shop No 1, Shinay",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "ekankotri@shinay.local",
+    "ownerName": "Ekankotri",
     "url": "https://via-decide.github.io/Business-Directory/sites/ekankotri-shinay.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639087",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "shiv-sanket-shinay",
@@ -668,11 +870,16 @@
     "area": "Shinay",
     "address": "Shinay, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "shivsanket@shinay.local",
+    "ownerName": "Shiv",
     "url": "https://via-decide.github.io/Business-Directory/sites/shiv-sanket-shinay.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639091",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "shiv-fabrication-shinay",
@@ -683,11 +890,16 @@
     "area": "Antarjaal, Shinay",
     "address": "Shop No 11, Shinay, Antarjaal",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "shivfabric@shinay.local",
+    "ownerName": "Shiv",
     "url": "https://via-decide.github.io/Business-Directory/sites/shiv-fabrication-shinay.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639094",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "madhav-hardware-shinay",
@@ -698,11 +910,16 @@
     "area": "Antarjal Shinay Road",
     "address": "Sudamapuri Plot No 26, Antarjal Shinay Road",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "madhavhard@shinay.local",
+    "ownerName": "Madhav",
     "url": "https://via-decide.github.io/Business-Directory/sites/madhav-hardware-shinay.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639098",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "shree-ram-hardware-sinay",
@@ -713,11 +930,16 @@
     "area": "Adipur Sinay Road",
     "address": "Gurukrupa Complex, Adipur Sinay Road",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "shreeramha@shinay.local",
+    "ownerName": "Shree",
     "url": "https://via-decide.github.io/Business-Directory/sites/shree-ram-hardware-sinay.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639102",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "navkar-events-shinay",
@@ -728,11 +950,16 @@
     "area": "Ward 3/B, Shinay",
     "address": "Ward 3/B, Plot No 100, Shinay",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "navkareven@shinay.local",
+    "ownerName": "Navkar",
     "url": "https://via-decide.github.io/Business-Directory/sites/navkar-events-shinay.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639106",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "bdh-party-lawns-shinay",
@@ -743,11 +970,16 @@
     "area": "Adipur Mundra Highway, Shinay",
     "address": "Adipur Mundra Highway, Shinay",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "bdhpartyla@shinay.local",
+    "ownerName": "BDH",
     "url": "https://via-decide.github.io/Business-Directory/sites/bdh-party-lawns-shinay.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639109",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "ramada-wyndham-shinay",
@@ -758,11 +990,16 @@
     "area": "Adipur Mundra Highway, Shinay",
     "address": "Adipur Mundra Highway, Shinay - 370205",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "ramadabywy@shinay.local",
+    "ownerName": "Ramada",
     "url": "https://via-decide.github.io/Business-Directory/sites/ramada-wyndham-shinay.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639132",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "yasu-family-salon-anjar",
@@ -773,11 +1010,16 @@
     "area": "Chitrakut, Anjar",
     "address": "Near Reliance Trends Mall, Chitrakut, Anjar, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "yasuthefam@anjar.local",
+    "ownerName": "Yasu",
     "url": "https://via-decide.github.io/Business-Directory/sites/yasu-family-salon-anjar.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639137",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "keshav-hair-art-anjar",
@@ -788,11 +1030,16 @@
     "area": "Vir Bhaghat Singh Nagar, Anjar",
     "address": "Shiv Shakti Society, Vir Bhaghat Singh Nagar, Anjar, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "keshavhair@anjar.local",
+    "ownerName": "Keshav",
     "url": "https://via-decide.github.io/Business-Directory/sites/keshav-hair-art-anjar.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639141",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "odhni-ranis-boutique-anjar",
@@ -803,11 +1050,16 @@
     "area": "Meghpar, Anjar",
     "address": "Shop No 04, Shreeji Nagar, Meghpar, Anjar, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "odhnirani'@anjar.local",
+    "ownerName": "Odhni",
     "url": "https://via-decide.github.io/Business-Directory/sites/odhni-ranis-boutique-anjar.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639145",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "dreamland-placement-anjar",
@@ -818,11 +1070,16 @@
     "area": "Anjar Highway, Anjar",
     "address": "Adarsh Building, Anjar Highway, Anjar, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "dreamlandp@anjar.local",
+    "ownerName": "Dreamland",
     "url": "https://via-decide.github.io/Business-Directory/sites/dreamland-placement-anjar.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639149",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "rajhansh-enterprise-anjar",
@@ -833,11 +1090,16 @@
     "area": "Meghpar, Anjar",
     "address": "Plot No 119, Survey No 8, Meghpar, Anjar, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "rajhanshen@anjar.local",
+    "ownerName": "Rajhansh",
     "url": "https://via-decide.github.io/Business-Directory/sites/rajhansh-enterprise-anjar.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639153",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "shreeji-tech-hub-anjar",
@@ -848,11 +1110,16 @@
     "area": "Ganga Naka, Anjar",
     "address": "Yamuna Complex, Outside Ganga Naka, Anjar, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "shreejitec@anjar.local",
+    "ownerName": "Shreeji",
     "url": "https://via-decide.github.io/Business-Directory/sites/shreeji-tech-hub-anjar.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639157",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "sanju-software-developer-anjar",
@@ -863,11 +1130,16 @@
     "area": "Kumbhar Chowk, Anjar",
     "address": "Maheshwari Vas, Ward No.5, Near Kumbhar Chowk, Anjar, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "sanjusoftw@anjar.local",
+    "ownerName": "Sanju",
     "url": "https://via-decide.github.io/Business-Directory/sites/sanju-software-developer-anjar.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639160",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "paresh-hadiya-associates-anjar",
@@ -878,11 +1150,15 @@
     "area": "Anjar",
     "address": "Madhuban Mall, Opposite Swami Vivekanand Vidhyalay, Anjar, Kachchh",
     "phone": "",
-    "email": "",
+    "email": "pareshhadi@anjar.local",
     "ownerName": "Paresh Hadiya",
     "url": "https://via-decide.github.io/Business-Directory/sites/paresh-hadiya-associates-anjar.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639163",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "suresh-h-thacker-anjar",
@@ -893,11 +1169,15 @@
     "area": "Shivaji Road, Anjar",
     "address": "1st Floor, Swaminarayan Shopping Center, Savasar Naka, Shivaji Road, Anjar, Kachchh",
     "phone": "",
-    "email": "",
+    "email": "sureshhtha@anjar.local",
     "ownerName": "Suresh H Thacker",
     "url": "https://via-decide.github.io/Business-Directory/sites/suresh-h-thacker-anjar.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639165",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "jalaram-digital-anjar",
@@ -908,11 +1188,15 @@
     "area": "Devaliya Naka, Anjar",
     "address": "Shop No 3, Opp Garden, Devaliya Naka, Anjar, Kachchh",
     "phone": "",
-    "email": "",
+    "email": "jalaramdig@anjar.local",
     "ownerName": "Vishnukumar Dave",
     "url": "https://via-decide.github.io/Business-Directory/sites/jalaram-digital-anjar.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639179",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "snap-and-shoot-anjar",
@@ -923,11 +1207,15 @@
     "area": "Khatri Chowk, Anjar",
     "address": "Meter Road, Khatri Chowk, Behind Shital Ice Cream, Anjar, Kachchh",
     "phone": "",
-    "email": "",
+    "email": "snap&shoot@anjar.local",
     "ownerName": "Ashish M. Chauhan",
     "url": "https://via-decide.github.io/Business-Directory/sites/snap-and-shoot-anjar.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639183",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "welcome-tea-house-anjar",
@@ -938,11 +1226,16 @@
     "area": "Ganga Naka, Anjar",
     "address": "Ganga Naka, Opposite Bank Of Baroda Khatri Bazar, Anjar, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "welcometea@anjar.local",
+    "ownerName": "Welcome",
     "url": "https://via-decide.github.io/Business-Directory/sites/welcome-tea-house-anjar.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639187",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "om-print-anjar",
@@ -953,11 +1246,15 @@
     "area": "Bus Station Road, Anjar",
     "address": "Bus Station Road, Anjar, Kachchh",
     "phone": "",
-    "email": "",
+    "email": "omprint@anjar.local",
     "ownerName": "",
     "url": "https://via-decide.github.io/Business-Directory/sites/om-print-anjar.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639190",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "rb-enterprise-pg-anjar",
@@ -968,11 +1265,15 @@
     "area": "RTO Service Road, Anjar",
     "address": "Ambika Society, RTO Service Road, Megparbori to Anjar, Kachchh",
     "phone": "",
-    "email": "",
+    "email": "rbenterpri@anjar.local",
     "ownerName": "",
     "url": "https://via-decide.github.io/Business-Directory/sites/rb-enterprise-pg-anjar.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639194",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "pravin-maheshwari-plumber-anjar",
@@ -983,11 +1284,15 @@
     "area": "Vijay Nagar, Anjar",
     "address": "Plot No.22, Vijay Nagar, Beside Old Court, Anjar, Kachchh",
     "phone": "",
-    "email": "",
+    "email": "pravinmahe@anjar.local",
     "ownerName": "Pravin Maheshwari",
     "url": "https://via-decide.github.io/Business-Directory/sites/pravin-maheshwari-plumber-anjar.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639197",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "uma-enterprise-anjar",
@@ -998,11 +1303,16 @@
     "area": "Bhaghirath Nagar, Anjar",
     "address": "Uma Complex, Bhaghirath Nagar, Anjar, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "umaenterpr@anjar.local",
+    "ownerName": "Uma",
     "url": "https://via-decide.github.io/Business-Directory/sites/uma-enterprise-anjar.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639200",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "ditya-events-anjar",
@@ -1013,11 +1323,15 @@
     "area": "Ganga Naka, Anjar",
     "address": "Shop No.1, Maruti Complex, Lohana Mahajanwadi Road, Ganga Naka, Anjar, Kachchh",
     "phone": "",
-    "email": "",
+    "email": "dityaevent@anjar.local",
     "ownerName": "Thacker Jay Kishorbhai",
     "url": "https://via-decide.github.io/Business-Directory/sites/ditya-events-anjar.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639202",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "prajapati-chhatralaya-anjar",
@@ -1028,11 +1342,16 @@
     "area": "Vir Bhaghat Singh Nagar, Anjar",
     "address": "Gokul Nagar, Vir Bhaghat Singh Nagar, Anjar, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "prajapatic@anjar.local",
+    "ownerName": "Prajapati",
     "url": "https://via-decide.github.io/Business-Directory/sites/prajapati-chhatralaya-anjar.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639206",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "accurate-search-consultants-anjar",
@@ -1043,11 +1362,16 @@
     "area": "Chitrakoot Circle, Anjar",
     "address": "Near Chitrakoot Circle, Anjar, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "accuratese@anjar.local",
+    "ownerName": "Accurate",
     "url": "https://via-decide.github.io/Business-Directory/sites/accurate-search-consultants-anjar.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639212",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "executive-ship-management-anjar",
@@ -1058,11 +1382,16 @@
     "area": "Ward No 9-A, Anjar",
     "address": "Ward No 9-A, Second Floor, Anjar, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "executives@anjar.local",
+    "ownerName": "Executive",
     "url": "https://via-decide.github.io/Business-Directory/sites/executive-ship-management-anjar.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639227",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "kishan-hair-art-bhachau",
@@ -1073,11 +1402,16 @@
     "area": "Chirai, Bhachau",
     "address": "Nagarpalika Shopping Centre 1, Ramvada Area, Chirai, Bhachau, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "kishanhair@bhachau.local",
+    "ownerName": "Kishan",
     "url": "https://via-decide.github.io/Business-Directory/sites/kishan-hair-art-bhachau.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639233",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "matrix-salon-bhachau",
@@ -1088,11 +1422,16 @@
     "area": "Sadar Bajar, Bhachau",
     "address": "Shop No 111, Sadar Bajar, Indraprasth, Bhachau, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "matrixsalo@bhachau.local",
+    "ownerName": "Matrix",
     "url": "https://via-decide.github.io/Business-Directory/sites/matrix-salon-bhachau.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639237",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "lady-point-bhachau",
@@ -1103,11 +1442,16 @@
     "area": "Chirai, Bhachau",
     "address": "Opposite Mahadev Medical Store, Chirai, Bhachau, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "ladypointb@bhachau.local",
+    "ownerName": "Lady",
     "url": "https://via-decide.github.io/Business-Directory/sites/lady-point-bhachau.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639242",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "jp-kheradia-construction-bhachau",
@@ -1118,11 +1462,15 @@
     "area": "Laxmiwadi, Bhachau",
     "address": "Shri Harikrishna Niwas, 13, Laxmiwadi, Lakadia, Bhachau, Kachchh",
     "phone": "",
-    "email": "",
+    "email": "jpkheradia@bhachau.local",
     "ownerName": "",
     "url": "https://via-decide.github.io/Business-Directory/sites/jp-kheradia-construction-bhachau.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639246",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "codteg-bhachau",
@@ -1133,11 +1481,16 @@
     "area": "Bhachau",
     "address": "Bhachau, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "codteg@bhachau.local",
+    "ownerName": "CodTeg",
     "url": "https://via-decide.github.io/Business-Directory/sites/codteg-bhachau.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639250",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "siddharth-mehta-ca-bhachau",
@@ -1148,11 +1501,15 @@
     "area": "Nagar Palika, Bhachau",
     "address": "1, New Siddhachal Bldg, Opposite Nagar Palika, Bhachau, Kachchh",
     "phone": "",
-    "email": "",
+    "email": "siddharthm@bhachau.local",
     "ownerName": "Siddharth Mehta",
     "url": "https://via-decide.github.io/Business-Directory/sites/siddharth-mehta-ca-bhachau.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639252",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "yogita-s-and-company-bhachau",
@@ -1163,11 +1520,16 @@
     "area": "Bhachau",
     "address": "Bhachau, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "yogitasand@bhachau.local",
+    "ownerName": "Yogita",
     "url": "https://via-decide.github.io/Business-Directory/sites/yogita-s-and-company-bhachau.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639256",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "rd-creation-bhachau",
@@ -1178,11 +1540,15 @@
     "area": "Ghanshyamnagar, Bhachau",
     "address": "Ghanshyamnagar, Bhachau, Kachchh",
     "phone": "",
-    "email": "",
+    "email": "rdcreation@bhachau.local",
     "ownerName": "",
     "url": "https://via-decide.github.io/Business-Directory/sites/rd-creation-bhachau.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639260",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "odhani-studio-bhachau",
@@ -1193,11 +1559,16 @@
     "area": "Kabirnagar, Bhachau",
     "address": "Kabirnagar, Chobari, Bhachau, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "odhanistud@bhachau.local",
+    "ownerName": "Odhani",
     "url": "https://via-decide.github.io/Business-Directory/sites/odhani-studio-bhachau.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639264",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "vishnu-paints-bhachau",
@@ -1208,11 +1579,15 @@
     "area": "ST Road, Bhachau",
     "address": "Shop No. 20, Arihant Complex, ST Road, Near Bus Stand, Bhachau, Kachchh",
     "phone": "",
-    "email": "",
+    "email": "vishnupain@bhachau.local",
     "ownerName": "Amit V Joshi",
     "url": "https://via-decide.github.io/Business-Directory/sites/vishnu-paints-bhachau.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639286",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "prince-hardware-bhachau",
@@ -1223,11 +1598,16 @@
     "area": "Dudhai Road, Bhachau",
     "address": "Near Hotel Shiv, Dudhai Road, Ramwadi, Bhachau, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "princehard@bhachau.local",
+    "ownerName": "Prince",
     "url": "https://via-decide.github.io/Business-Directory/sites/prince-hardware-bhachau.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639292",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "honest-restaurant-bhachau",
@@ -1238,11 +1618,16 @@
     "area": "Dudhai Road, Bhachau",
     "address": "Sunrise Mall, Dudhai Road, Chirai, Bhachau, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "honestrest@bhachau.local",
+    "ownerName": "Honest",
     "url": "https://via-decide.github.io/Business-Directory/sites/honest-restaurant-bhachau.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639296",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "adarsh-nivasi-sala-bhachau",
@@ -1253,11 +1638,16 @@
     "area": "Kabrau, Bhachau",
     "address": "Kabrau, Bhachau, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "adarshniva@bhachau.local",
+    "ownerName": "Adarsh",
     "url": "https://via-decide.github.io/Business-Directory/sites/adarsh-nivasi-sala-bhachau.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639300",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "bholenath-enterprise-bhachau",
@@ -1268,11 +1658,16 @@
     "area": "Adhoi, Bhachau",
     "address": "Main Bazar Tin Rasta, Adhoi, Bhachau, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "bholenathe@bhachau.local",
+    "ownerName": "Bholenath",
     "url": "https://via-decide.github.io/Business-Directory/sites/bholenath-enterprise-bhachau.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639304",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "shree-vishwakarma-hardware-bhachau",
@@ -1283,11 +1678,16 @@
     "area": "Kharoi, Bhachau",
     "address": "Kharoi, Bhachau, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "shreevishw@bhachau.local",
+    "ownerName": "Shree",
     "url": "https://via-decide.github.io/Business-Directory/sites/shree-vishwakarma-hardware-bhachau.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639307",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "hotel-shiv-international-bhachau",
@@ -1299,10 +1699,14 @@
     "address": "Sunrise Mall, Near New Bus Station, Dudhai Road, Bhachau, Kachchh",
     "phone": "",
     "email": "info@hotelshiv.com",
-    "ownerName": "",
+    "ownerName": "Hotel",
     "url": "https://via-decide.github.io/Business-Directory/sites/hotel-shiv-international-bhachau.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639311",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "samakhalyi-mahajan-wadi-bhachau",
@@ -1313,11 +1717,16 @@
     "area": "Samkhiyali, Bhachau",
     "address": "Old Bus Station Road, Samkhiyali, Bhachau, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "samakhalyi@bhachau.local",
+    "ownerName": "Samakhalyi",
     "url": "https://via-decide.github.io/Business-Directory/sites/samakhalyi-mahajan-wadi-bhachau.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639315",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "shiv-shakti-construction-bhachau",
@@ -1328,11 +1737,15 @@
     "area": "Bhachau",
     "address": "Bhachau, Kachchh",
     "phone": "",
-    "email": "",
+    "email": "shivshakti@bhachau.local",
     "ownerName": "Ashokkumar Solanki",
     "url": "https://via-decide.github.io/Business-Directory/sites/shiv-shakti-construction-bhachau.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639317",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "the-fab-tales-bhuj",
@@ -1343,11 +1756,16 @@
     "area": "Sanskar Nagar, Bhuj",
     "address": "Mangalam Ground Floor, Sanskar Nagar, Bhuj, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "thefabtale@bhuj.local",
+    "ownerName": "The",
     "url": "https://via-decide.github.io/Business-Directory/sites/the-fab-tales-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639321",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "white-hair-care-bhuj",
@@ -1358,11 +1776,16 @@
     "area": "Ghanshyam Nagar, Bhuj",
     "address": "Near Anand Hotel, Ghanshyam Nagar, Bhuj, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "whitehairc@bhuj.local",
+    "ownerName": "White",
     "url": "https://via-decide.github.io/Business-Directory/sites/white-hair-care-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639339",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "gems-hairs-studio-bhuj",
@@ -1373,11 +1796,16 @@
     "area": "Din Dayal Nagar, Bhuj",
     "address": "Hospital Road, Din Dayal Nagar, Bhuj, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "gemshairss@bhuj.local",
+    "ownerName": "Gems",
     "url": "https://via-decide.github.io/Business-Directory/sites/gems-hairs-studio-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639344",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "urdhvaga-consultancy-bhuj",
@@ -1388,11 +1816,16 @@
     "area": "Ashapura Ring Road, Bhuj",
     "address": "Katira Shopping Center, Ashapura Ring Road, Bhuj, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "urdhvagaco@bhuj.local",
+    "ownerName": "Urdhvaga",
     "url": "https://via-decide.github.io/Business-Directory/sites/urdhvaga-consultancy-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639348",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "vinay-manpower-consultant-bhuj",
@@ -1403,11 +1836,16 @@
     "area": "Mirjapar, Bhuj",
     "address": "Bhuj Sukhpar Highway, Mirjapar, Bhuj, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "vinaymanpo@bhuj.local",
+    "ownerName": "Vinay",
     "url": "https://via-decide.github.io/Business-Directory/sites/vinay-manpower-consultant-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639352",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "arkay-hr-consultancy-bhuj",
@@ -1418,11 +1856,16 @@
     "area": "Bhuj",
     "address": "Bhuj, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "arkayhrcon@bhuj.local",
+    "ownerName": "Arkay",
     "url": "https://via-decide.github.io/Business-Directory/sites/arkay-hr-consultancy-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639356",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "codelyhut-infotech-bhuj",
@@ -1433,11 +1876,16 @@
     "area": "New Station Road, Bhuj",
     "address": "Parasmani Appartment, New Station Road, Bhuj, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "codelyhuti@bhuj.local",
+    "ownerName": "CodelyHut",
     "url": "https://via-decide.github.io/Business-Directory/sites/codelyhut-infotech-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639361",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "wrteam-bhuj",
@@ -1448,11 +1896,16 @@
     "area": "Mirjapar Highway, Bhuj",
     "address": "Time Square Empire, Mirjapar Highway, Bhuj, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "wrteam@bhuj.local",
+    "ownerName": "WRTeam",
     "url": "https://via-decide.github.io/Business-Directory/sites/wrteam-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639367",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "skyline-softech-bhujpur",
@@ -1463,11 +1916,16 @@
     "area": "Station Road, Bhujpur",
     "address": "Station Road, Bhujpur, Kutch, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "skylinesof@bhuj.local",
+    "ownerName": "Skyline",
     "url": "https://via-decide.github.io/Business-Directory/sites/skyline-softech-bhujpur.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639374",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "deep-koradia-associates-bhuj",
@@ -1478,11 +1936,15 @@
     "area": "Bhanushali Nagar, Bhuj",
     "address": "Platinum One, Bhanushali Nagar, Bhuj, Kachchh",
     "phone": "",
-    "email": "",
+    "email": "deepkoradi@bhuj.local",
     "ownerName": "Deep Koradia",
     "url": "https://via-decide.github.io/Business-Directory/sites/deep-koradia-associates-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639377",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "pandit-vora-associates-bhuj",
@@ -1493,11 +1955,16 @@
     "area": "Station Road, Bhuj",
     "address": "Krishna Chambers, Station Road, Bhuj, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "panditvora@bhuj.local",
+    "ownerName": "Pandit",
     "url": "https://via-decide.github.io/Business-Directory/sites/pandit-vora-associates-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639384",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "kmg-co-llp-bhuj",
@@ -1508,11 +1975,16 @@
     "area": "Bhuj",
     "address": "Bhuj, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "kmgcollp@bhuj.local",
+    "ownerName": "KMG",
     "url": "https://via-decide.github.io/Business-Directory/sites/kmg-co-llp-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639416",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "jitendra-thacker-associates-bhuj",
@@ -1523,11 +1995,15 @@
     "area": "New Station Road, Bhuj",
     "address": "Happy Commercial Center, New Station Road, Bhuj, Kachchh",
     "phone": "",
-    "email": "",
+    "email": "jitendrath@bhuj.local",
     "ownerName": "Jitendra Thacker",
     "url": "https://via-decide.github.io/Business-Directory/sites/jitendra-thacker-associates-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639429",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "bird-eye-production-bhuj",
@@ -1538,11 +2014,16 @@
     "area": "Mirzapur, Bhuj",
     "address": "Main Bazar, Mirzapur, Bhuj, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "birdeyepro@bhuj.local",
+    "ownerName": "Bird",
     "url": "https://via-decide.github.io/Business-Directory/sites/bird-eye-production-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639433",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "bhavin-patadiya-photography-bhuj",
@@ -1553,11 +2034,15 @@
     "area": "Lakhond, Bhuj",
     "address": "Main Bazar, Lakhond, Bhuj, Kachchh",
     "phone": "",
-    "email": "",
+    "email": "bhavinpata@bhuj.local",
     "ownerName": "Bhavin Patadiya",
     "url": "https://via-decide.github.io/Business-Directory/sites/bhavin-patadiya-photography-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639437",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "sahara-photo-video-bhuj",
@@ -1568,11 +2053,16 @@
     "area": "Sonivad, Bhuj",
     "address": "Flore Tariq Complex, Sonivad, Bhuj, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "saharaphot@bhuj.local",
+    "ownerName": "Sahara",
     "url": "https://via-decide.github.io/Business-Directory/sites/sahara-photo-video-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639441",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "bhujodi-kala-cotton-bhujodi",
@@ -1583,11 +2073,16 @@
     "area": "Bhujodi, Kutch",
     "address": "Bhujodi, Kutch, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "bhujodikal@bhuj.local",
+    "ownerName": "Bhujodi",
     "url": "https://via-decide.github.io/Business-Directory/sites/bhujodi-kala-cotton-bhujodi.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639445",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "apna-adda-bhuj",
@@ -1598,11 +2093,16 @@
     "area": "Airport Road, Bhuj",
     "address": "The Katira Complex, Airport Road, Bhuj, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "apnaadda@bhuj.local",
+    "ownerName": "Apna",
     "url": "https://via-decide.github.io/Business-Directory/sites/apna-adda-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639449",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "diamond-pg-bhuj",
@@ -1613,11 +2113,16 @@
     "area": "Bhuj",
     "address": "Bhuj, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "diamondpg@bhuj.local",
+    "ownerName": "Diamond",
     "url": "https://via-decide.github.io/Business-Directory/sites/diamond-pg-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639453",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "sweet-home-hostel-bhuj",
@@ -1628,11 +2133,16 @@
     "area": "Sahyognagar, Bhuj",
     "address": "Opposite Engineering College, Sahyognagar, Bhuj, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "sweethomeh@bhuj.local",
+    "ownerName": "Sweet",
     "url": "https://via-decide.github.io/Business-Directory/sites/sweet-home-hostel-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639462",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "bhimratna-samras-hostel-bhuj",
@@ -1643,11 +2153,16 @@
     "area": "Mirjapar, Bhuj",
     "address": "Sahjanand Nagar, Mirjapar, Bhuj, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "bhimratnas@bhuj.local",
+    "ownerName": "Bhimratna",
     "url": "https://via-decide.github.io/Business-Directory/sites/bhimratna-samras-hostel-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639466",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "hari-om-electric-ac-bhuj",
@@ -1658,11 +2173,16 @@
     "area": "Mirzapar Road, Bhuj",
     "address": "Odhavkrupa Apartment, Mirzapar Road, Bhuj, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "hariomelec@bhuj.local",
+    "ownerName": "Hari",
     "url": "https://via-decide.github.io/Business-Directory/sites/hari-om-electric-ac-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639495",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "mitesh-house-maintenance-bhuj",
@@ -1673,11 +2193,15 @@
     "area": "New Bhuj",
     "address": "New Bhuj, Kachchh",
     "phone": "",
-    "email": "",
+    "email": "miteshhous@bhuj.local",
     "ownerName": "Mitesh",
     "url": "https://via-decide.github.io/Business-Directory/sites/mitesh-house-maintenance-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639500",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "mehran-plumbing-services-bhuj",
@@ -1688,11 +2212,16 @@
     "area": "Mankuwa, Bhuj",
     "address": "Near Patel Ice Candy, Bhuj Nakhatrana Road, Mankuwa, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "mehranplum@bhuj.local",
+    "ownerName": "Mehran",
     "url": "https://via-decide.github.io/Business-Directory/sites/mehran-plumbing-services-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639504",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "time-square-resort-bhuj",
@@ -1703,11 +2232,16 @@
     "area": "Bhuj-Mundra Road",
     "address": "Bhuj-Mundra Road, Bhuj, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "timesquare@bhuj.local",
+    "ownerName": "Time",
     "url": "https://via-decide.github.io/Business-Directory/sites/time-square-resort-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639508",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "seven-sky-clarks-exotica-bhuj",
@@ -1718,11 +2252,16 @@
     "area": "Airport Road, Bhuj",
     "address": "Airport Road, Bhuj, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "sevenskycl@bhuj.local",
+    "ownerName": "Seven",
     "url": "https://via-decide.github.io/Business-Directory/sites/seven-sky-clarks-exotica-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639512",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "star-sound-dj-lights-bhuj",
@@ -1733,11 +2272,16 @@
     "area": "Kukma, Bhuj",
     "address": "Padheda Vistar, Kukma, Bhuj, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "starsound&@bhuj.local",
+    "ownerName": "STAR",
     "url": "https://via-decide.github.io/Business-Directory/sites/star-sound-dj-lights-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639515",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "veeha-boutique-mandvi",
@@ -1748,11 +2292,16 @@
     "area": "Babavadi Road, Mandvi",
     "address": "Babavadi Road, Mandvi, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "veehabouti@mandvi.local",
+    "ownerName": "Veeha",
     "url": "https://via-decide.github.io/Business-Directory/sites/veeha-boutique-mandvi.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639519",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "neelkanth-hardware-nakhatrana",
@@ -1763,11 +2312,16 @@
     "area": "Super Market, Nakhatrana",
     "address": "Super Market, Nakhatrana, Kutch, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "neelkanthh@nakhatrana.local",
+    "ownerName": "Neelkanth",
     "url": "https://via-decide.github.io/Business-Directory/sites/neelkanth-hardware-nakhatrana.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639523",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "mahalaxmi-hardware-nakhatrana",
@@ -1778,11 +2332,16 @@
     "area": "Netra, Nakhatrana",
     "address": "Netra, Nakhatrana, Kutch, Kachchh",
     "phone": "",
-    "email": "",
-    "ownerName": "",
+    "email": "mahalaxmih@nakhatrana.local",
+    "ownerName": "Mahalaxmi",
     "url": "https://via-decide.github.io/Business-Directory/sites/mahalaxmi-hardware-nakhatrana.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639527",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "shreeji-vada-pav-bhuj",
@@ -1793,11 +2352,15 @@
     "area": "Hospital Road, Bhuj",
     "address": "Hospital Road, Opp. Jubilee Ground, Bhuj - 370001",
     "phone": "9876543210",
-    "email": "",
+    "email": "shreejivad@bhuj.local",
     "ownerName": "Ramesh Bhai",
     "url": "https://via-decide.github.io/Business-Directory/sites/shreeji-vada-pav-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639529",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "kutch-handicrafts-arts-bhujodi",
@@ -1823,11 +2386,16 @@
     "area": "Sector 12, Gandhidham",
     "address": "Shop 4, Bus Stand Road, Sector 12, Gandhidham",
     "phone": "9876543212",
-    "email": "",
-    "ownerName": "",
+    "email": "bhagwatitr@gandhidham.local",
+    "ownerName": "Bhagwati",
     "url": "https://via-decide.github.io/Business-Directory/sites/bhagwati-travels-gandhidham.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639549",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "maheshwari-sweets-mandvi",
@@ -1838,11 +2406,16 @@
     "area": "Azad Chowk, Mandvi",
     "address": "Azad Chowk, Mandvi, Kutch - 370465",
     "phone": "9876543213",
-    "email": "",
-    "ownerName": "",
+    "email": "maheshwari@mandvi.local",
+    "ownerName": "Maheshwari",
     "url": "https://via-decide.github.io/Business-Directory/sites/maheshwari-sweets-mandvi.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639553",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "patidar-guest-house-nakhatrana",
@@ -1853,11 +2426,16 @@
     "area": "Main Highway, Nakhatrana",
     "address": "Bhuj-Lakhpat Highway, Nakhatrana - 370615",
     "phone": "9876543214",
-    "email": "",
-    "ownerName": "",
+    "email": "patidargue@nakhatrana.local",
+    "ownerName": "Patidar",
     "url": "https://via-decide.github.io/Business-Directory/sites/patidar-guest-house-nakhatrana.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639557",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "gokul-dairy-anjar",
@@ -1868,11 +2446,16 @@
     "area": "Savasar Naka, Anjar",
     "address": "Savasar Naka, Anjar, Kutch",
     "phone": "9876543215",
-    "email": "",
-    "ownerName": "",
+    "email": "gokuldairy@anjar.local",
+    "ownerName": "Gokul",
     "url": "https://via-decide.github.io/Business-Directory/sites/gokul-dairy-anjar.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639561",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "shree-umiya-timber-gandhidham",
@@ -1883,11 +2466,15 @@
     "area": "Timber Bhavan",
     "address": "Timber Bhavan Road, Gandhidham - 370201",
     "phone": "9876543216",
-    "email": "",
+    "email": "shreeumiya@gandhidham.local",
     "ownerName": "Patel Brothers",
     "url": "https://via-decide.github.io/Business-Directory/sites/shree-umiya-timber-gandhidham.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639563",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "radha-krishna-jewellers-bhuj",
@@ -1898,11 +2485,16 @@
     "area": "Saraf Bazar, Bhuj",
     "address": "Saraf Bazar, Bhuj, Kutch - 370001",
     "phone": "9876543217",
-    "email": "",
-    "ownerName": "",
+    "email": "radhakrish@bhuj.local",
+    "ownerName": "Radha",
     "url": "https://via-decide.github.io/Business-Directory/sites/radha-krishna-jewellers-bhuj.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639567",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "vikas-auto-garage-adipur",
@@ -1913,11 +2505,15 @@
     "area": "Ward 4A, Adipur",
     "address": "Ward 4A, Near Post Office, Adipur",
     "phone": "9876543218",
-    "email": "",
+    "email": "vikasautog@adipur.local",
     "ownerName": "Vikas Sharma",
     "url": "https://via-decide.github.io/Business-Directory/sites/vikas-auto-garage-adipur.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639569",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "laxmi-medical-bhachau",
@@ -1928,11 +2524,16 @@
     "area": "Main Bazar, Bhachau",
     "address": "Main Bazar, Bhachau, Kutch",
     "phone": "9876543219",
-    "email": "",
-    "ownerName": "",
+    "email": "laxmimedic@bhachau.local",
+    "ownerName": "Laxmi",
     "url": "https://via-decide.github.io/Business-Directory/sites/laxmi-medical-bhachau.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "owner_source": "name_extraction",
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639573",
+    "enrichment_method": "pattern_matching"
   },
   {
     "slug": "poonam-beauty-care-mandvi",
@@ -1943,10 +2544,14 @@
     "area": "Jain Ashram Road, Mandvi",
     "address": "Jain Ashram Road, Mandvi",
     "phone": "9876543220",
-    "email": "",
+    "email": "poonambeau@mandvi.local",
     "ownerName": "Poonam Ben",
     "url": "https://via-decide.github.io/Business-Directory/sites/poonam-beauty-care-mandvi.html",
     "verified": false,
-    "claimed": false
+    "claimed": false,
+    "email_source": "generated",
+    "enriched": true,
+    "enriched_at": "2026-03-27T08:22:13.639575",
+    "enrichment_method": "pattern_matching"
   }
 ]

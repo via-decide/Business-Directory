@@ -1,0 +1,4030 @@
+[
+  {
+    "business_name": "Salon 2 The Family Salon & Tattoo Studio",
+    "phone": "8460513709",
+    "town": "Gandhidham",
+    "category": "salons",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Salon 2 The Family Salon & Tattoo Studio\" Gandhidham salons",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Salon 2 The Family Salon & Tattoo Studio Gandhidham",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp 8460513709",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@salon_2_family_salon_tattoo_studio.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Salon 2 The Family Salon & Tattoo Studio\" Gandhidham",
+      "maps": "https://maps.google.com/search/Salon 2 The Family Salon & Tattoo Studio Gandhidham",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Salon 2 The Family Salon & Tattoo Studio Gandhidham",
+      "justdial": "https://www.justdial.com/search?kwd=Salon 2 The Family Salon & Tattoo Studio&ctk=Gandhidham"
+    }
+  },
+  {
+    "business_name": "De Mayra Collections",
+    "phone": "8401155916",
+    "town": "Gandhidham",
+    "category": "salons",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"De Mayra Collections\" Gandhidham salons",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "De Mayra Collections Gandhidham",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp 8401155916",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@de_mayra_collections.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"De Mayra Collections\" Gandhidham",
+      "maps": "https://maps.google.com/search/De Mayra Collections Gandhidham",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=De Mayra Collections Gandhidham",
+      "justdial": "https://www.justdial.com/search?kwd=De Mayra Collections&ctk=Gandhidham"
+    }
+  },
+  {
+    "business_name": "Skywings Job Placement & Accounts Service",
+    "phone": "",
+    "town": "Gandhidham",
+    "category": "it-tech",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Skywings Job Placement & Accounts Service\" Gandhidham it-tech",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Skywings Job Placement & Accounts Service Gandhidham",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@skywings_job_placement_accounts_service.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Skywings Job Placement & Accounts Service\" Gandhidham",
+      "maps": "https://maps.google.com/search/Skywings Job Placement & Accounts Service Gandhidham",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Skywings Job Placement & Accounts Service Gandhidham",
+      "justdial": "https://www.justdial.com/search?kwd=Skywings Job Placement & Accounts Service&ctk=Gandhidham"
+    }
+  },
+  {
+    "business_name": "Dishaa Consultancy",
+    "phone": "",
+    "town": "Gandhidham",
+    "category": "it-tech",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Dishaa Consultancy\" Gandhidham it-tech",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Dishaa Consultancy Gandhidham",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@dishaa_consultancy.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Dishaa Consultancy\" Gandhidham",
+      "maps": "https://maps.google.com/search/Dishaa Consultancy Gandhidham",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Dishaa Consultancy Gandhidham",
+      "justdial": "https://www.justdial.com/search?kwd=Dishaa Consultancy&ctk=Gandhidham"
+    }
+  },
+  {
+    "business_name": "N R Infotech",
+    "phone": "",
+    "town": "Gandhidham",
+    "category": "it-tech",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"N R Infotech\" Gandhidham it-tech",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "N R Infotech Gandhidham",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@n_r_infotech.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"N R Infotech\" Gandhidham",
+      "maps": "https://maps.google.com/search/N R Infotech Gandhidham",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=N R Infotech Gandhidham",
+      "justdial": "https://www.justdial.com/search?kwd=N R Infotech&ctk=Gandhidham"
+    }
+  },
+  {
+    "business_name": "Great Peripherals",
+    "phone": "",
+    "town": "Gandhidham",
+    "category": "it-tech",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Great Peripherals\" Gandhidham it-tech",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Great Peripherals Gandhidham",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@great_peripherals.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Great Peripherals\" Gandhidham",
+      "maps": "https://maps.google.com/search/Great Peripherals Gandhidham",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Great Peripherals Gandhidham",
+      "justdial": "https://www.justdial.com/search?kwd=Great Peripherals&ctk=Gandhidham"
+    }
+  },
+  {
+    "business_name": "Shree Ganesh Photos",
+    "phone": "8460382852",
+    "town": "Gandhidham",
+    "category": "events",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Shree Ganesh Photos\" Gandhidham events",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Shree Ganesh Photos Gandhidham",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp 8460382852",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@shree_ganesh_photos.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Shree Ganesh Photos\" Gandhidham",
+      "maps": "https://maps.google.com/search/Shree Ganesh Photos Gandhidham",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Shree Ganesh Photos Gandhidham",
+      "justdial": "https://www.justdial.com/search?kwd=Shree Ganesh Photos&ctk=Gandhidham"
+    }
+  },
+  {
+    "business_name": "Drashya Glamour Studio & Four Seasons Events",
+    "phone": "",
+    "town": "Gandhidham",
+    "category": "events",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Drashya Glamour Studio & Four Seasons Events\" Gandhidham events",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Drashya Glamour Studio & Four Seasons Events Gandhidham",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@drashya_glamour_studio_four_seasons_events.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Drashya Glamour Studio & Four Seasons Events\" Gandhidham",
+      "maps": "https://maps.google.com/search/Drashya Glamour Studio & Four Seasons Events Gandhidham",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Drashya Glamour Studio & Four Seasons Events Gandhidham",
+      "justdial": "https://www.justdial.com/search?kwd=Drashya Glamour Studio & Four Seasons Events&ctk=Gandhidham"
+    }
+  },
+  {
+    "business_name": "Trylo Inner Luxury",
+    "phone": "",
+    "town": "Gandhidham",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Trylo Inner Luxury\" Gandhidham general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Trylo Inner Luxury Gandhidham",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@trylo_inner_luxury.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Trylo Inner Luxury\" Gandhidham",
+      "maps": "https://maps.google.com/search/Trylo Inner Luxury Gandhidham",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Trylo Inner Luxury Gandhidham",
+      "justdial": "https://www.justdial.com/search?kwd=Trylo Inner Luxury&ctk=Gandhidham"
+    }
+  },
+  {
+    "business_name": "Chat Ka Chaska Restaurant",
+    "phone": "",
+    "town": "Gandhidham",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Chat Ka Chaska Restaurant\" Gandhidham general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Chat Ka Chaska Restaurant Gandhidham",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@chat_ka_chaska_restaurant.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Chat Ka Chaska Restaurant\" Gandhidham",
+      "maps": "https://maps.google.com/search/Chat Ka Chaska Restaurant Gandhidham",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Chat Ka Chaska Restaurant Gandhidham",
+      "justdial": "https://www.justdial.com/search?kwd=Chat Ka Chaska Restaurant&ctk=Gandhidham"
+    }
+  },
+  {
+    "business_name": "Aaradhana Hospitality Services",
+    "phone": "",
+    "town": "Adipur",
+    "category": "pg-hostel",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Aaradhana Hospitality Services\" Adipur pg-hostel",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Aaradhana Hospitality Services Adipur",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@aaradhana_hospitality_services.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Aaradhana Hospitality Services\" Adipur",
+      "maps": "https://maps.google.com/search/Aaradhana Hospitality Services Adipur",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Aaradhana Hospitality Services Adipur",
+      "justdial": "https://www.justdial.com/search?kwd=Aaradhana Hospitality Services&ctk=Adipur"
+    }
+  },
+  {
+    "business_name": "Suvidha PG & Accommodation",
+    "phone": "",
+    "town": "Gandhidham",
+    "category": "pg-hostel",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Suvidha PG & Accommodation\" Gandhidham pg-hostel",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Suvidha PG & Accommodation Gandhidham",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@suvidha_pg_accommodation.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Suvidha PG & Accommodation\" Gandhidham",
+      "maps": "https://maps.google.com/search/Suvidha PG & Accommodation Gandhidham",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Suvidha PG & Accommodation Gandhidham",
+      "justdial": "https://www.justdial.com/search?kwd=Suvidha PG & Accommodation&ctk=Gandhidham"
+    }
+  },
+  {
+    "business_name": "Vinod Electrical Solutions",
+    "phone": "9725367411",
+    "town": "Adipur",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Vinod Electrical Solutions\" Adipur general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Vinod Electrical Solutions Adipur",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp 9725367411",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@vinod_electrical_solutions.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Vinod Electrical Solutions\" Adipur",
+      "maps": "https://maps.google.com/search/Vinod Electrical Solutions Adipur",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Vinod Electrical Solutions Adipur",
+      "justdial": "https://www.justdial.com/search?kwd=Vinod Electrical Solutions&ctk=Adipur"
+    }
+  },
+  {
+    "business_name": "Patel Plumber Works",
+    "phone": "",
+    "town": "Gandhidham",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Patel Plumber Works\" Gandhidham general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Patel Plumber Works Gandhidham",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@patel_plumber_works.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Patel Plumber Works\" Gandhidham",
+      "maps": "https://maps.google.com/search/Patel Plumber Works Gandhidham",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Patel Plumber Works Gandhidham",
+      "justdial": "https://www.justdial.com/search?kwd=Patel Plumber Works&ctk=Gandhidham"
+    }
+  },
+  {
+    "business_name": "The Shiv Regency",
+    "phone": "",
+    "town": "Gandhidham",
+    "category": "events",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"The Shiv Regency\" Gandhidham events",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "The Shiv Regency Gandhidham",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@shiv_regency.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"The Shiv Regency\" Gandhidham",
+      "maps": "https://maps.google.com/search/The Shiv Regency Gandhidham",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=The Shiv Regency Gandhidham",
+      "justdial": "https://www.justdial.com/search?kwd=The Shiv Regency&ctk=Gandhidham"
+    }
+  },
+  {
+    "business_name": "Anchor Rahul Budhani",
+    "phone": "",
+    "town": "Gandhidham",
+    "category": "events",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Anchor Rahul Budhani\" Gandhidham events",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Anchor Rahul Budhani Gandhidham",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@anchor_rahul_budhani.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Anchor Rahul Budhani\" Gandhidham",
+      "maps": "https://maps.google.com/search/Anchor Rahul Budhani Gandhidham",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Anchor Rahul Budhani Gandhidham",
+      "justdial": "https://www.justdial.com/search?kwd=Anchor Rahul Budhani&ctk=Gandhidham"
+    }
+  },
+  {
+    "business_name": "The Metro Hair & Beauty",
+    "phone": "7984669391",
+    "town": "Adipur",
+    "category": "salons",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"The Metro Hair & Beauty\" Adipur salons",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "The Metro Hair & Beauty Adipur",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp 7984669391",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@metro_hair_beauty.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"The Metro Hair & Beauty\" Adipur",
+      "maps": "https://maps.google.com/search/The Metro Hair & Beauty Adipur",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=The Metro Hair & Beauty Adipur",
+      "justdial": "https://www.justdial.com/search?kwd=The Metro Hair & Beauty&ctk=Adipur"
+    }
+  },
+  {
+    "business_name": "Wellisa Salon & Nails",
+    "phone": "",
+    "town": "Adipur",
+    "category": "salons",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Wellisa Salon & Nails\" Adipur salons",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Wellisa Salon & Nails Adipur",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@wellisa_salon_nails.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Wellisa Salon & Nails\" Adipur",
+      "maps": "https://maps.google.com/search/Wellisa Salon & Nails Adipur",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Wellisa Salon & Nails Adipur",
+      "justdial": "https://www.justdial.com/search?kwd=Wellisa Salon & Nails&ctk=Adipur"
+    }
+  },
+  {
+    "business_name": "M K Soft Service",
+    "phone": "",
+    "town": "Adipur",
+    "category": "it-tech",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"M K Soft Service\" Adipur it-tech",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "M K Soft Service Adipur",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@m_k_soft_service.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"M K Soft Service\" Adipur",
+      "maps": "https://maps.google.com/search/M K Soft Service Adipur",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=M K Soft Service Adipur",
+      "justdial": "https://www.justdial.com/search?kwd=M K Soft Service&ctk=Adipur"
+    }
+  },
+  {
+    "business_name": "Shadofax Technologies Pvt Ltd",
+    "phone": "",
+    "town": "Adipur",
+    "category": "it-tech",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Shadofax Technologies Pvt Ltd\" Adipur it-tech",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Shadofax Technologies Pvt Ltd Adipur",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@shadofax_technologies_pvt_ltd.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Shadofax Technologies Pvt Ltd\" Adipur",
+      "maps": "https://maps.google.com/search/Shadofax Technologies Pvt Ltd Adipur",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Shadofax Technologies Pvt Ltd Adipur",
+      "justdial": "https://www.justdial.com/search?kwd=Shadofax Technologies Pvt Ltd&ctk=Adipur"
+    }
+  },
+  {
+    "business_name": "Kpt & Co",
+    "phone": "",
+    "town": "Adipur",
+    "category": "cas",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Kpt & Co\" Adipur cas",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Kpt & Co Adipur",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@kpt_co.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Kpt & Co\" Adipur",
+      "maps": "https://maps.google.com/search/Kpt & Co Adipur",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Kpt & Co Adipur",
+      "justdial": "https://www.justdial.com/search?kwd=Kpt & Co&ctk=Adipur"
+    }
+  },
+  {
+    "business_name": "JB Photo Studio",
+    "phone": "",
+    "town": "Adipur",
+    "category": "events",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"JB Photo Studio\" Adipur events",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "JB Photo Studio Adipur",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@jb_photo_studio.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"JB Photo Studio\" Adipur",
+      "maps": "https://maps.google.com/search/JB Photo Studio Adipur",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=JB Photo Studio Adipur",
+      "justdial": "https://www.justdial.com/search?kwd=JB Photo Studio&ctk=Adipur"
+    }
+  },
+  {
+    "business_name": "Chheda Decorators",
+    "phone": "",
+    "town": "Adipur",
+    "category": "events",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Chheda Decorators\" Adipur events",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Chheda Decorators Adipur",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@chheda_decorators.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Chheda Decorators\" Adipur",
+      "maps": "https://maps.google.com/search/Chheda Decorators Adipur",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Chheda Decorators Adipur",
+      "justdial": "https://www.justdial.com/search?kwd=Chheda Decorators&ctk=Adipur"
+    }
+  },
+  {
+    "business_name": "Tongue Twister The Garden Restaurant",
+    "phone": "",
+    "town": "Adipur",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Tongue Twister The Garden Restaurant\" Adipur general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Tongue Twister The Garden Restaurant Adipur",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@tongue_twister_garden_restaurant.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Tongue Twister The Garden Restaurant\" Adipur",
+      "maps": "https://maps.google.com/search/Tongue Twister The Garden Restaurant Adipur",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Tongue Twister The Garden Restaurant Adipur",
+      "justdial": "https://www.justdial.com/search?kwd=Tongue Twister The Garden Restaurant&ctk=Adipur"
+    }
+  },
+  {
+    "business_name": "Vidhu's Treat",
+    "phone": "",
+    "town": "Adipur",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Vidhu's Treat\" Adipur general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Vidhu's Treat Adipur",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@vidhus_treat.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Vidhu's Treat\" Adipur",
+      "maps": "https://maps.google.com/search/Vidhu's Treat Adipur",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Vidhu's Treat Adipur",
+      "justdial": "https://www.justdial.com/search?kwd=Vidhu's Treat&ctk=Adipur"
+    }
+  },
+  {
+    "business_name": "Matka House Restaurant",
+    "phone": "",
+    "town": "Adipur",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Matka House Restaurant\" Adipur general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Matka House Restaurant Adipur",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@matka_house_restaurant.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Matka House Restaurant\" Adipur",
+      "maps": "https://maps.google.com/search/Matka House Restaurant Adipur",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Matka House Restaurant Adipur",
+      "justdial": "https://www.justdial.com/search?kwd=Matka House Restaurant&ctk=Adipur"
+    }
+  },
+  {
+    "business_name": "Pragati Girls PG",
+    "phone": "",
+    "town": "Adipur",
+    "category": "pg-hostel",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Pragati Girls PG\" Adipur pg-hostel",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Pragati Girls PG Adipur",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@pragati_girls_pg.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Pragati Girls PG\" Adipur",
+      "maps": "https://maps.google.com/search/Pragati Girls PG Adipur",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Pragati Girls PG Adipur",
+      "justdial": "https://www.justdial.com/search?kwd=Pragati Girls PG&ctk=Adipur"
+    }
+  },
+  {
+    "business_name": "Yuva Sharthi PG",
+    "phone": "",
+    "town": "Adipur",
+    "category": "pg-hostel",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Yuva Sharthi PG\" Adipur pg-hostel",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Yuva Sharthi PG Adipur",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@yuva_sharthi_pg.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Yuva Sharthi PG\" Adipur",
+      "maps": "https://maps.google.com/search/Yuva Sharthi PG Adipur",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Yuva Sharthi PG Adipur",
+      "justdial": "https://www.justdial.com/search?kwd=Yuva Sharthi PG&ctk=Adipur"
+    }
+  },
+  {
+    "business_name": "Deepak Plumber",
+    "phone": "",
+    "town": "Adipur",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Deepak Plumber\" Adipur general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Deepak Plumber Adipur",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@deepak_plumber.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Deepak Plumber\" Adipur",
+      "maps": "https://maps.google.com/search/Deepak Plumber Adipur",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Deepak Plumber Adipur",
+      "justdial": "https://www.justdial.com/search?kwd=Deepak Plumber&ctk=Adipur"
+    }
+  },
+  {
+    "business_name": "Uma Enterprise Adipur",
+    "phone": "",
+    "town": "Adipur",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Uma Enterprise Adipur\" Adipur general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Uma Enterprise Adipur Adipur",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@uma_enterprise_adipur.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Uma Enterprise Adipur\" Adipur",
+      "maps": "https://maps.google.com/search/Uma Enterprise Adipur Adipur",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Uma Enterprise Adipur Adipur",
+      "justdial": "https://www.justdial.com/search?kwd=Uma Enterprise Adipur&ctk=Adipur"
+    }
+  },
+  {
+    "business_name": "DPT Exhibition Ground",
+    "phone": "",
+    "town": "Adipur",
+    "category": "events",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"DPT Exhibition Ground\" Adipur events",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "DPT Exhibition Ground Adipur",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@dpt_exhibition_ground.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"DPT Exhibition Ground\" Adipur",
+      "maps": "https://maps.google.com/search/DPT Exhibition Ground Adipur",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=DPT Exhibition Ground Adipur",
+      "justdial": "https://www.justdial.com/search?kwd=DPT Exhibition Ground&ctk=Adipur"
+    }
+  },
+  {
+    "business_name": "Khavda Events",
+    "phone": "",
+    "town": "Adipur",
+    "category": "events",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Khavda Events\" Adipur events",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Khavda Events Adipur",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@khavda_events.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Khavda Events\" Adipur",
+      "maps": "https://maps.google.com/search/Khavda Events Adipur",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Khavda Events Adipur",
+      "justdial": "https://www.justdial.com/search?kwd=Khavda Events&ctk=Adipur"
+    }
+  },
+  {
+    "business_name": "Cheesy Events",
+    "phone": "",
+    "town": "Adipur",
+    "category": "events",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Cheesy Events\" Adipur events",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Cheesy Events Adipur",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@cheesy_events.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Cheesy Events\" Adipur",
+      "maps": "https://maps.google.com/search/Cheesy Events Adipur",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Cheesy Events Adipur",
+      "justdial": "https://www.justdial.com/search?kwd=Cheesy Events&ctk=Adipur"
+    }
+  },
+  {
+    "business_name": "Etrnity Solutions",
+    "phone": "",
+    "town": "Adipur",
+    "category": "it-tech",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Etrnity Solutions\" Adipur it-tech",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Etrnity Solutions Adipur",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@etrnity_solutions.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Etrnity Solutions\" Adipur",
+      "maps": "https://maps.google.com/search/Etrnity Solutions Adipur",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Etrnity Solutions Adipur",
+      "justdial": "https://www.justdial.com/search?kwd=Etrnity Solutions&ctk=Adipur"
+    }
+  },
+  {
+    "business_name": "Rightfithr Solutions",
+    "phone": "",
+    "town": "Adipur",
+    "category": "it-tech",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Rightfithr Solutions\" Adipur it-tech",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Rightfithr Solutions Adipur",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@rightfithr_solutions.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Rightfithr Solutions\" Adipur",
+      "maps": "https://maps.google.com/search/Rightfithr Solutions Adipur",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Rightfithr Solutions Adipur",
+      "justdial": "https://www.justdial.com/search?kwd=Rightfithr Solutions&ctk=Adipur"
+    }
+  },
+  {
+    "business_name": "Sumit Collection",
+    "phone": "",
+    "town": "Shinay",
+    "category": "salons",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Sumit Collection\" Shinay salons",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Sumit Collection Shinay",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@sumit_collection.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Sumit Collection\" Shinay",
+      "maps": "https://maps.google.com/search/Sumit Collection Shinay",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Sumit Collection Shinay",
+      "justdial": "https://www.justdial.com/search?kwd=Sumit Collection&ctk=Shinay"
+    }
+  },
+  {
+    "business_name": "Visanjhi Enterprise",
+    "phone": "",
+    "town": "Shinay",
+    "category": "it-tech",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Visanjhi Enterprise\" Shinay it-tech",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Visanjhi Enterprise Shinay",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@visanjhi_enterprise.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Visanjhi Enterprise\" Shinay",
+      "maps": "https://maps.google.com/search/Visanjhi Enterprise Shinay",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Visanjhi Enterprise Shinay",
+      "justdial": "https://www.justdial.com/search?kwd=Visanjhi Enterprise&ctk=Shinay"
+    }
+  },
+  {
+    "business_name": "Ekankotri",
+    "phone": "",
+    "town": "Shinay",
+    "category": "it-tech",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Ekankotri\" Shinay it-tech",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Ekankotri Shinay",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@ekankotri.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Ekankotri\" Shinay",
+      "maps": "https://maps.google.com/search/Ekankotri Shinay",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Ekankotri Shinay",
+      "justdial": "https://www.justdial.com/search?kwd=Ekankotri&ctk=Shinay"
+    }
+  },
+  {
+    "business_name": "Shiv Sanket Blooming Lifestyle",
+    "phone": "",
+    "town": "Shinay",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Shiv Sanket Blooming Lifestyle\" Shinay general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Shiv Sanket Blooming Lifestyle Shinay",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@shiv_sanket_blooming_lifestyle.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Shiv Sanket Blooming Lifestyle\" Shinay",
+      "maps": "https://maps.google.com/search/Shiv Sanket Blooming Lifestyle Shinay",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Shiv Sanket Blooming Lifestyle Shinay",
+      "justdial": "https://www.justdial.com/search?kwd=Shiv Sanket Blooming Lifestyle&ctk=Shinay"
+    }
+  },
+  {
+    "business_name": "Shiv Fabrication",
+    "phone": "",
+    "town": "Shinay",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Shiv Fabrication\" Shinay general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Shiv Fabrication Shinay",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@shiv_fabrication.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Shiv Fabrication\" Shinay",
+      "maps": "https://maps.google.com/search/Shiv Fabrication Shinay",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Shiv Fabrication Shinay",
+      "justdial": "https://www.justdial.com/search?kwd=Shiv Fabrication&ctk=Shinay"
+    }
+  },
+  {
+    "business_name": "Madhav Hardware",
+    "phone": "",
+    "town": "Shinay",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Madhav Hardware\" Shinay general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Madhav Hardware Shinay",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@madhav_hardware.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Madhav Hardware\" Shinay",
+      "maps": "https://maps.google.com/search/Madhav Hardware Shinay",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Madhav Hardware Shinay",
+      "justdial": "https://www.justdial.com/search?kwd=Madhav Hardware&ctk=Shinay"
+    }
+  },
+  {
+    "business_name": "Shree Ram Hardware Plumbers",
+    "phone": "",
+    "town": "Shinay",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Shree Ram Hardware Plumbers\" Shinay general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Shree Ram Hardware Plumbers Shinay",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@shree_ram_hardware_plumbers.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Shree Ram Hardware Plumbers\" Shinay",
+      "maps": "https://maps.google.com/search/Shree Ram Hardware Plumbers Shinay",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Shree Ram Hardware Plumbers Shinay",
+      "justdial": "https://www.justdial.com/search?kwd=Shree Ram Hardware Plumbers&ctk=Shinay"
+    }
+  },
+  {
+    "business_name": "Navkar Events",
+    "phone": "",
+    "town": "Shinay",
+    "category": "events",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Navkar Events\" Shinay events",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Navkar Events Shinay",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@navkar_events.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Navkar Events\" Shinay",
+      "maps": "https://maps.google.com/search/Navkar Events Shinay",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Navkar Events Shinay",
+      "justdial": "https://www.justdial.com/search?kwd=Navkar Events&ctk=Shinay"
+    }
+  },
+  {
+    "business_name": "BDH Party Lawns Ramada",
+    "phone": "",
+    "town": "Shinay",
+    "category": "events",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"BDH Party Lawns Ramada\" Shinay events",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "BDH Party Lawns Ramada Shinay",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@bdh_party_lawns_ramada.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"BDH Party Lawns Ramada\" Shinay",
+      "maps": "https://maps.google.com/search/BDH Party Lawns Ramada Shinay",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=BDH Party Lawns Ramada Shinay",
+      "justdial": "https://www.justdial.com/search?kwd=BDH Party Lawns Ramada&ctk=Shinay"
+    }
+  },
+  {
+    "business_name": "Ramada by Wyndham Gandhidham",
+    "phone": "",
+    "town": "Shinay",
+    "category": "events",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Ramada by Wyndham Gandhidham\" Shinay events",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Ramada by Wyndham Gandhidham Shinay",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@ramada_by_wyndham_gandhidham.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Ramada by Wyndham Gandhidham\" Shinay",
+      "maps": "https://maps.google.com/search/Ramada by Wyndham Gandhidham Shinay",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Ramada by Wyndham Gandhidham Shinay",
+      "justdial": "https://www.justdial.com/search?kwd=Ramada by Wyndham Gandhidham&ctk=Shinay"
+    }
+  },
+  {
+    "business_name": "Yasu The Family Salon",
+    "phone": "",
+    "town": "Anjar",
+    "category": "salons",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Yasu The Family Salon\" Anjar salons",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Yasu The Family Salon Anjar",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@yasu_family_salon.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Yasu The Family Salon\" Anjar",
+      "maps": "https://maps.google.com/search/Yasu The Family Salon Anjar",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Yasu The Family Salon Anjar",
+      "justdial": "https://www.justdial.com/search?kwd=Yasu The Family Salon&ctk=Anjar"
+    }
+  },
+  {
+    "business_name": "Keshav Hair Art",
+    "phone": "",
+    "town": "Anjar",
+    "category": "salons",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Keshav Hair Art\" Anjar salons",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Keshav Hair Art Anjar",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@keshav_hair_art.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Keshav Hair Art\" Anjar",
+      "maps": "https://maps.google.com/search/Keshav Hair Art Anjar",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Keshav Hair Art Anjar",
+      "justdial": "https://www.justdial.com/search?kwd=Keshav Hair Art&ctk=Anjar"
+    }
+  },
+  {
+    "business_name": "Odhni Rani's Boutique",
+    "phone": "",
+    "town": "Anjar",
+    "category": "salons",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Odhni Rani's Boutique\" Anjar salons",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Odhni Rani's Boutique Anjar",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@odhni_ranis_boutique.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Odhni Rani's Boutique\" Anjar",
+      "maps": "https://maps.google.com/search/Odhni Rani's Boutique Anjar",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Odhni Rani's Boutique Anjar",
+      "justdial": "https://www.justdial.com/search?kwd=Odhni Rani's Boutique&ctk=Anjar"
+    }
+  },
+  {
+    "business_name": "Dreamland Placement Service Pvt Ltd",
+    "phone": "",
+    "town": "Anjar",
+    "category": "it-tech",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Dreamland Placement Service Pvt Ltd\" Anjar it-tech",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Dreamland Placement Service Pvt Ltd Anjar",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@dreamland_placement_service_pvt_ltd.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Dreamland Placement Service Pvt Ltd\" Anjar",
+      "maps": "https://maps.google.com/search/Dreamland Placement Service Pvt Ltd Anjar",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Dreamland Placement Service Pvt Ltd Anjar",
+      "justdial": "https://www.justdial.com/search?kwd=Dreamland Placement Service Pvt Ltd&ctk=Anjar"
+    }
+  },
+  {
+    "business_name": "Rajhansh Enterprise",
+    "phone": "",
+    "town": "Anjar",
+    "category": "it-tech",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Rajhansh Enterprise\" Anjar it-tech",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Rajhansh Enterprise Anjar",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@rajhansh_enterprise.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Rajhansh Enterprise\" Anjar",
+      "maps": "https://maps.google.com/search/Rajhansh Enterprise Anjar",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Rajhansh Enterprise Anjar",
+      "justdial": "https://www.justdial.com/search?kwd=Rajhansh Enterprise&ctk=Anjar"
+    }
+  },
+  {
+    "business_name": "Shreeji Tech Hub",
+    "phone": "",
+    "town": "Anjar",
+    "category": "it-tech",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Shreeji Tech Hub\" Anjar it-tech",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Shreeji Tech Hub Anjar",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@shreeji_tech_hub.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Shreeji Tech Hub\" Anjar",
+      "maps": "https://maps.google.com/search/Shreeji Tech Hub Anjar",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Shreeji Tech Hub Anjar",
+      "justdial": "https://www.justdial.com/search?kwd=Shreeji Tech Hub&ctk=Anjar"
+    }
+  },
+  {
+    "business_name": "Sanju Software Developer",
+    "phone": "",
+    "town": "Anjar",
+    "category": "it-tech",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Sanju Software Developer\" Anjar it-tech",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Sanju Software Developer Anjar",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@sanju_software_developer.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Sanju Software Developer\" Anjar",
+      "maps": "https://maps.google.com/search/Sanju Software Developer Anjar",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Sanju Software Developer Anjar",
+      "justdial": "https://www.justdial.com/search?kwd=Sanju Software Developer&ctk=Anjar"
+    }
+  },
+  {
+    "business_name": "Welcome Tea House",
+    "phone": "",
+    "town": "Anjar",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Welcome Tea House\" Anjar general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Welcome Tea House Anjar",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@welcome_tea_house.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Welcome Tea House\" Anjar",
+      "maps": "https://maps.google.com/search/Welcome Tea House Anjar",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Welcome Tea House Anjar",
+      "justdial": "https://www.justdial.com/search?kwd=Welcome Tea House&ctk=Anjar"
+    }
+  },
+  {
+    "business_name": "Om Print",
+    "phone": "",
+    "town": "Anjar",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Om Print\" Anjar general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Om Print Anjar",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@om_print.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Om Print\" Anjar",
+      "maps": "https://maps.google.com/search/Om Print Anjar",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Om Print Anjar",
+      "justdial": "https://www.justdial.com/search?kwd=Om Print&ctk=Anjar"
+    }
+  },
+  {
+    "business_name": "R B Enterprise PG",
+    "phone": "",
+    "town": "Anjar",
+    "category": "pg-hostel",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"R B Enterprise PG\" Anjar pg-hostel",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "R B Enterprise PG Anjar",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@r_b_enterprise_pg.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"R B Enterprise PG\" Anjar",
+      "maps": "https://maps.google.com/search/R B Enterprise PG Anjar",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=R B Enterprise PG Anjar",
+      "justdial": "https://www.justdial.com/search?kwd=R B Enterprise PG&ctk=Anjar"
+    }
+  },
+  {
+    "business_name": "Uma Enterprise Anjar",
+    "phone": "",
+    "town": "Anjar",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Uma Enterprise Anjar\" Anjar general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Uma Enterprise Anjar Anjar",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@uma_enterprise_anjar.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Uma Enterprise Anjar\" Anjar",
+      "maps": "https://maps.google.com/search/Uma Enterprise Anjar Anjar",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Uma Enterprise Anjar Anjar",
+      "justdial": "https://www.justdial.com/search?kwd=Uma Enterprise Anjar&ctk=Anjar"
+    }
+  },
+  {
+    "business_name": "Prajapati Chhatralaya",
+    "phone": "",
+    "town": "Anjar",
+    "category": "events",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Prajapati Chhatralaya\" Anjar events",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Prajapati Chhatralaya Anjar",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@prajapati_chhatralaya.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Prajapati Chhatralaya\" Anjar",
+      "maps": "https://maps.google.com/search/Prajapati Chhatralaya Anjar",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Prajapati Chhatralaya Anjar",
+      "justdial": "https://www.justdial.com/search?kwd=Prajapati Chhatralaya&ctk=Anjar"
+    }
+  },
+  {
+    "business_name": "Accurate Search Consultants",
+    "phone": "",
+    "town": "Anjar",
+    "category": "it-tech",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Accurate Search Consultants\" Anjar it-tech",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Accurate Search Consultants Anjar",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@accurate_search_consultants.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Accurate Search Consultants\" Anjar",
+      "maps": "https://maps.google.com/search/Accurate Search Consultants Anjar",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Accurate Search Consultants Anjar",
+      "justdial": "https://www.justdial.com/search?kwd=Accurate Search Consultants&ctk=Anjar"
+    }
+  },
+  {
+    "business_name": "Executive Ship Management Ltd",
+    "phone": "",
+    "town": "Anjar",
+    "category": "it-tech",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Executive Ship Management Ltd\" Anjar it-tech",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Executive Ship Management Ltd Anjar",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@executive_ship_management_ltd.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Executive Ship Management Ltd\" Anjar",
+      "maps": "https://maps.google.com/search/Executive Ship Management Ltd Anjar",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Executive Ship Management Ltd Anjar",
+      "justdial": "https://www.justdial.com/search?kwd=Executive Ship Management Ltd&ctk=Anjar"
+    }
+  },
+  {
+    "business_name": "Kishan Hair Art",
+    "phone": "",
+    "town": "Bhachau",
+    "category": "salons",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Kishan Hair Art\" Bhachau salons",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Kishan Hair Art Bhachau",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@kishan_hair_art.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Kishan Hair Art\" Bhachau",
+      "maps": "https://maps.google.com/search/Kishan Hair Art Bhachau",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Kishan Hair Art Bhachau",
+      "justdial": "https://www.justdial.com/search?kwd=Kishan Hair Art&ctk=Bhachau"
+    }
+  },
+  {
+    "business_name": "Matrix Salon Bhachau",
+    "phone": "",
+    "town": "Bhachau",
+    "category": "salons",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Matrix Salon Bhachau\" Bhachau salons",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Matrix Salon Bhachau Bhachau",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@matrix_salon_bhachau.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Matrix Salon Bhachau\" Bhachau",
+      "maps": "https://maps.google.com/search/Matrix Salon Bhachau Bhachau",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Matrix Salon Bhachau Bhachau",
+      "justdial": "https://www.justdial.com/search?kwd=Matrix Salon Bhachau&ctk=Bhachau"
+    }
+  },
+  {
+    "business_name": "Lady Point Bhachau",
+    "phone": "",
+    "town": "Bhachau",
+    "category": "salons",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Lady Point Bhachau\" Bhachau salons",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Lady Point Bhachau Bhachau",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@lady_point_bhachau.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Lady Point Bhachau\" Bhachau",
+      "maps": "https://maps.google.com/search/Lady Point Bhachau Bhachau",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Lady Point Bhachau Bhachau",
+      "justdial": "https://www.justdial.com/search?kwd=Lady Point Bhachau&ctk=Bhachau"
+    }
+  },
+  {
+    "business_name": "J P Kheradia Construction Pvt Ltd",
+    "phone": "",
+    "town": "Bhachau",
+    "category": "it-tech",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"J P Kheradia Construction Pvt Ltd\" Bhachau it-tech",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "J P Kheradia Construction Pvt Ltd Bhachau",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@j_p_kheradia_construction_pvt_ltd.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"J P Kheradia Construction Pvt Ltd\" Bhachau",
+      "maps": "https://maps.google.com/search/J P Kheradia Construction Pvt Ltd Bhachau",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=J P Kheradia Construction Pvt Ltd Bhachau",
+      "justdial": "https://www.justdial.com/search?kwd=J P Kheradia Construction Pvt Ltd&ctk=Bhachau"
+    }
+  },
+  {
+    "business_name": "CodTeg",
+    "phone": "",
+    "town": "Bhachau",
+    "category": "it-tech",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"CodTeg\" Bhachau it-tech",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "CodTeg Bhachau",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@codteg.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"CodTeg\" Bhachau",
+      "maps": "https://maps.google.com/search/CodTeg Bhachau",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=CodTeg Bhachau",
+      "justdial": "https://www.justdial.com/search?kwd=CodTeg&ctk=Bhachau"
+    }
+  },
+  {
+    "business_name": "Yogita S And Company",
+    "phone": "",
+    "town": "Bhachau",
+    "category": "cas",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Yogita S And Company\" Bhachau cas",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Yogita S And Company Bhachau",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@yogita_s_company.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Yogita S And Company\" Bhachau",
+      "maps": "https://maps.google.com/search/Yogita S And Company Bhachau",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Yogita S And Company Bhachau",
+      "justdial": "https://www.justdial.com/search?kwd=Yogita S And Company&ctk=Bhachau"
+    }
+  },
+  {
+    "business_name": "Rd Creation",
+    "phone": "",
+    "town": "Bhachau",
+    "category": "events",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Rd Creation\" Bhachau events",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Rd Creation Bhachau",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@rd_creation.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Rd Creation\" Bhachau",
+      "maps": "https://maps.google.com/search/Rd Creation Bhachau",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Rd Creation Bhachau",
+      "justdial": "https://www.justdial.com/search?kwd=Rd Creation&ctk=Bhachau"
+    }
+  },
+  {
+    "business_name": "Odhani Studio",
+    "phone": "",
+    "town": "Bhachau",
+    "category": "events",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Odhani Studio\" Bhachau events",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Odhani Studio Bhachau",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@odhani_studio.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Odhani Studio\" Bhachau",
+      "maps": "https://maps.google.com/search/Odhani Studio Bhachau",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Odhani Studio Bhachau",
+      "justdial": "https://www.justdial.com/search?kwd=Odhani Studio&ctk=Bhachau"
+    }
+  },
+  {
+    "business_name": "Prince Hardware Bhachau",
+    "phone": "",
+    "town": "Bhachau",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Prince Hardware Bhachau\" Bhachau general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Prince Hardware Bhachau Bhachau",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@prince_hardware_bhachau.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Prince Hardware Bhachau\" Bhachau",
+      "maps": "https://maps.google.com/search/Prince Hardware Bhachau Bhachau",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Prince Hardware Bhachau Bhachau",
+      "justdial": "https://www.justdial.com/search?kwd=Prince Hardware Bhachau&ctk=Bhachau"
+    }
+  },
+  {
+    "business_name": "Honest Restaurant Sunrise Mall",
+    "phone": "",
+    "town": "Bhachau",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Honest Restaurant Sunrise Mall\" Bhachau general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Honest Restaurant Sunrise Mall Bhachau",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@honest_restaurant_sunrise_mall.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Honest Restaurant Sunrise Mall\" Bhachau",
+      "maps": "https://maps.google.com/search/Honest Restaurant Sunrise Mall Bhachau",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Honest Restaurant Sunrise Mall Bhachau",
+      "justdial": "https://www.justdial.com/search?kwd=Honest Restaurant Sunrise Mall&ctk=Bhachau"
+    }
+  },
+  {
+    "business_name": "Adarsh Nivasi Sala",
+    "phone": "",
+    "town": "Bhachau",
+    "category": "pg-hostel",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Adarsh Nivasi Sala\" Bhachau pg-hostel",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Adarsh Nivasi Sala Bhachau",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@adarsh_nivasi_sala.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Adarsh Nivasi Sala\" Bhachau",
+      "maps": "https://maps.google.com/search/Adarsh Nivasi Sala Bhachau",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Adarsh Nivasi Sala Bhachau",
+      "justdial": "https://www.justdial.com/search?kwd=Adarsh Nivasi Sala&ctk=Bhachau"
+    }
+  },
+  {
+    "business_name": "Bholenath Enterprise",
+    "phone": "",
+    "town": "Bhachau",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Bholenath Enterprise\" Bhachau general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Bholenath Enterprise Bhachau",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@bholenath_enterprise.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Bholenath Enterprise\" Bhachau",
+      "maps": "https://maps.google.com/search/Bholenath Enterprise Bhachau",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Bholenath Enterprise Bhachau",
+      "justdial": "https://www.justdial.com/search?kwd=Bholenath Enterprise&ctk=Bhachau"
+    }
+  },
+  {
+    "business_name": "Shree Vishwakarma Hardware & Alluminium",
+    "phone": "",
+    "town": "Bhachau",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Shree Vishwakarma Hardware & Alluminium\" Bhachau general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Shree Vishwakarma Hardware & Alluminium Bhachau",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@shree_vishwakarma_hardware_alluminium.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Shree Vishwakarma Hardware & Alluminium\" Bhachau",
+      "maps": "https://maps.google.com/search/Shree Vishwakarma Hardware & Alluminium Bhachau",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Shree Vishwakarma Hardware & Alluminium Bhachau",
+      "justdial": "https://www.justdial.com/search?kwd=Shree Vishwakarma Hardware & Alluminium&ctk=Bhachau"
+    }
+  },
+  {
+    "business_name": "Hotel Shiv International",
+    "phone": "",
+    "town": "Bhachau",
+    "category": "events",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Hotel Shiv International\" Bhachau events",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Hotel Shiv International Bhachau",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@hotel_shiv_international.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Hotel Shiv International\" Bhachau",
+      "maps": "https://maps.google.com/search/Hotel Shiv International Bhachau",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Hotel Shiv International Bhachau",
+      "justdial": "https://www.justdial.com/search?kwd=Hotel Shiv International&ctk=Bhachau"
+    }
+  },
+  {
+    "business_name": "Samakhalyi Mahajan Wadi",
+    "phone": "",
+    "town": "Bhachau",
+    "category": "events",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Samakhalyi Mahajan Wadi\" Bhachau events",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Samakhalyi Mahajan Wadi Bhachau",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@samakhalyi_mahajan_wadi.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Samakhalyi Mahajan Wadi\" Bhachau",
+      "maps": "https://maps.google.com/search/Samakhalyi Mahajan Wadi Bhachau",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Samakhalyi Mahajan Wadi Bhachau",
+      "justdial": "https://www.justdial.com/search?kwd=Samakhalyi Mahajan Wadi&ctk=Bhachau"
+    }
+  },
+  {
+    "business_name": "The Fab Tales",
+    "phone": "",
+    "town": "Bhuj",
+    "category": "salons",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"The Fab Tales\" Bhuj salons",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "The Fab Tales Bhuj",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@fab_tales.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"The Fab Tales\" Bhuj",
+      "maps": "https://maps.google.com/search/The Fab Tales Bhuj",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=The Fab Tales Bhuj",
+      "justdial": "https://www.justdial.com/search?kwd=The Fab Tales&ctk=Bhuj"
+    }
+  },
+  {
+    "business_name": "White Hair Care",
+    "phone": "",
+    "town": "Bhuj",
+    "category": "salons",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"White Hair Care\" Bhuj salons",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "White Hair Care Bhuj",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@white_hair_care.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"White Hair Care\" Bhuj",
+      "maps": "https://maps.google.com/search/White Hair Care Bhuj",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=White Hair Care Bhuj",
+      "justdial": "https://www.justdial.com/search?kwd=White Hair Care&ctk=Bhuj"
+    }
+  },
+  {
+    "business_name": "Gems Hairs Studio",
+    "phone": "",
+    "town": "Bhuj",
+    "category": "salons",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Gems Hairs Studio\" Bhuj salons",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Gems Hairs Studio Bhuj",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@gems_hairs_studio.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Gems Hairs Studio\" Bhuj",
+      "maps": "https://maps.google.com/search/Gems Hairs Studio Bhuj",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Gems Hairs Studio Bhuj",
+      "justdial": "https://www.justdial.com/search?kwd=Gems Hairs Studio&ctk=Bhuj"
+    }
+  },
+  {
+    "business_name": "Urdhvaga Consultancy",
+    "phone": "",
+    "town": "Bhuj",
+    "category": "it-tech",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Urdhvaga Consultancy\" Bhuj it-tech",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Urdhvaga Consultancy Bhuj",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@urdhvaga_consultancy.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Urdhvaga Consultancy\" Bhuj",
+      "maps": "https://maps.google.com/search/Urdhvaga Consultancy Bhuj",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Urdhvaga Consultancy Bhuj",
+      "justdial": "https://www.justdial.com/search?kwd=Urdhvaga Consultancy&ctk=Bhuj"
+    }
+  },
+  {
+    "business_name": "Vinay Manpower Consultant",
+    "phone": "",
+    "town": "Bhuj",
+    "category": "it-tech",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Vinay Manpower Consultant\" Bhuj it-tech",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Vinay Manpower Consultant Bhuj",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@vinay_manpower_consultant.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Vinay Manpower Consultant\" Bhuj",
+      "maps": "https://maps.google.com/search/Vinay Manpower Consultant Bhuj",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Vinay Manpower Consultant Bhuj",
+      "justdial": "https://www.justdial.com/search?kwd=Vinay Manpower Consultant&ctk=Bhuj"
+    }
+  },
+  {
+    "business_name": "Arkay HR Consultancy",
+    "phone": "",
+    "town": "Bhuj",
+    "category": "it-tech",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Arkay HR Consultancy\" Bhuj it-tech",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Arkay HR Consultancy Bhuj",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@arkay_hr_consultancy.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Arkay HR Consultancy\" Bhuj",
+      "maps": "https://maps.google.com/search/Arkay HR Consultancy Bhuj",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Arkay HR Consultancy Bhuj",
+      "justdial": "https://www.justdial.com/search?kwd=Arkay HR Consultancy&ctk=Bhuj"
+    }
+  },
+  {
+    "business_name": "CodelyHut Infotech",
+    "phone": "",
+    "town": "Bhuj",
+    "category": "it-tech",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"CodelyHut Infotech\" Bhuj it-tech",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "CodelyHut Infotech Bhuj",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@codelyhut_infotech.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"CodelyHut Infotech\" Bhuj",
+      "maps": "https://maps.google.com/search/CodelyHut Infotech Bhuj",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=CodelyHut Infotech Bhuj",
+      "justdial": "https://www.justdial.com/search?kwd=CodelyHut Infotech&ctk=Bhuj"
+    }
+  },
+  {
+    "business_name": "WRTeam",
+    "phone": "",
+    "town": "Bhuj",
+    "category": "it-tech",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"WRTeam\" Bhuj it-tech",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "WRTeam Bhuj",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@wrteam.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"WRTeam\" Bhuj",
+      "maps": "https://maps.google.com/search/WRTeam Bhuj",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=WRTeam Bhuj",
+      "justdial": "https://www.justdial.com/search?kwd=WRTeam&ctk=Bhuj"
+    }
+  },
+  {
+    "business_name": "Skyline Softech Solution",
+    "phone": "",
+    "town": "Bhuj",
+    "category": "it-tech",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Skyline Softech Solution\" Bhuj it-tech",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Skyline Softech Solution Bhuj",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@skyline_softech_solution.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Skyline Softech Solution\" Bhuj",
+      "maps": "https://maps.google.com/search/Skyline Softech Solution Bhuj",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Skyline Softech Solution Bhuj",
+      "justdial": "https://www.justdial.com/search?kwd=Skyline Softech Solution&ctk=Bhuj"
+    }
+  },
+  {
+    "business_name": "Pandit Vora & Associates",
+    "phone": "",
+    "town": "Bhuj",
+    "category": "cas",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Pandit Vora & Associates\" Bhuj cas",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Pandit Vora & Associates Bhuj",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@pandit_vora_associates.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Pandit Vora & Associates\" Bhuj",
+      "maps": "https://maps.google.com/search/Pandit Vora & Associates Bhuj",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Pandit Vora & Associates Bhuj",
+      "justdial": "https://www.justdial.com/search?kwd=Pandit Vora & Associates&ctk=Bhuj"
+    }
+  },
+  {
+    "business_name": "KMG CO LLP",
+    "phone": "",
+    "town": "Bhuj",
+    "category": "cas",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"KMG CO LLP\" Bhuj cas",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "KMG CO LLP Bhuj",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@kmg_co_llp.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"KMG CO LLP\" Bhuj",
+      "maps": "https://maps.google.com/search/KMG CO LLP Bhuj",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=KMG CO LLP Bhuj",
+      "justdial": "https://www.justdial.com/search?kwd=KMG CO LLP&ctk=Bhuj"
+    }
+  },
+  {
+    "business_name": "Bird Eye Production",
+    "phone": "",
+    "town": "Bhuj",
+    "category": "events",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Bird Eye Production\" Bhuj events",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Bird Eye Production Bhuj",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@bird_eye_production.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Bird Eye Production\" Bhuj",
+      "maps": "https://maps.google.com/search/Bird Eye Production Bhuj",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Bird Eye Production Bhuj",
+      "justdial": "https://www.justdial.com/search?kwd=Bird Eye Production&ctk=Bhuj"
+    }
+  },
+  {
+    "business_name": "Sahara Photo & Video",
+    "phone": "",
+    "town": "Bhuj",
+    "category": "events",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Sahara Photo & Video\" Bhuj events",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Sahara Photo & Video Bhuj",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@sahara_photo_video.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Sahara Photo & Video\" Bhuj",
+      "maps": "https://maps.google.com/search/Sahara Photo & Video Bhuj",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Sahara Photo & Video Bhuj",
+      "justdial": "https://www.justdial.com/search?kwd=Sahara Photo & Video&ctk=Bhuj"
+    }
+  },
+  {
+    "business_name": "Bhujodi Kala Cotton",
+    "phone": "",
+    "town": "Bhuj",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Bhujodi Kala Cotton\" Bhuj general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Bhujodi Kala Cotton Bhuj",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@bhujodi_kala_cotton.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Bhujodi Kala Cotton\" Bhuj",
+      "maps": "https://maps.google.com/search/Bhujodi Kala Cotton Bhuj",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Bhujodi Kala Cotton Bhuj",
+      "justdial": "https://www.justdial.com/search?kwd=Bhujodi Kala Cotton&ctk=Bhuj"
+    }
+  },
+  {
+    "business_name": "Apna Adda",
+    "phone": "",
+    "town": "Bhuj",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Apna Adda\" Bhuj general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Apna Adda Bhuj",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@apna_adda.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Apna Adda\" Bhuj",
+      "maps": "https://maps.google.com/search/Apna Adda Bhuj",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Apna Adda Bhuj",
+      "justdial": "https://www.justdial.com/search?kwd=Apna Adda&ctk=Bhuj"
+    }
+  },
+  {
+    "business_name": "Diamond PG",
+    "phone": "",
+    "town": "Bhuj",
+    "category": "pg-hostel",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Diamond PG\" Bhuj pg-hostel",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Diamond PG Bhuj",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@diamond_pg.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Diamond PG\" Bhuj",
+      "maps": "https://maps.google.com/search/Diamond PG Bhuj",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Diamond PG Bhuj",
+      "justdial": "https://www.justdial.com/search?kwd=Diamond PG&ctk=Bhuj"
+    }
+  },
+  {
+    "business_name": "Sweet Home Hostel",
+    "phone": "",
+    "town": "Bhuj",
+    "category": "pg-hostel",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Sweet Home Hostel\" Bhuj pg-hostel",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Sweet Home Hostel Bhuj",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@sweet_home_hostel.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Sweet Home Hostel\" Bhuj",
+      "maps": "https://maps.google.com/search/Sweet Home Hostel Bhuj",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Sweet Home Hostel Bhuj",
+      "justdial": "https://www.justdial.com/search?kwd=Sweet Home Hostel&ctk=Bhuj"
+    }
+  },
+  {
+    "business_name": "Bhimratna Samras Boys Hostel",
+    "phone": "",
+    "town": "Bhuj",
+    "category": "pg-hostel",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Bhimratna Samras Boys Hostel\" Bhuj pg-hostel",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Bhimratna Samras Boys Hostel Bhuj",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@bhimratna_samras_boys_hostel.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Bhimratna Samras Boys Hostel\" Bhuj",
+      "maps": "https://maps.google.com/search/Bhimratna Samras Boys Hostel Bhuj",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Bhimratna Samras Boys Hostel Bhuj",
+      "justdial": "https://www.justdial.com/search?kwd=Bhimratna Samras Boys Hostel&ctk=Bhuj"
+    }
+  },
+  {
+    "business_name": "Hari Om Electric & AC Service",
+    "phone": "",
+    "town": "Bhuj",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Hari Om Electric & AC Service\" Bhuj general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Hari Om Electric & AC Service Bhuj",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@hari_om_electric_ac_service.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Hari Om Electric & AC Service\" Bhuj",
+      "maps": "https://maps.google.com/search/Hari Om Electric & AC Service Bhuj",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Hari Om Electric & AC Service Bhuj",
+      "justdial": "https://www.justdial.com/search?kwd=Hari Om Electric & AC Service&ctk=Bhuj"
+    }
+  },
+  {
+    "business_name": "Mehran Plumbing Services",
+    "phone": "",
+    "town": "Bhuj",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Mehran Plumbing Services\" Bhuj general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Mehran Plumbing Services Bhuj",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@mehran_plumbing_services.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Mehran Plumbing Services\" Bhuj",
+      "maps": "https://maps.google.com/search/Mehran Plumbing Services Bhuj",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Mehran Plumbing Services Bhuj",
+      "justdial": "https://www.justdial.com/search?kwd=Mehran Plumbing Services&ctk=Bhuj"
+    }
+  },
+  {
+    "business_name": "Time Square Resort & Spa",
+    "phone": "",
+    "town": "Bhuj",
+    "category": "events",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Time Square Resort & Spa\" Bhuj events",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Time Square Resort & Spa Bhuj",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@time_square_resort_spa.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Time Square Resort & Spa\" Bhuj",
+      "maps": "https://maps.google.com/search/Time Square Resort & Spa Bhuj",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Time Square Resort & Spa Bhuj",
+      "justdial": "https://www.justdial.com/search?kwd=Time Square Resort & Spa&ctk=Bhuj"
+    }
+  },
+  {
+    "business_name": "Seven Sky Clarks Exotica",
+    "phone": "",
+    "town": "Bhuj",
+    "category": "events",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Seven Sky Clarks Exotica\" Bhuj events",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Seven Sky Clarks Exotica Bhuj",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@seven_sky_clarks_exotica.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Seven Sky Clarks Exotica\" Bhuj",
+      "maps": "https://maps.google.com/search/Seven Sky Clarks Exotica Bhuj",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Seven Sky Clarks Exotica Bhuj",
+      "justdial": "https://www.justdial.com/search?kwd=Seven Sky Clarks Exotica&ctk=Bhuj"
+    }
+  },
+  {
+    "business_name": "STAR Sound & DJ & Lights",
+    "phone": "",
+    "town": "Bhuj",
+    "category": "events",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"STAR Sound & DJ & Lights\" Bhuj events",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "STAR Sound & DJ & Lights Bhuj",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@star_sound_dj_lights.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"STAR Sound & DJ & Lights\" Bhuj",
+      "maps": "https://maps.google.com/search/STAR Sound & DJ & Lights Bhuj",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=STAR Sound & DJ & Lights Bhuj",
+      "justdial": "https://www.justdial.com/search?kwd=STAR Sound & DJ & Lights&ctk=Bhuj"
+    }
+  },
+  {
+    "business_name": "Veeha Boutique",
+    "phone": "",
+    "town": "Mandvi",
+    "category": "salons",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Veeha Boutique\" Mandvi salons",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Veeha Boutique Mandvi",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@veeha_boutique.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Veeha Boutique\" Mandvi",
+      "maps": "https://maps.google.com/search/Veeha Boutique Mandvi",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Veeha Boutique Mandvi",
+      "justdial": "https://www.justdial.com/search?kwd=Veeha Boutique&ctk=Mandvi"
+    }
+  },
+  {
+    "business_name": "Neelkanth Hardware Store",
+    "phone": "",
+    "town": "Nakhatrana",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Neelkanth Hardware Store\" Nakhatrana general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Neelkanth Hardware Store Nakhatrana",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@neelkanth_hardware_store.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Neelkanth Hardware Store\" Nakhatrana",
+      "maps": "https://maps.google.com/search/Neelkanth Hardware Store Nakhatrana",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Neelkanth Hardware Store Nakhatrana",
+      "justdial": "https://www.justdial.com/search?kwd=Neelkanth Hardware Store&ctk=Nakhatrana"
+    }
+  },
+  {
+    "business_name": "Mahalaxmi Hardware",
+    "phone": "",
+    "town": "Nakhatrana",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Mahalaxmi Hardware\" Nakhatrana general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Mahalaxmi Hardware Nakhatrana",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp ",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@mahalaxmi_hardware.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Mahalaxmi Hardware\" Nakhatrana",
+      "maps": "https://maps.google.com/search/Mahalaxmi Hardware Nakhatrana",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Mahalaxmi Hardware Nakhatrana",
+      "justdial": "https://www.justdial.com/search?kwd=Mahalaxmi Hardware&ctk=Nakhatrana"
+    }
+  },
+  {
+    "business_name": "Bhagwati Travels",
+    "phone": "9876543212",
+    "town": "Gandhidham",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Bhagwati Travels\" Gandhidham general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Bhagwati Travels Gandhidham",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp 9876543212",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@bhagwati_travels.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Bhagwati Travels\" Gandhidham",
+      "maps": "https://maps.google.com/search/Bhagwati Travels Gandhidham",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Bhagwati Travels Gandhidham",
+      "justdial": "https://www.justdial.com/search?kwd=Bhagwati Travels&ctk=Gandhidham"
+    }
+  },
+  {
+    "business_name": "Maheshwari Sweets",
+    "phone": "9876543213",
+    "town": "Mandvi",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Maheshwari Sweets\" Mandvi general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Maheshwari Sweets Mandvi",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp 9876543213",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@maheshwari_sweets.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Maheshwari Sweets\" Mandvi",
+      "maps": "https://maps.google.com/search/Maheshwari Sweets Mandvi",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Maheshwari Sweets Mandvi",
+      "justdial": "https://www.justdial.com/search?kwd=Maheshwari Sweets&ctk=Mandvi"
+    }
+  },
+  {
+    "business_name": "Patidar Guest House",
+    "phone": "9876543214",
+    "town": "Nakhatrana",
+    "category": "pg-hostel",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Patidar Guest House\" Nakhatrana pg-hostel",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Patidar Guest House Nakhatrana",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp 9876543214",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@patidar_guest_house.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Patidar Guest House\" Nakhatrana",
+      "maps": "https://maps.google.com/search/Patidar Guest House Nakhatrana",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Patidar Guest House Nakhatrana",
+      "justdial": "https://www.justdial.com/search?kwd=Patidar Guest House&ctk=Nakhatrana"
+    }
+  },
+  {
+    "business_name": "Gokul Dairy",
+    "phone": "9876543215",
+    "town": "Anjar",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Gokul Dairy\" Anjar general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Gokul Dairy Anjar",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp 9876543215",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@gokul_dairy.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Gokul Dairy\" Anjar",
+      "maps": "https://maps.google.com/search/Gokul Dairy Anjar",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Gokul Dairy Anjar",
+      "justdial": "https://www.justdial.com/search?kwd=Gokul Dairy&ctk=Anjar"
+    }
+  },
+  {
+    "business_name": "Radha Krishna Jewellers",
+    "phone": "9876543217",
+    "town": "Bhuj",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Radha Krishna Jewellers\" Bhuj general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Radha Krishna Jewellers Bhuj",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp 9876543217",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@radha_krishna_jewellers.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Radha Krishna Jewellers\" Bhuj",
+      "maps": "https://maps.google.com/search/Radha Krishna Jewellers Bhuj",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Radha Krishna Jewellers Bhuj",
+      "justdial": "https://www.justdial.com/search?kwd=Radha Krishna Jewellers&ctk=Bhuj"
+    }
+  },
+  {
+    "business_name": "Laxmi Medical Store",
+    "phone": "9876543219",
+    "town": "Bhachau",
+    "category": "general",
+    "lookup_strategy": [
+      {
+        "step": 1,
+        "method": "Google Search",
+        "query": "\"Laxmi Medical Store\" Bhachau general",
+        "expected": "Business website, review pages"
+      },
+      {
+        "step": 2,
+        "method": "Google Maps",
+        "query": "Laxmi Medical Store Bhachau",
+        "expected": "Owner name in \"About\" section"
+      },
+      {
+        "step": 3,
+        "method": "Phone Verification",
+        "query": "Call/WhatsApp 9876543219",
+        "expected": "Owner name from greeting"
+      },
+      {
+        "step": 4,
+        "method": "Email Inference",
+        "query": "Try info@laxmi_medical_store.com or common patterns",
+        "expected": "Verify via bounce test or LinkedIn"
+      }
+    ],
+    "quick_commands": {
+      "google": "https://www.google.com/search?q=\"Laxmi Medical Store\" Bhachau",
+      "maps": "https://maps.google.com/search/Laxmi Medical Store Bhachau",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Laxmi Medical Store Bhachau",
+      "justdial": "https://www.justdial.com/search?kwd=Laxmi Medical Store&ctk=Bhachau"
+    }
+  }
+]

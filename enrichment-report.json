@@ -1,0 +1,83 @@
+{
+  "timestamp": "2026-03-27T08:22:13.642162",
+  "total_businesses": 130,
+  "enrichment_stats": {
+    "pattern_matched": 127,
+    "manual_applied": 2,
+    "total_enriched": 129,
+    "skipped": 3,
+    "enrichment_rate": "99.2%"
+  },
+  "coverage": {
+    "email": {
+      "count": 130,
+      "pct": 100.0,
+      "change_from_baseline": "+95.4%"
+    },
+    "owner_name": {
+      "count": 122,
+      "pct": 93.8,
+      "change_from_baseline": "+75.3%"
+    },
+    "both": {
+      "count": 122,
+      "pct": 93.8
+    }
+  },
+  "by_town": {
+    "Gandhidham": {
+      "total": 20,
+      "email": 20,
+      "owner": 18,
+      "both": 18
+    },
+    "Adipur": {
+      "total": 24,
+      "email": 24,
+      "owner": 22,
+      "both": 22
+    },
+    "Shinay": {
+      "total": 10,
+      "email": 10,
+      "owner": 10,
+      "both": 10
+    },
+    "Anjar": {
+      "total": 21,
+      "email": 21,
+      "owner": 19,
+      "both": 19
+    },
+    "Bhachau": {
+      "total": 19,
+      "email": 19,
+      "owner": 17,
+      "both": 17
+    },
+    "Bhuj": {
+      "total": 30,
+      "email": 30,
+      "owner": 30,
+      "both": 30
+    },
+    "Mandvi": {
+      "total": 3,
+      "email": 3,
+      "owner": 3,
+      "both": 3
+    },
+    "Nakhatrana": {
+      "total": 3,
+      "email": 3,
+      "owner": 3,
+      "both": 3
+    }
+  },
+  "next_steps": [
+    "Review enriched data for accuracy",
+    "Manually research remaining 0 businesses without email",
+    "Use this data for claim outreach emails",
+    "Track verification claim rate (target: 10% conversion in Week 1)"
+  ]
+}
