@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-03-27T08:10:29.974906",
+  "total_businesses": 130,
+  "enrichment_strategy": "email_inference + phone_reverse_lookup + manual_fallback",
+  "results": {
+    "fully_enriched": 21,
+    "partially_enriched": 106,
+    "manual_required": 0,
+    "skipped": 3
+  },
+  "coverage": {
+    "email": {
+      "count": 130,
+      "pct": 100.0
+    },
+    "owner_name": {
+      "count": 24,
+      "pct": 18.5
+    },
+    "complete": {
+      "count": 24,
+      "pct": 18.5
+    }
+  },
+  "next_steps": [
+    "Review manual-verification-guide.json for 40+ businesses needing lookup",
+    "Use quick_commands (Google, Maps, LinkedIn, Justdial) for rapid research",
+    "Batch research: 5-7 businesses per hour per person",
+    "Estimated manual effort: 8-10 hours for 80%+ final coverage"
+  ]
+}
