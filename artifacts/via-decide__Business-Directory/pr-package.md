@@ -1,9 +1,9 @@
-Branch: simba/create-scraping-orchestrator-engine
-Title: Create scraping orchestrator engine.
+Branch: simba/create-automatic-location-discovery-engine
+Title: Create automatic location discovery engine.
 
 ## Summary
 - Repo orchestration task for via-decide/Business-Directory
-- Goal: Create scraping orchestrator engine.
+- Goal: Create automatic location discovery engine.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests

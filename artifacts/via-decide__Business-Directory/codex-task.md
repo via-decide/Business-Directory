@@ -1,7 +1,7 @@
 You are working in repository via-decide/Business-Directory on branch main.
 
 MISSION
-Create scraping orchestrator engine.
+Create automatic location discovery engine.
 
 CONSTRAINTS
 Preserve existing code; prefer additive changes.
