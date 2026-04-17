@@ -1,9 +1,9 @@
-Branch: simba/create-business-data-normalization-pipeline
-Title: Create business data normalization pipeline.
+Branch: simba/create-scraping-orchestrator-engine
+Title: Create scraping orchestrator engine.
 
 ## Summary
 - Repo orchestration task for via-decide/Business-Directory
-- Goal: Create business data normalization pipeline.
+- Goal: Create scraping orchestrator engine.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
