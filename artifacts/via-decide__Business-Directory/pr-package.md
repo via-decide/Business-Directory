@@ -1,9 +1,9 @@
-Branch: simba/create-scraper-health-monitoring-system
-Title: Create scraper health monitoring system.
+Branch: simba/create-proxy-rotation-layer-for-scraper
+Title: Create proxy rotation layer for scraper.
 
 ## Summary
 - Repo orchestration task for via-decide/Business-Directory
-- Goal: Create scraper health monitoring system.
+- Goal: Create proxy rotation layer for scraper.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
