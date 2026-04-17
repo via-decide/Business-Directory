@@ -1,7 +1,7 @@
 {
   "repo": "via-decide/Business-Directory",
   "mode": "codex_then_antigravity",
-  "branch": "simba/create-anti-ban-scraping-strategy",
+  "branch": "simba/create-scraping-analytics-dashboard",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
