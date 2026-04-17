@@ -1,7 +1,7 @@
 You are working in repository via-decide/Business-Directory on branch main.
 
 MISSION
-Create business data normalization pipeline.
+Create scraping orchestrator engine.
 
 CONSTRAINTS
 Preserve existing code; prefer additive changes.
