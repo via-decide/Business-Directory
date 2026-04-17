@@ -1,9 +1,9 @@
-Branch: simba/create-anti-ban-scraping-strategy
-Title: Create anti-ban scraping strategy.
+Branch: simba/create-scraping-analytics-dashboard
+Title: Create scraping analytics dashboard.
 
 ## Summary
 - Repo orchestration task for via-decide/Business-Directory
-- Goal: Create anti-ban scraping strategy.
+- Goal: Create scraping analytics dashboard.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests

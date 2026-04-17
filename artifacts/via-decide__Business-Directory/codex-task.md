@@ -1,7 +1,7 @@
 You are working in repository via-decide/Business-Directory on branch main.
 
 MISSION
-Create anti-ban scraping strategy.
+Create scraping analytics dashboard.
 
 CONSTRAINTS
 Preserve existing code; prefer additive changes.
