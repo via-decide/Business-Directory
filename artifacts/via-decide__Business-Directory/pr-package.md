@@ -1,9 +1,9 @@
-Branch: simba/create-automatic-location-discovery-engine
-Title: Create automatic location discovery engine.
+Branch: simba/create-local-business-directory-generator
+Title: Create local business directory generator.
 
 ## Summary
 - Repo orchestration task for via-decide/Business-Directory
-- Goal: Create automatic location discovery engine.
+- Goal: Create local business directory generator.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
