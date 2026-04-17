@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Create dataset exporter.
+Create lightweight API for directory dataset.
 
 RULES
 1. Audit touched files first and identify regressions.

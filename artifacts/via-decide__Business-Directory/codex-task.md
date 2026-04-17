@@ -1,7 +1,7 @@
 You are working in repository via-decide/Business-Directory on branch main.
 
 MISSION
-Create dataset exporter.
+Create lightweight API for directory dataset.
 
 CONSTRAINTS
 Preserve existing code; prefer additive changes.
