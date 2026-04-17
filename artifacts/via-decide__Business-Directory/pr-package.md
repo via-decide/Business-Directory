@@ -1,9 +1,9 @@
-Branch: simba/create-dataset-exporter
-Title: Create dataset exporter.
+Branch: simba/create-lightweight-api-for-directory-dataset
+Title: Create lightweight API for directory dataset.
 
 ## Summary
 - Repo orchestration task for via-decide/Business-Directory
-- Goal: Create dataset exporter.
+- Goal: Create lightweight API for directory dataset.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
