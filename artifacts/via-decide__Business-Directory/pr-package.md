@@ -1,9 +1,9 @@
-Branch: simba/create-local-business-directory-generator
-Title: Create local business directory generator.
+Branch: simba/create-anti-ban-scraping-strategy
+Title: Create anti-ban scraping strategy.
 
 ## Summary
 - Repo orchestration task for via-decide/Business-Directory
-- Goal: Create local business directory generator.
+- Goal: Create anti-ban scraping strategy.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests

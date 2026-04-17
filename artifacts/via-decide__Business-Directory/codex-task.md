@@ -1,7 +1,7 @@
 You are working in repository via-decide/Business-Directory on branch main.
 
 MISSION
-Create local business directory generator.
+Create anti-ban scraping strategy.
 
 CONSTRAINTS
 Preserve existing code; prefer additive changes.
