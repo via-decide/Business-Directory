@@ -1,9 +1,9 @@
-Branch: simba/create-proxy-rotation-layer-for-scraper
-Title: Create proxy rotation layer for scraper.
+Branch: simba/create-business-data-normalization-pipeline
+Title: Create business data normalization pipeline.
 
 ## Summary
 - Repo orchestration task for via-decide/Business-Directory
-- Goal: Create proxy rotation layer for scraper.
+- Goal: Create business data normalization pipeline.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests

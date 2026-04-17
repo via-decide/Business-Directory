@@ -1,7 +1,7 @@
 {
   "repo": "via-decide/Business-Directory",
   "mode": "codex_then_antigravity",
-  "branch": "simba/create-proxy-rotation-layer-for-scraper",
+  "branch": "simba/create-business-data-normalization-pipeline",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
