@@ -1,9 +1,9 @@
-Branch: simba/create-scraping-analytics-dashboard
-Title: Create scraping analytics dashboard.
+Branch: simba/create-dataset-exporter
+Title: Create dataset exporter.
 
 ## Summary
 - Repo orchestration task for via-decide/Business-Directory
-- Goal: Create scraping analytics dashboard.
+- Goal: Create dataset exporter.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
