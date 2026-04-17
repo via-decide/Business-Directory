@@ -1,7 +1,7 @@
 You are working in repository via-decide/Business-Directory on branch main.
 
 MISSION
-Create automatic location discovery engine.
+Create local business directory generator.
 
 CONSTRAINTS
 Preserve existing code; prefer additive changes.
